@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "bosmapper-server"
+version = "0.1.0"
+description = "FastAPI & Mongo powering the bosmapper backend"
+authors = ["Damien Allen <dev@dallen.co>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+fastapi = "^0.54.1"
+
+[tool.poetry.dev-dependencies]
+flake8 = "^3.8.1"
+black = "^19.10b0"
+
+[build-system]
+requires = ["poetry>=1.0.5"]
+build-backend = "poetry.masonry.api"

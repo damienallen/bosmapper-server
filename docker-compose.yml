@@ -1,0 +1,38 @@
+---
+
+version: "3.6"
+services:
+
+  bosmapper_server:
+    <<: &bosmapper_server
+      # image: docker.pkg.github.com/damienallen/website/flask:latest
+      restart: unless-stopped
+      env_file: ./config/.env
+      environment:
+          FLASK_ENV: deploy
+      networks:
+      - webnet
+      - proxynet
+      depends_on:
+        - bosmapper_mongo
+      expose:
+      - 8080
+
+  bosmapper_mongo:
+    image: mongo:latest
+    restart: unless-stopped
+    command: mongod --auth
+    env_file: ./config/.env
+    volumes:
+      - mongodbdata:/data/db
+    networks:
+      - webnet
+
+networks:
+  # Connection between proxy server and application
+  proxynet:
+  # Other internals
+  webnet:
+
+volumes:
+  mongodbdata:
