@@ -22,7 +22,7 @@ services:
   bosmapper_mongo:
     image: mongo:latest
     restart: unless-stopped
-    command: mongod --auth
+    command: mongod
     env_file: ./config/.env
     volumes:
       - mongodbdata:/data/db
