@@ -6,17 +6,18 @@ services:
   bosmapper_server:
     <<: &bosmapper_server
       # image: docker.pkg.github.com/damienallen/website/flask:latest
+      build:
+        context: .
+        target: production
       restart: unless-stopped
       env_file: ./config/.env
       environment:
-          FLASK_ENV: deploy
+        FLASK_ENV: deploy
       networks:
-      - webnet
-      - proxynet
+        - webnet
+        - proxynet
       depends_on:
         - bosmapper_mongo
-      expose:
-      - 8080
 
   bosmapper_mongo:
     image: mongo:latest
@@ -27,6 +28,8 @@ services:
       - mongodbdata:/data/db
     networks:
       - webnet
+    ports:
+      - "27017:27017"
 
 networks:
   # Connection between proxy server and application

@@ -1,0 +1,15 @@
+---
+
+version: "3.6"
+services:
+
+  bosmapper_server:
+    <<: &bosmapper_server
+      build:
+        context: .
+        target: development
+      command: ["/start-reload.sh"]
+      ports:
+        - "8080:80"
+      volumes:
+        - ./app:/app

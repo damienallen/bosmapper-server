@@ -1,1 +1,8 @@
+# Editor
 .vscode/
+
+# Python
+__pycache__/
+
+# Env
+config/.env
