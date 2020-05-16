@@ -54,7 +54,7 @@ class TreeDB(Document):
 
 
 @app.get("/")
-def read_root():
+def hello():
     return {"Hello": "voedselbos"}
 
 
@@ -92,7 +92,7 @@ def trees_geojson():
 
 
 @app.get("/trees/json/")
-def list_trees():
+def trees_json():
     """
     List tree objects in JSON format
     """
