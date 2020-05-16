@@ -1,7 +1,6 @@
 from fastapi import FastAPI, HTTPException, status
+from mongoengine import Document, FloatField, IntField, StringField, connect, errors
 from pydantic import BaseModel
-from mongoengine import connect, Document, StringField, FloatField, errors
-
 
 # Fast API main app
 app = FastAPI()
@@ -17,9 +16,14 @@ class Tree(BaseModel):
     notes: str = None
     oid: str = None
 
+    # Status of tree health
+    # 0 dead -> 1 bad -> 2 okay -> 3 good
+    status: int = 3
+
     def to_dict(self):
         return {
             "species": self.species,
+            "status": self.status,
             "lat": self.lat,
             "lon": self.lon,
             "notes": self.notes,
@@ -29,6 +33,7 @@ class Tree(BaseModel):
     def from_mongo(mongo_tree):
         return Tree(
             species=mongo_tree.species,
+            status=mongo_tree.status,
             lat=mongo_tree.lat,
             lon=mongo_tree.lon,
             notes=mongo_tree.notes,
@@ -42,6 +47,7 @@ class TreeDB(Document):
     """
 
     species = StringField(max_length=60)
+    status = IntField()
     lat = FloatField()
     lon = FloatField()
     notes = StringField(max_length=300)
@@ -49,13 +55,13 @@ class TreeDB(Document):
 
 @app.get("/")
 def read_root():
-    return {"Hello": "World"}
+    return {"Hello": "voedselbos"}
 
 
 @app.get("/trees/")
 def trees_geojson():
     """
-    List tree objects in JSON format
+    List tree objects in GeoJSON format
     """
     features = []
     for tree in TreeDB.objects:
@@ -65,6 +71,7 @@ def trees_geojson():
                 "properties": {
                     "oid": str(tree.id),
                     "species": tree.species,
+                    "status": tree.status,
                     "notes": tree.notes,
                 },
                 "geometry": {"type": "Point", "coordinates": [tree.lat, tree.lon]},
@@ -105,6 +112,33 @@ def add_tree(tree: Tree, status_code=status.HTTP_201_CREATED):
     return {"detail": "New object added", "id": str(new_tree.id)}
 
 
+@app.post("/tree/update/{oid}/")
+def update_tree(tree: Tree, oid: str):
+    """
+    Update tree DB entry
+    """
+    try:
+        updated_tree = TreeDB.objects.get(id=oid)
+        updated_tree.species = tree.species
+        updated_tree.status = tree.status
+        updated_tree.lat = tree.lat
+        updated_tree.lon = tree.lon
+        updated_tree.notes = tree.notes
+        updated_tree.save()
+
+        return {"detail": "Object updated", "id": oid}
+
+    except errors.ValidationError:
+        raise HTTPException(
+            status_code=status.HTTP_400_BAD_REQUEST, detail="Invalid object ID"
+        )
+
+    except TreeDB.DoesNotExist:
+        raise HTTPException(
+            status_code=status.HTTP_404_NOT_FOUND, detail="Object ID not found"
+        )
+
+
 @app.post("/tree/remove/{oid}/")
 def remove_tree(oid: str):
     """
@@ -114,14 +148,14 @@ def remove_tree(oid: str):
         tree = TreeDB.objects.get(id=oid)
         tree.delete()
 
+        return {"detail": "Object removed", "id": oid}
+
     except errors.ValidationError:
         raise HTTPException(
             status_code=status.HTTP_400_BAD_REQUEST, detail="Invalid object ID"
         )
 
-    except errors.ValidationError:
+    except TreeDB.DoesNotExist:
         raise HTTPException(
             status_code=status.HTTP_404_NOT_FOUND, detail="Object ID not found"
         )
-
-    return {"detail": f"Object '{tree.id}' was removed"}
