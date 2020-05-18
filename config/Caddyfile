@@ -1,0 +1,18 @@
+bos.dallen.co {
+  tls dev@dallen.co
+
+  header / Strict-Transport-Security "max-age=31536000;"
+  header / -Server
+
+  # Serving dynamic requests:
+  proxy / bosmapper_server:8080 {
+    transparent
+  }
+
+  # Allows to use `.gz` files when available:
+  gzip
+
+  # Logs:
+  log stdout
+  errors stdout
+}

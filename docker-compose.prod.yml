@@ -1,0 +1,27 @@
+---
+
+version: "3.6"
+services:
+  bosmapper_server:
+    <<: &bosmapper_server
+      build:
+        context: .
+        target: production
+      expose:
+        - 8080
+
+  caddy:
+    image: caddy:latest
+    volumes:
+      - caddydata:/data
+      - ./config/Caddyfile:/etc/Caddyfile
+    ports:
+      - "80:80"
+      - "443:443"
+    depends_on:
+      - bosmapper_server
+    networks:
+      - proxynet
+
+  volumes:
+    caddydata:

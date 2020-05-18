@@ -1,9 +1,20 @@
 from fastapi import FastAPI, HTTPException, status
+from fastapi.middleware.cors import CORSMiddleware
 from mongoengine import Document, FloatField, IntField, StringField, connect, errors
 from pydantic import BaseModel
 
 # Fast API main app
 app = FastAPI()
+
+# Handle CORS
+origins = ["*"]
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=origins,
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 # Connect to mongo
 connect("trees", host="mongodb://bosmapper_mongo")
@@ -74,7 +85,7 @@ def trees_geojson():
                     "status": tree.status,
                     "notes": tree.notes,
                 },
-                "geometry": {"type": "Point", "coordinates": [tree.lat, tree.lon]},
+                "geometry": {"type": "Point", "coordinates": [tree.lon, tree.lat]},
             }
         )
 
