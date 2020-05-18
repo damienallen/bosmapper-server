@@ -8,13 +8,13 @@ services:
         context: .
         target: production
       expose:
-        - 8080
+        - 80
 
   caddy:
     image: caddy:latest
     volumes:
       - caddydata:/data
-      - ./config/Caddyfile:/etc/Caddyfile
+      - ./config/Caddyfile:/etc/caddy/Caddyfile
     ports:
       - "80:80"
       - "443:443"
@@ -23,5 +23,5 @@ services:
     networks:
       - proxynet
 
-  volumes:
-    caddydata:
+volumes:
+  caddydata:
