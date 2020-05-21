@@ -52,6 +52,12 @@ class Tree(BaseModel):
         )
 
 
+# TODO: proper types
+class GeoJson(BaseModel):
+    name: str
+    features: list
+
+
 class TreeDB(Document):
     """
     Mongo tree schema
@@ -62,6 +68,33 @@ class TreeDB(Document):
     lat = FloatField()
     lon = FloatField()
     notes = StringField(max_length=300)
+
+
+class SpeciesJson(BaseModel):
+    species: list
+    updated: str
+
+
+class Species(BaseModel):
+    abbr: str
+    species: str
+    name_nl: str = None
+    name_en: str = None
+    width: float = None
+    height: float = None
+
+
+class SpeciesDB(Document):
+    """
+    Mongo species schema
+    """
+
+    abbr = StringField(max_length=60)
+    species = StringField(max_length=60)
+    name_nl = StringField(max_length=60)
+    name_en = StringField(max_length=60)
+    width = FloatField(null=True)
+    height = FloatField(null=True)
 
 
 @app.get("/")
@@ -76,29 +109,32 @@ def trees_geojson():
     """
     features = []
     for tree in TreeDB.objects:
-        features.append(
-            {
-                "type": "Feature",
-                "properties": {
-                    "oid": str(tree.id),
-                    "species": tree.species,
-                    "status": tree.status,
-                    "notes": tree.notes,
-                },
-                "geometry": {"type": "Point", "coordinates": [tree.lon, tree.lat]},
-            }
-        )
+        feature = {
+            "type": "Feature",
+            "properties": {
+                "oid": str(tree.id),
+                "species": tree.species,
+                "status": tree.status,
+                "notes": tree.notes,
+            },
+            "geometry": {"type": "Point", "coordinates": [tree.lon, tree.lat]},
+        }
+
+        try:
+            species = SpeciesDB.objects.get(abbr=tree.species)
+            feature["properties"]["name_sci"] = species.species
+            feature["properties"]["name_nl"] = species.name_nl
+            feature["properties"]["name_en"] = species.name_en
+        except SpeciesDB.DoesNotExist:
+            pass
+
+        features.append(feature)
 
     return {
-        "data": {
-            "type": "FeatureCollection",
-            "name": "trees",
-            "crs": {
-                "type": "name",
-                "properties": {"name": "urn:ogc:def:crs:EPSG:3857"},
-            },
-            "features": features,
-        }
+        "type": "FeatureCollection",
+        "name": "trees",
+        "crs": {"type": "name", "properties": {"name": "urn:ogc:def:crs:EPSG:3857"},},
+        "features": features,
     }
 
 
@@ -111,6 +147,36 @@ def trees_json():
     for tree in TreeDB.objects:
         trees.append(Tree.from_mongo(tree))
     return trees
+
+
+@app.get("/trees/clear/")
+def remove_all():
+    """
+    Remove all trees
+    """
+    TreeDB.objects.all().delete()
+    return {"detail": "All trees removed from collection"}
+
+
+@app.post("/trees/import/")
+def import_geojson(geojson: GeoJson):
+    """
+    Import trees from GeoJSON
+    """
+    for feature in geojson.features:
+        tree = Tree(
+            species=feature["properties"].get("species", "onbekend"),
+            status=feature["properties"].get("status", 3),
+            lon=feature["geometry"]["coordinates"][0],
+            lat=feature["geometry"]["coordinates"][1],
+            notes=feature["properties"].get("notes"),
+            oid=feature["properties"].get("oid"),
+        )
+
+        new_tree = TreeDB(**tree.to_dict())
+        new_tree.save()
+
+    return {"detail": f"Imported {len(geojson.features)} features"}
 
 
 @app.post("/tree/add/")
@@ -170,3 +236,28 @@ def remove_tree(oid: str):
         raise HTTPException(
             status_code=status.HTTP_404_NOT_FOUND, detail="Object ID not found"
         )
+
+
+@app.get("/species/")
+def species_json():
+    """
+    List species objects in JSON format
+    """
+    species_list = []
+    for species in SpeciesDB.objects:
+        species_list.append(Species(**species.to_mongo()))
+    return species_list
+
+
+@app.post("/species/import/")
+def import_species(species_json: SpeciesJson):
+    """
+    Import trees from GeoJSON
+    """
+    SpeciesDB.objects.all().delete()
+
+    for item in species_json.species:
+        new_species = SpeciesDB(**item)
+        new_species.save()
+
+    return {"detail": f"Imported {len(species_json.species)} species"}
