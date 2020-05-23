@@ -20,6 +20,15 @@ app.add_middleware(
 connect("trees", host="mongodb://bosmapper_mongo")
 
 
+class EmptyTree(BaseModel):
+    species: str = None
+    lat: float = None
+    lon: float = None
+    notes: str = None
+    oid: str = None
+    status: int = None
+
+
 class Tree(BaseModel):
     species: str
     lat: float
@@ -181,6 +190,20 @@ def import_geojson(geojson: GeoJson):
     return {"detail": f"Imported {len(geojson.features)} features"}
 
 
+@app.get("/tree/{oid}/")
+def get_tree(oid: str):
+    """
+    Retrieve tree from DB
+    """
+    try:
+        selected_tree = TreeDB.objects.get(id=oid)
+        return Tree.from_mongo(selected_tree)
+    except TreeDB.DoesNotExist:
+        raise HTTPException(
+            status_code=status.HTTP_404_NOT_FOUND, detail="Object ID not found"
+        )
+
+
 @app.post("/tree/add/")
 def add_tree(tree: Tree, status_code=status.HTTP_201_CREATED):
     """
@@ -192,18 +215,25 @@ def add_tree(tree: Tree, status_code=status.HTTP_201_CREATED):
 
 
 @app.post("/tree/update/{oid}/")
-def update_tree(tree: Tree, oid: str):
+def update_tree(tree: EmptyTree, oid: str):
     """
     Update tree DB entry
     """
+    print(tree)
     try:
-        updated_tree = TreeDB.objects.get(id=oid)
-        updated_tree.species = tree.species
-        updated_tree.status = tree.status
-        updated_tree.lat = tree.lat
-        updated_tree.lon = tree.lon
-        updated_tree.notes = tree.notes
-        updated_tree.save()
+        selected_tree = TreeDB.objects.get(id=oid)
+
+        selected_tree.species = tree.species if tree.species else selected_tree.species
+        selected_tree.status = tree.status if tree.status else selected_tree.status
+        selected_tree.lat = tree.lat if tree.lat else selected_tree.lat
+        selected_tree.lon = tree.lon if tree.lon else selected_tree.lon
+
+        if tree.notes == "":
+            selected_tree.notes = None
+        elif tree.notes:
+            selected_tree.notes = tree.notes
+
+        selected_tree.save()
 
         return {"detail": "Object updated", "id": oid}
 
