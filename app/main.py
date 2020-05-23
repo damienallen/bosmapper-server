@@ -76,8 +76,8 @@ class SpeciesJson(BaseModel):
 
 
 class Species(BaseModel):
-    abbr: str
     species: str
+    name_la: str
     name_nl: str = None
     name_en: str = None
     width: float = None
@@ -89,8 +89,8 @@ class SpeciesDB(Document):
     Mongo species schema
     """
 
-    abbr = StringField(max_length=60)
     species = StringField(max_length=60)
+    name_la = StringField(max_length=60)
     name_nl = StringField(max_length=60)
     name_en = StringField(max_length=60)
     width = FloatField(null=True)
@@ -121,8 +121,8 @@ def trees_geojson():
         }
 
         try:
-            species = SpeciesDB.objects.get(abbr=tree.species)
-            feature["properties"]["name_sci"] = species.species
+            species = SpeciesDB.objects.get(species=tree.species)
+            feature["properties"]["name_la"] = species.name_la
             feature["properties"]["name_nl"] = species.name_nl
             feature["properties"]["name_en"] = species.name_en
         except SpeciesDB.DoesNotExist:
@@ -163,6 +163,8 @@ def import_geojson(geojson: GeoJson):
     """
     Import trees from GeoJSON
     """
+    TreeDB.objects.all().delete()
+
     for feature in geojson.features:
         tree = Tree(
             species=feature["properties"].get("species", "onbekend"),
