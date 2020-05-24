@@ -19,6 +19,7 @@ import os
 
 # Fast API main app
 app = FastAPI()
+oauth2_scheme = OAuth2PasswordBearer(tokenUrl="/token")
 
 # Handle CORS
 origins = ["*"]
@@ -33,6 +34,101 @@ app.add_middleware(
 # Connect to mongo
 # TODO: renameDB
 connect("trees", host="mongodb://bosmapper_mongo")
+
+
+# AUTHENTICATION
+class ImportUsersJson(BaseModel):
+    passcodes: list
+
+
+class User(BaseModel):
+    passcode: str
+    token: str
+    token_generated: datetime
+    disabled: bool = False
+
+
+class UsersDB(Document):
+    """
+    Mongo user schema
+    """
+
+    passcode = StringField(max_length=30)
+    token = StringField(max_length=30)
+    token_generated = DateTimeField()
+    disabled = BooleanField()
+
+
+@app.post("/users/import/")
+def import_users(users_json: ImportUsersJson, request: Request):
+    """
+    Import users from json
+    """
+
+    # Check for master token
+    if not request.headers.get("Master") == os.environ.get("MASTER_TOKEN"):
+        raise HTTPException(
+            status_code=status.HTTP_401_UNAUTHORIZED,
+            detail="Invalid authentication token",
+        )
+
+    UsersDB.objects.all().delete()
+    for passcode in users_json.passcodes:
+        new_user = UsersDB(
+            passcode=passcode, token=token_urlsafe(20), token_generated=datetime.now(),
+        )
+        new_user.save()
+
+    return {"detail": f"Imported {len(users_json.passcodes)} items from passcode list"}
+
+
+def get_user(token: str):
+    try:
+        db_user = UsersDB.objects.get(token=token)
+        return User(**db_user.to_mongo())
+
+    except UsersDB.DoesNotExist:
+        return None
+
+
+async def get_current_user(token: str = Depends(oauth2_scheme)):
+    user = get_user(token)
+    if not user:
+        raise HTTPException(
+            status_code=status.HTTP_401_UNAUTHORIZED,
+            detail="Invalid authentication credentials",
+            headers={"WWW-Authenticate": "Bearer"},
+        )
+    return user
+
+
+async def get_current_active_user(current_user: User = Depends(get_current_user)):
+    if current_user.disabled:
+        raise HTTPException(status_code=400, detail="Inactive user")
+    return current_user
+
+
+@app.post("/token/")
+async def login(form_data: OAuth2PasswordRequestForm = Depends()):
+    try:
+        user = UsersDB.objects.get(passcode=form_data.password)
+
+    except UsersDB.DoesNotExist:
+        raise HTTPException(status_code=400, detail="Incorrect credentials")
+
+    return {
+        "access_token": user.token,
+        "token_type": "bearer",
+        "token_generated": user.token_generated,
+    }
+
+
+@app.get("/users/me/")
+async def read_users_me(current_user: User = Depends(get_current_active_user)):
+    return current_user
+
+
+# MAIN APP
 
 
 class EmptyTree(BaseModel):
@@ -234,7 +330,11 @@ def get_tree(oid: str):
 
 
 @app.post("/tree/add/")
-def add_tree(tree: Tree, status_code=status.HTTP_201_CREATED):
+def add_tree(
+    tree: Tree,
+    current_user: User = Depends(get_current_active_user),
+    status_code=status.HTTP_201_CREATED,
+):
     """
     Add trees to DB
     """
@@ -244,7 +344,9 @@ def add_tree(tree: Tree, status_code=status.HTTP_201_CREATED):
 
 
 @app.post("/tree/update/{oid}/")
-def update_tree(tree: EmptyTree, oid: str):
+def update_tree(
+    tree: EmptyTree, oid: str, current_user: User = Depends(get_current_active_user)
+):
     """
     Update tree DB entry
     """
@@ -278,7 +380,7 @@ def update_tree(tree: EmptyTree, oid: str):
 
 
 @app.post("/tree/remove/{oid}/")
-def remove_tree(oid: str):
+def remove_tree(oid: str, current_user: User = Depends(get_current_active_user)):
     """
     Remove trees from DB
     """
@@ -330,98 +432,3 @@ def import_species(species_json: ImportSpeciesJson, request: Request):
         new_species.save()
 
     return {"detail": f"Imported {len(species_json.species)} species"}
-
-
-# AUTHENTICATION
-oauth2_scheme = OAuth2PasswordBearer(tokenUrl="/token")
-
-
-class ImportUsersJson(BaseModel):
-    passcodes: list
-
-
-class User(BaseModel):
-    passcode: str
-    token: str
-    token_generated: datetime
-    disabled: bool = False
-
-
-class UsersDB(Document):
-    """
-    Mongo user schema
-    """
-
-    passcode = StringField(max_length=30)
-    token = StringField(max_length=30)
-    token_generated = DateTimeField()
-    disabled = BooleanField()
-
-
-@app.post("/users/import/")
-def import_users(users_json: ImportUsersJson, request: Request):
-    """
-    Import users from json
-    """
-
-    # Check for master token
-    if not request.headers.get("Master") == os.environ.get("MASTER_TOKEN"):
-        raise HTTPException(
-            status_code=status.HTTP_401_UNAUTHORIZED,
-            detail="Invalid authentication token",
-        )
-
-    UsersDB.objects.all().delete()
-    for passcode in users_json.passcodes:
-        new_user = UsersDB(
-            passcode=passcode, token=token_urlsafe(20), token_generated=datetime.now(),
-        )
-        new_user.save()
-
-    return {"detail": f"Imported {len(users_json.passcodes)} items from passcode list"}
-
-
-def get_user(token: str):
-    try:
-        db_user = UsersDB.objects.get(token=token)
-        return User(**db_user.to_mongo())
-
-    except UsersDB.DoesNotExist:
-        return None
-
-
-async def get_current_user(token: str = Depends(oauth2_scheme)):
-    user = get_user(token)
-    if not user:
-        raise HTTPException(
-            status_code=status.HTTP_401_UNAUTHORIZED,
-            detail="Invalid authentication credentials",
-            headers={"WWW-Authenticate": "Bearer"},
-        )
-    return user
-
-
-async def get_current_active_user(current_user: User = Depends(get_current_user)):
-    if current_user.disabled:
-        raise HTTPException(status_code=400, detail="Inactive user")
-    return current_user
-
-
-@app.post("/token/")
-async def login(form_data: OAuth2PasswordRequestForm = Depends()):
-    try:
-        user = UsersDB.objects.get(passcode=form_data.password)
-
-    except UsersDB.DoesNotExist:
-        raise HTTPException(status_code=400, detail="Incorrect credentials")
-
-    return {
-        "access_token": user.token,
-        "token_type": "bearer",
-        "token_generated": user.token_generated,
-    }
-
-
-@app.get("/users/me/")
-async def read_users_me(current_user: User = Depends(get_current_active_user)):
-    return current_user
