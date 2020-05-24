@@ -9,6 +9,8 @@ services:
         context: .
         target: development
       command: ["/start-reload.sh"]
+      environment:
+        - MASTER_TOKEN=dev_token
       ports:
         - "8080:80"
       volumes:
