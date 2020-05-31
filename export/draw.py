@@ -9,7 +9,8 @@ import json
 current_dir = Path(__file__).resolve().parent
 
 # Constants
-DEFAULT_RADIUS = 5
+DEFAULT_HEIGHT = 2
+DEFAULT_RADIUS = 4
 MARGIN = 10
 
 FILL_COLOR = [77 / 255, 115 / 255, 67 / 255]
@@ -66,11 +67,20 @@ def extract_features(feature_list):
 
         existing_species = [species["name"] for species in species_list]
         if not feature["properties"]["species"] in existing_species:
+            height = (
+                feature["properties"]["height"]
+                if feature["properties"]["height"]
+                else DEFAULT_HEIGHT
+            )
             species_list.append(
-                {"name": feature["properties"]["species"], "radius": adjusted_radius}
+                {
+                    "name": feature["properties"]["species"],
+                    "radius": adjusted_radius,
+                    "height": height,
+                }
             )
 
-    species_list = sorted(species_list, key=itemgetter("radius"))
+    species_list = sorted(species_list, key=itemgetter("height"))
     return (trees, species_list, scale_factor)
 
 
