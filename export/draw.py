@@ -11,15 +11,25 @@ current_dir = Path(__file__).resolve().parent
 # Constants
 DEFAULT_HEIGHT = 2
 DEFAULT_RADIUS = 4
-MARGIN = 25
+MARGIN = 10
+
+TRANSLATION = [0.5, 1.25]
+ROTATION_ANGLE = -144.5 * pi / 180
 
 
 def decimal_color(r, g, b):
     return [r / 255, g / 255, b / 255]
 
 
-FILL_COLOR = decimal_color(77, 115, 67)
-OUTLINE_COLOR = decimal_color(54, 89, 62)
+# Colors
+TREE_FILL = decimal_color(77, 115, 67)
+TREE_OUTLINE = decimal_color(54, 89, 62)
+
+COLOR_WHITE = decimal_color(255, 255, 255)
+COLOR_GREY_70 = decimal_color(179, 179, 179)
+COLOR_GREY_80 = decimal_color(203, 203, 203)
+COLOR_GREY_90 = decimal_color(230, 230, 230)
+COLOR_BLACK = decimal_color(0, 0, 0)
 
 
 def get_features(geojson_path):
@@ -95,7 +105,7 @@ def draw_background_outline(context, scale_factor, trees):
 
     for tree in trees:
         context.arc(tree["x"], tree["y"], tree["radius"], 0, pi * 2)
-        context.set_source_rgba(OUTLINE_COLOR[0], OUTLINE_COLOR[1], OUTLINE_COLOR[2], 1)
+        context.set_source_rgb(*TREE_OUTLINE)
         context.stroke()
 
     context.restore()
@@ -108,14 +118,14 @@ def draw_overlay(context, scale_factor, trees):
         context.set_line_width(scale_factor / 10)
         context.set_dash([scale_factor / 3])
         context.arc(tree["x"], tree["y"], tree["radius"], 0, pi * 2)
-        context.set_source_rgba(OUTLINE_COLOR[0], OUTLINE_COLOR[1], OUTLINE_COLOR[2], 1)
+        context.set_source_rgb(*TREE_OUTLINE)
         context.stroke()
         context.restore()
 
         context.save()
         dot_radius = max(tree["radius"] / 14, 0.001)
         context.arc(tree["x"], tree["y"], dot_radius, 0, pi * 2)
-        context.set_source_rgba(0, 0, 0, 0.6)
+        context.set_source_rgba(*COLOR_BLACK, 0.6)
         context.fill()
         context.restore()
 
@@ -132,34 +142,47 @@ def draw_fills(context, scale_factor, trees, species_list):
     max_radius = max([species["radius"] for species in species_list]) + 0.01
     percent = (trees[0]["radius"] - min_radius) / (max_radius - min_radius)
 
-    fill_color = fade_white(FILL_COLOR, percent)
+    fill_color = fade_white(TREE_FILL, percent)
 
     context.save()
 
     for tree in trees:
         context.arc(tree["x"], tree["y"], tree["radius"] - scale_factor / 20, 0, pi * 2)
-        context.set_source_rgba(fill_color[0], fill_color[1], fill_color[2], 0.7)
+        context.set_source_rgba(*fill_color, 0.7)
+        context.fill()
+
+    context.restore()
+
+
+def draw_text(context, scale_factor, trees, species_list):
+    min_radius = min([species["radius"] for species in species_list])
+    max_radius = max([species["radius"] for species in species_list]) + 0.01
+    percent = (trees[0]["radius"] - min_radius) / (max_radius - min_radius)
+
+    fill_color = fade_white(TREE_FILL, percent)
+
+    context.save()
+
+    for tree in trees:
+        context.arc(tree["x"], tree["y"], tree["radius"] - scale_factor / 20, 0, pi * 2)
+        context.set_source_rgba(*fill_color, 0.7)
         context.fill()
 
     context.restore()
 
 
 feature_styles = {
-    "boundary": {"stroke_color": decimal_color(179, 179, 179), "stroke_width": 0.5},
-    "bed": {"fill_color": decimal_color(230, 230, 230)},
-    "bee_hives": {"fill_color": decimal_color(179, 179, 179)},
-    "concrete": {"fill_color": decimal_color(250, 250, 250)},
-    "paved": {"fill_color": decimal_color(250, 250, 250)},
-    "greenhouse": {"fill_color": decimal_color(206, 220, 229)},
-    "misc": {"fill_color": decimal_color(203, 203, 203)},
-    "tree_ring": {"fill_color": decimal_color(203, 203, 203)},
-    "wall": {"fill_color": decimal_color(203, 203, 203)},
-    "vegetation": {
-        "stroke_color": decimal_color(203, 203, 203),
-        "stroke_width": 0.3,
-        "fill_color": decimal_color(230, 230, 230),
-    },
-    "vegetation_no_wall": {"fill_color": decimal_color(230, 230, 230)},
+    "boundary": {"stroke_color": COLOR_GREY_70, "stroke_width": 0.5},
+    "bed": {"fill_color": COLOR_GREY_90},
+    "bee_hives": {"fill_color": COLOR_GREY_70},
+    "concrete": {"fill_color": COLOR_WHITE},
+    "paved": {"fill_color": COLOR_WHITE},
+    "greenhouse": {"fill_color": COLOR_GREY_70},
+    "misc": {"fill_color": COLOR_GREY_80},
+    "tree_ring": {"fill_color": COLOR_GREY_80},
+    "wall": {"fill_color": COLOR_GREY_80},
+    "vegetation": {"fill_color": COLOR_GREY_90},
+    "vegetation_no_wall": {"fill_color": COLOR_GREY_90},
 }
 
 
@@ -214,16 +237,20 @@ def main():
 
     trees, species_list, scale_factor, min_lon, min_lat = extract_features(feature_list)
 
-    svg_path = current_dir / "output" / "example.svg"
+    svg_path = current_dir / "output" / "voedselbos.svg"
     with cairo.SVGSurface(svg_path, 1024, 1024) as surface:
         context = cairo.Context(surface)
         context.scale(1024, 1024)
 
         # Set background
         context.save()
-        context.set_source_rgb(1, 1, 1)
+        context.set_source_rgb(*COLOR_WHITE)
         context.paint()
         context.restore()
+
+        # Position canvas
+        context.translate(*TRANSLATION)
+        context.rotate(ROTATION_ANGLE)
 
         print("Drawing base map")
         draw_base_features(context, base_features, scale_factor, min_lon, min_lat)
@@ -235,6 +262,7 @@ def main():
             ]
             draw_background_outline(context, scale_factor, filtered_trees)
             draw_fills(context, scale_factor, filtered_trees, species_list)
+            # draw_text(context, scale_factor, filtered_trees, species_list)
 
         draw_overlay(context, scale_factor, trees)
 
