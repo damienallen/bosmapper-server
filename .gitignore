@@ -6,3 +6,6 @@ __pycache__/
 
 # Env
 config/.env
+
+# Misc
+export/output/

@@ -4,6 +4,7 @@ from pathlib import Path
 import numpy as np
 import cairo
 import json
+import pdfkit
 
 
 current_dir = Path(__file__).resolve().parent
@@ -11,9 +12,12 @@ current_dir = Path(__file__).resolve().parent
 # Constants
 DEFAULT_HEIGHT = 2
 DEFAULT_RADIUS = 4
-MARGIN = 10
+MARGIN_TOP = 20
+MARGIN_BOTTOM = 10
+MARGIN_LEFT = 10
+MARGIN_RIGHT = 5
 
-TRANSLATION = [0.5, 1.25]
+TRANSLATION = [0.45, 1.22]
 ROTATION_ANGLE = -144.5 * pi / 180
 
 
@@ -50,11 +54,11 @@ def extract_features(feature_list):
     lon_list = [feature["geometry"]["coordinates"][0] for feature in feature_list]
     lat_list = [feature["geometry"]["coordinates"][1] for feature in feature_list]
 
-    min_lon = min(lon_list) - MARGIN
-    max_lon = max(lon_list) + MARGIN
+    min_lon = min(lon_list) - MARGIN_LEFT
+    max_lon = max(lon_list) + MARGIN_RIGHT
 
-    min_lat = min(lat_list) - MARGIN
-    max_lat = max(lat_list) + MARGIN
+    min_lat = min(lat_list) - MARGIN_BOTTOM
+    max_lat = max(lat_list) + MARGIN_TOP
 
     lon_range = max_lon - min_lon
     lat_range = max_lat - min_lat
@@ -148,7 +152,7 @@ def draw_fills(context, scale_factor, trees, species_list):
 
     for tree in trees:
         context.arc(tree["x"], tree["y"], tree["radius"] - scale_factor / 20, 0, pi * 2)
-        context.set_source_rgba(*fill_color, 0.7)
+        context.set_source_rgba(*fill_color, 0.8)
         context.fill()
 
     context.restore()
@@ -231,16 +235,33 @@ def draw_base_features(context, base_features, scale_factor, min_lon, min_lat):
         context.restore()
 
 
+def generate_pdf(svg_path):
+    print("Generating PDF version")
+    template_dir = current_dir / "template"
+    html_path = template_dir / "map.html"
+    pdf_path = template_dir / "voedselbos.pdf"
+
+    options = {
+        "page-size": "A3",
+        "margin-top": "10mm",
+        "margin-right": "10mm",
+        "margin-bottom": "10mm",
+        "margin-left": "10mm",
+    }
+
+    pdfkit.from_file(str(html_path), str(pdf_path), options)
+
+
 def main():
+    svg_path = current_dir / "template" / "voedselbos.svg"
     feature_list = get_features(current_dir / "data" / "20200530.geojson")
     base_features = get_features(current_dir / "data" / "base.geojson")
 
     trees, species_list, scale_factor, min_lon, min_lat = extract_features(feature_list)
 
-    svg_path = current_dir / "output" / "voedselbos.svg"
-    with cairo.SVGSurface(svg_path, 1024, 1024) as surface:
+    with cairo.SVGSurface(svg_path, 840, 1200) as surface:
         context = cairo.Context(surface)
-        context.scale(1024, 1024)
+        context.scale(1200, 1200)
 
         # Set background
         context.save()
@@ -265,6 +286,8 @@ def main():
             # draw_text(context, scale_factor, filtered_trees, species_list)
 
         draw_overlay(context, scale_factor, trees)
+
+    generate_pdf(svg_path)
 
 
 if __name__ == "__main__":
