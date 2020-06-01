@@ -152,7 +152,7 @@ def draw_fills(context, scale_factor, trees, species_list):
 
     for tree in trees:
         context.arc(tree["x"], tree["y"], tree["radius"] - scale_factor / 20, 0, pi * 2)
-        context.set_source_rgba(*fill_color, 0.8)
+        context.set_source_rgba(*fill_color, 1)
         context.fill()
 
     context.restore()
