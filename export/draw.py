@@ -16,6 +16,7 @@ MARGIN_TOP = 20
 MARGIN_BOTTOM = 10
 MARGIN_LEFT = 10
 MARGIN_RIGHT = 5
+TEXT_TOP_MARGIN = 15
 
 TRANSLATION = [0.45, 1.22]
 ROTATION_ANGLE = -144.5 * pi / 180
@@ -162,19 +163,27 @@ def draw_text(ctx, scale_factor, trees, species_list):
     # min_radius = min([species["radius"] for species in species_list])
     # max_radius = max([species["radius"] for species in species_list]) + 0.01
     # percent = (trees[0]["radius"] - min_radius) / (max_radius - min_radius)
-
-    # fill_color = fade_white(COLOR_GREY_90, 1 - percent)
-
-    ctx.save()
-    ctx.set_source_rgb(*COLOR_GREY_70)
-    ctx.set_font_size(1 * scale_factor)
-    ctx.select_font_face("Arial", cairo.FONT_SLANT_NORMAL, cairo.FONT_WEIGHT_NORMAL)
+    # fill_color = fade_white(COLOR_GREY_90, percent)
 
     for tree in trees:
-        ctx.move_to(tree["x"], tree["y"])
+
+        ctx.save()
+        ctx.set_source_rgb(*COLOR_BLACK)
+        ctx.set_font_size(1 * scale_factor)
+        ctx.select_font_face("Arial", cairo.FONT_SLANT_NORMAL, cairo.FONT_WEIGHT_NORMAL)
+
+        fascent, fdescent, fheight, fxadvance, fyadvance = ctx.font_extents()
+        x_off, y_off, tw, th = ctx.text_extents(tree["species"])[:4]
+        nx = -tw / 2.0
+        ny = fheight / 2
+
+        ctx.translate(tree["x"], tree["y"])
+        ctx.rotate(-ROTATION_ANGLE)
+        ctx.translate(nx, ny)
+        ctx.move_to(0, scale_factor)
         ctx.show_text(tree["species"])
 
-    ctx.restore()
+        ctx.restore()
 
 
 feature_styles = {
@@ -243,6 +252,8 @@ def generate_pdf(svg_path):
     html_path = template_dir / "map.html"
     pdf_path = template_dir / "voedselbos.pdf"
 
+    print(pdf_path)
+
     options = {
         "page-size": "A3",
         "margin-top": "10mm",
@@ -285,9 +296,9 @@ def main():
                 tree for tree in trees if tree["species"] == species["name"]
             ]
             draw_fills(ctx, scale_factor, filtered_trees, species_list)
-            # draw_text(ctx, scale_factor, filtered_trees, species_list)
 
         draw_overlay(ctx, scale_factor, trees)
+        draw_text(ctx, scale_factor, trees, species_list)
 
     generate_pdf(svg_path)
 

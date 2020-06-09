@@ -1,0 +1,7213 @@
+{
+  "type": "FeatureCollection",
+  "name": "trees",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:EPSG:3857"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ec99c875f0743d9e1db7e12",
+        "species": "G. triacanthos",
+        "status": 3,
+        "notes": null,
+        "name_la": "Gleditsia triacanthos",
+        "name_nl": "Valse christusdoorn",
+        "name_en": "Honey locust"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493332.876084812,
+          6783604.763833452
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ec99c875f0743d9e1db7e13",
+        "species": "M. bealei",
+        "status": 3,
+        "notes": null,
+        "name_la": "Mahonia bealei",
+        "name_nl": "Mahonia",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493323.6928226656,
+          6783593.1317014005
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ec99c875f0743d9e1db7e14",
+        "species": "M. bealei",
+        "status": 3,
+        "notes": null,
+        "name_la": "Mahonia bealei",
+        "name_nl": "Mahonia",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493325.68074406823,
+          6783596.336581671
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ec99c875f0743d9e1db7e15",
+        "species": "M. bealei",
+        "status": 3,
+        "notes": null,
+        "name_la": "Mahonia bealei",
+        "name_nl": "Mahonia",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493327.8657908116,
+          6783599.109910229
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ec99c875f0743d9e1db7e16",
+        "species": "M. bealei",
+        "status": 3,
+        "notes": null,
+        "name_la": "Mahonia bealei",
+        "name_nl": "Mahonia",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493330.89219009184,
+          6783601.9648923585
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ec99c875f0743d9e1db7e17",
+        "species": "S. domestica",
+        "status": 3,
+        "notes": null,
+        "name_la": "Sorbus domestica",
+        "name_nl": "Peervormige lijsterbes",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493389.142636999,
+          6783631.969526924
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ec99c875f0743d9e1db7e18",
+        "species": "P. sinensis",
+        "status": 3,
+        "notes": null,
+        "name_la": "Pseudocydonia sinensis ",
+        "name_nl": "Chinese kweepeer",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493395.02911537327,
+          6783622.719853672
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ec99c875f0743d9e1db7e19",
+        "species": "R. typhina",
+        "status": 3,
+        "notes": null,
+        "name_la": "Rhus typhina",
+        "name_nl": "Fluweelboom",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493397.2582922587,
+          6783615.881680198
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ec99c875f0743d9e1db7e1a",
+        "species": "R. glabra",
+        "status": 3,
+        "notes": null,
+        "name_la": "Rhus glabra",
+        "name_nl": "Fluweelboom",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493393.42319475126,
+          6783612.994648367
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ec99c875f0743d9e1db7e1b",
+        "species": "P. communis",
+        "status": 3,
+        "notes": null,
+        "name_la": "Pyrus communis",
+        "name_nl": "Peer (hoogstam)",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493384.4467032814,
+          6783606.860643064
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ec99c875f0743d9e1db7e1c",
+        "species": "P. communis",
+        "status": 3,
+        "notes": null,
+        "name_la": "Pyrus communis",
+        "name_nl": "Peer (hoogstam)",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493366.51129588904,
+          6783591.869943053
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ec99c875f0743d9e1db7e1d",
+        "species": "C. ellwangeriana",
+        "status": 3,
+        "notes": null,
+        "name_la": "Crataegus ellwangeriana",
+        "name_nl": "Meidoorn",
+        "name_en": "Hawthorn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493356.48149912374,
+          6783584.108723935
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ec99c875f0743d9e1db7e1e",
+        "species": "L. barbarum",
+        "status": 3,
+        "notes": null,
+        "name_la": "Lycium barbarum",
+        "name_nl": "Gojibes",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493351.8822397311,
+          6783583.3744345205
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ec99c875f0743d9e1db7e1f",
+        "species": "L. barbarum",
+        "status": 3,
+        "notes": null,
+        "name_la": "Lycium barbarum",
+        "name_nl": "Gojibes",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493346.694377056,
+          6783578.85938726
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ec99c875f0743d9e1db7e20",
+        "species": "L. barbarum",
+        "status": 3,
+        "notes": null,
+        "name_la": "Lycium barbarum",
+        "name_nl": "Gojibes",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493338.4053894478,
+          6783582.363976854
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ec99c875f0743d9e1db7e21",
+        "species": "F. carica",
+        "status": 3,
+        "notes": null,
+        "name_la": "Ficus carica",
+        "name_nl": "Vijg",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493341.89778956876,
+          6783583.336221774
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ec99c875f0743d9e1db7e22",
+        "species": "S. aucuparia",
+        "status": 3,
+        "notes": null,
+        "name_la": "Sorbus aucuparia 'edulis'",
+        "name_nl": "Eetbare lijsterbes",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493348.1301594343,
+          6783591.7712267
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ec99c875f0743d9e1db7e23",
+        "species": "C. mexicana",
+        "status": 3,
+        "notes": null,
+        "name_la": "Crataegus mexicana",
+        "name_nl": "Meidoorn",
+        "name_en": "Hawthorn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493347.2729496,
+          6783587.730408525
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ec99c875f0743d9e1db7e24",
+        "species": "C. schraderiana",
+        "status": 3,
+        "notes": null,
+        "name_la": "Crataegus schraderiana",
+        "name_nl": "Meidoorn",
+        "name_en": "Hawthorn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493356.01927769725,
+          6783591.5462868875
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ec99c875f0743d9e1db7e25",
+        "species": "C. pennsylveniaca",
+        "status": 3,
+        "notes": null,
+        "name_la": "Crataegus pennsylveniaca",
+        "name_nl": "Meidoorn",
+        "name_en": "Hawthorn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493353.120347609,
+          6783599.403784054
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ec99c875f0743d9e1db7e27",
+        "species": "D. virg. x kaki",
+        "status": 3,
+        "notes": "dood",
+        "name_la": "Diospyros virginiana x kaki",
+        "name_nl": "Persimoen hybride",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493335.36746982037,
+          6783594.976856847
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ec99c875f0743d9e1db7e28",
+        "species": "R. divaricatum",
+        "status": 3,
+        "notes": null,
+        "name_la": "Ribes divaricatum",
+        "name_nl": "Worcester bes",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493337.9523880541,
+          6783590.623310348
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ec99c875f0743d9e1db7e29",
+        "species": "M. nigra",
+        "status": 3,
+        "notes": null,
+        "name_la": "Morus nigra",
+        "name_nl": "Zwarte moerbei",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493327.3339718218,
+          6783586.261045856
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ec99c875f0743d9e1db7e2a",
+        "species": "D. fargesii",
+        "status": 3,
+        "notes": null,
+        "name_la": "Decaisnea fargesii",
+        "name_nl": "Augurkenstruik (Blauwe boon)",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493329.82528065314,
+          6783583.20439754
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ec99c875f0743d9e1db7e2b",
+        "species": "L. barbarum",
+        "status": 3,
+        "notes": null,
+        "name_la": "Lycium barbarum",
+        "name_nl": "Gojibes",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493333.4948413266,
+          6783581.501305888
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ec99c875f0743d9e1db7e2c",
+        "species": "E. japonica",
+        "status": 3,
+        "notes": null,
+        "name_la": "Eriobotrya japonica ",
+        "name_nl": "Japanse Wolmispel (Loquat)",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493338.0945018544,
+          6783570.451559139
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ec99c875f0743d9e1db7e2d",
+        "species": "E. japonica",
+        "status": 3,
+        "notes": null,
+        "name_la": "Eriobotrya japonica ",
+        "name_nl": "Japanse Wolmispel (Loquat)",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493341.13634290965,
+          6783572.781237831
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ec99c875f0743d9e1db7e2f",
+        "species": "C. mas",
+        "status": 3,
+        "notes": null,
+        "name_la": "Cornus mas",
+        "name_nl": "Gele kornoelje",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493400.5898964998,
+          6783606.678746674
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ec99c875f0743d9e1db7e30",
+        "species": "C. mas",
+        "status": 3,
+        "notes": null,
+        "name_la": "Cornus mas",
+        "name_nl": "Gele kornoelje",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493397.3524181274,
+          6783604.306088975
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ec99c875f0743d9e1db7e31",
+        "species": "Q. rotundifolia",
+        "status": 3,
+        "notes": null,
+        "name_la": "Quercus rotundifolia",
+        "name_nl": "Steeneik",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493400.8803499296,
+          6783602.789296448
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ec99c875f0743d9e1db7e32",
+        "species": "C. mas",
+        "status": 3,
+        "notes": null,
+        "name_la": "Cornus mas",
+        "name_nl": "Gele kornoelje",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493394.07945227734,
+          6783601.989198551
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ec99c875f0743d9e1db7e33",
+        "species": "C. mas",
+        "status": 3,
+        "notes": "paczeski",
+        "name_la": "Cornus mas",
+        "name_nl": "Gele kornoelje",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493398.8669011171,
+          6783590.2199657895
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ec99c885f0743d9e1db7e34",
+        "species": "M. alba",
+        "status": 3,
+        "notes": "sugar cube",
+        "name_la": "Morus alba",
+        "name_nl": "Witte moerbei",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493395.1580897833,
+          6783596.403728208
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ec99c885f0743d9e1db7e3c",
+        "species": "P. pluot",
+        "status": 3,
+        "notes": "japanse pruim black amber",
+        "name_la": "Pluot",
+        "name_nl": "Pluot",
+        "name_en": "Pluot"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493366.0332383706,
+          6783566.173005044
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ec99c885f0743d9e1db7e3e",
+        "species": "M. pensylvanica",
+        "status": 3,
+        "notes": null,
+        "name_la": "Myrica pensylvanica",
+        "name_nl": "Wasgagel",
+        "name_en": "Northern bayberry"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493343.2871784042,
+          6783561.964115591
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ec99c885f0743d9e1db7e3f",
+        "species": "T. nucifera",
+        "status": 3,
+        "notes": null,
+        "name_la": "Torreya nucifera",
+        "name_nl": "Kaya",
+        "name_en": "Japanese torreya"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493354.12837186165,
+          6783554.484532508
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ec99c885f0743d9e1db7e42",
+        "species": "Amelanchier",
+        "status": 3,
+        "notes": "erg droog",
+        "name_la": "Amelanchier ",
+        "name_nl": "Krentenboompje",
+        "name_en": "Serviceberry"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493351.4390835622,
+          6783559.148766902
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ec99c885f0743d9e1db7e43",
+        "species": "C. speciosa",
+        "status": 3,
+        "notes": null,
+        "name_la": "Chaenomeles speciosa",
+        "name_nl": "Sierkwee",
+        "name_en": "Quince"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493356.69159977214,
+          6783552.84574745
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ec99c885f0743d9e1db7e47",
+        "species": "Amelanchier",
+        "status": 3,
+        "notes": null,
+        "name_la": "Amelanchier ",
+        "name_nl": "Krentenboompje",
+        "name_en": "Serviceberry"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493367.584452523,
+          6783561.091558181
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ec99c885f0743d9e1db7e48",
+        "species": "A. melanocarpa",
+        "status": 3,
+        "notes": null,
+        "name_la": "Aronia melanocarpa",
+        "name_nl": "Zwarte appelbes (VS)",
+        "name_en": "Black chokeberry (US)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493340.09364854865,
+          6783544.861922814
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ec99c885f0743d9e1db7e49",
+        "species": "A. melanocarpa",
+        "status": 3,
+        "notes": null,
+        "name_la": "Aronia melanocarpa",
+        "name_nl": "Zwarte appelbes (VS)",
+        "name_en": "Black chokeberry (US)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493345.2201043696,
+          6783542.340715032
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ec99c885f0743d9e1db7e4a",
+        "species": "A. melanocarpa",
+        "status": 3,
+        "notes": null,
+        "name_la": "Aronia melanocarpa",
+        "name_nl": "Zwarte appelbes (VS)",
+        "name_en": "Black chokeberry (US)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493348.6657550034,
+          6783541.164151401
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ec99c885f0743d9e1db7e4b",
+        "species": "A. melanocarpa",
+        "status": 3,
+        "notes": null,
+        "name_la": "Aronia melanocarpa",
+        "name_nl": "Zwarte appelbes (VS)",
+        "name_en": "Black chokeberry (US)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493353.03584849014,
+          6783540.912030623
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ec99c885f0743d9e1db7e4c",
+        "species": "A. melanocarpa",
+        "status": 3,
+        "notes": null,
+        "name_la": "Aronia melanocarpa",
+        "name_nl": "Zwarte appelbes (VS)",
+        "name_en": "Black chokeberry (US)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493356.4814991239,
+          6783541.080111142
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ec99c885f0743d9e1db7e4d",
+        "species": "C. avellana",
+        "status": 3,
+        "notes": "waarschijnlijk geen cultivar",
+        "name_la": "Corylus avellana",
+        "name_nl": "Hazelaar",
+        "name_en": "Common hazel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493352.80052728707,
+          6783530.640475768
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ec99c885f0743d9e1db7e4e",
+        "species": "A. araucana",
+        "status": 3,
+        "notes": null,
+        "name_la": "Araucaria araucana",
+        "name_nl": "Slangenden",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493353.4822965847,
+          6783524.235489261
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ec99c885f0743d9e1db7e50",
+        "species": "P. koraiensis",
+        "status": 3,
+        "notes": null,
+        "name_la": "Pinus koraiensis",
+        "name_nl": "Pijnboompit",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493347.32111085363,
+          6783526.87730731
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ec99c885f0743d9e1db7e51",
+        "species": "P. koraiensis",
+        "status": 3,
+        "notes": null,
+        "name_la": "Pinus koraiensis",
+        "name_nl": "Pijnboompit",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493348.79193344427,
+          6783520.621383048
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ec99c885f0743d9e1db7e52",
+        "species": "C. avellana",
+        "status": 3,
+        "notes": null,
+        "name_la": "Corylus avellana",
+        "name_nl": "Hazelaar",
+        "name_en": "Common hazel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493362.2683042439,
+          6783523.799150871
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ec99c885f0743d9e1db7e53",
+        "species": "C. avellana",
+        "status": 3,
+        "notes": null,
+        "name_la": "Corylus avellana",
+        "name_nl": "Hazelaar",
+        "name_en": "Common hazel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493356.30862485676,
+          6783519.405217008
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ec99c885f0743d9e1db7e54",
+        "species": "C. avellana",
+        "status": 3,
+        "notes": null,
+        "name_la": "Corylus avellana",
+        "name_nl": "Hazelaar",
+        "name_en": "Common hazel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493332.23588429834,
+          6783542.550815681
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ec99c885f0743d9e1db7e55",
+        "species": "C. tricuspidata",
+        "status": 3,
+        "notes": null,
+        "name_la": "Cudrania tricuspidata",
+        "name_nl": "Chinese moerbei",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493326.334255466,
+          6783562.637737
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ec99c885f0743d9e1db7e56",
+        "species": "E. x ebbingei",
+        "status": 3,
+        "notes": null,
+        "name_la": "Elaeagnus ebbingei",
+        "name_nl": "Zilverbes",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493328.5801330162,
+          6783538.684963751
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ec99c885f0743d9e1db7e57",
+        "species": "E. x ebbingei",
+        "status": 3,
+        "notes": null,
+        "name_la": "Elaeagnus ebbingei",
+        "name_nl": "Zilverbes",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493323.7057979733,
+          6783547.088989686
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ec99c885f0743d9e1db7e58",
+        "species": "H. rhamnoides",
+        "status": 3,
+        "notes": null,
+        "name_la": "Hippophae rhamnoides",
+        "name_nl": "Duindoorn",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493345.8284977688,
+          6783533.564261904
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ec99c885f0743d9e1db7e59",
+        "species": "H. rhamnoides",
+        "status": 3,
+        "notes": null,
+        "name_la": "Hippophae rhamnoides",
+        "name_nl": "Duindoorn",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493326.3530661432,
+          6783549.021915652
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ec99c885f0743d9e1db7e5a",
+        "species": "S. domestica",
+        "status": 3,
+        "notes": null,
+        "name_la": "Sorbus domestica",
+        "name_nl": "Peervormige lijsterbes",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493336.01769596967,
+          6783531.163360538
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ec99c885f0743d9e1db7e5b",
+        "species": "G. triacanthos",
+        "status": 3,
+        "notes": null,
+        "name_la": "Gleditsia triacanthos",
+        "name_nl": "Valse christusdoorn",
+        "name_en": "Honey locust"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493390.84857036825,
+          6783624.16026339
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ec99c885f0743d9e1db7e5c",
+        "species": "P. sinensis",
+        "status": 3,
+        "notes": null,
+        "name_la": "Pseudocydonia sinensis ",
+        "name_nl": "Chinese kweepeer",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493391.3473337278,
+          6783620.82970704
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ec99c885f0743d9e1db7e5d",
+        "species": "H. rhamnoides",
+        "status": 3,
+        "notes": null,
+        "name_la": "Hippophae rhamnoides",
+        "name_nl": "Duindoorn",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493388.2239817502,
+          6783614.828798818
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ec99c885f0743d9e1db7e5e",
+        "species": "H. rhamnoides",
+        "status": 3,
+        "notes": null,
+        "name_la": "Hippophae rhamnoides",
+        "name_nl": "Duindoorn",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493387.8857065557,
+          6783618.246692043
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ec99c885f0743d9e1db7e5f",
+        "species": "R. glabra",
+        "status": 3,
+        "notes": null,
+        "name_la": "Rhus glabra",
+        "name_nl": "Fluweelboom",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493391.54671423783,
+          6783614.076084381
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ec99c885f0743d9e1db7e60",
+        "species": "R. typhina",
+        "status": 3,
+        "notes": null,
+        "name_la": "Rhus typhina",
+        "name_nl": "Fluweelboom",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493395.63422284106,
+          6783616.998676485
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ec99c885f0743d9e1db7e61",
+        "species": "R. glabra",
+        "status": 3,
+        "notes": null,
+        "name_la": "Rhus glabra",
+        "name_nl": "Fluweelboom",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493393.00899911305,
+          6783616.190750647
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ec99c885f0743d9e1db7e62",
+        "species": "R. typhina",
+        "status": 3,
+        "notes": null,
+        "name_la": "Rhus typhina",
+        "name_nl": "Fluweelboom",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493395.5181786287,
+          6783614.379105009
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ec99c885f0743d9e1db7e63",
+        "species": "P. communis",
+        "status": 3,
+        "notes": null,
+        "name_la": "Pyrus communis",
+        "name_nl": "Peer (hoogstam)",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493399.8286460087,
+          6783620.555659406
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ec99c885f0743d9e1db7e64",
+        "species": "C. arnoldiana",
+        "status": 3,
+        "notes": null,
+        "name_la": "Crataegus arnoldiana",
+        "name_nl": "Meidoorn",
+        "name_en": "Hawthorn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493384.99554107315,
+          6783620.670931048
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ec99c885f0743d9e1db7e65",
+        "species": "P. cerasius",
+        "status": 3,
+        "notes": null,
+        "name_la": "Prunus cerasius",
+        "name_nl": "Zure kers",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493383.6468058257,
+          6783625.75829339
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ec99c885f0743d9e1db7e66",
+        "species": "H. rhamnoides",
+        "status": 3,
+        "notes": null,
+        "name_la": "Hippophae rhamnoides",
+        "name_nl": "Duindoorn",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493388.4791210601,
+          6783628.802578098
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ec99c885f0743d9e1db7e67",
+        "species": "B. pendula",
+        "status": 3,
+        "notes": null,
+        "name_la": "Betula pendula",
+        "name_nl": "Ruwe berk",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493385.851923533,
+          6783636.133302292
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ec99c885f0743d9e1db7e68",
+        "species": "Aronia spp.",
+        "status": 3,
+        "notes": null,
+        "name_la": "Aronia spp.",
+        "name_nl": "zwarte appelbes",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493388.6158319387,
+          6783635.480680589
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ec99c885f0743d9e1db7e69",
+        "species": "Onbekend",
+        "status": 3,
+        "notes": null,
+        "name_la": "Onbekend",
+        "name_nl": "Onbekend",
+        "name_en": "Unknown"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493388.780602241,
+          6783630.445670796
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ec99c885f0743d9e1db7e6a",
+        "species": "C. sativa",
+        "status": 3,
+        "notes": null,
+        "name_la": "Castanea sativa",
+        "name_nl": "Kastanjeboom",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493381.5045239417,
+          6783634.813008797
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ec99c885f0743d9e1db7e6b",
+        "species": "G. triacanthos",
+        "status": 3,
+        "notes": null,
+        "name_la": "Gleditsia triacanthos",
+        "name_nl": "Valse christusdoorn",
+        "name_en": "Honey locust"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493383.4665928161,
+          6783637.125403359
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ec99c885f0743d9e1db7e6c",
+        "species": "G. triacanthos",
+        "status": 3,
+        "notes": null,
+        "name_la": "Gleditsia triacanthos",
+        "name_nl": "Valse christusdoorn",
+        "name_en": "Honey locust"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493381.8098773869,
+          6783630.230143806
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ec99c885f0743d9e1db7e6d",
+        "species": "S. pinnata",
+        "status": 3,
+        "notes": null,
+        "name_la": "Staphylea pinnata",
+        "name_nl": "Europese pimpernoot",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493378.5067959553,
+          6783630.849145584
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ec99c885f0743d9e1db7e6e",
+        "species": "M. rubra",
+        "status": 3,
+        "notes": null,
+        "name_la": "Morus rubra",
+        "name_nl": "Rode moerbei",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493372.0983882624,
+          6783628.671331825
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ec99c885f0743d9e1db7e6f",
+        "species": "H. rhamnoides",
+        "status": 3,
+        "notes": null,
+        "name_la": "Hippophae rhamnoides",
+        "name_nl": "Duindoorn",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493369.9103983234,
+          6783628.767513655
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ec99c885f0743d9e1db7e70",
+        "species": "B. pendula",
+        "status": 3,
+        "notes": null,
+        "name_la": "Betula pendula",
+        "name_nl": "Ruwe berk",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493370.72125221096,
+          6783624.975821313
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ec99c885f0743d9e1db7e71",
+        "species": "S. pinnata",
+        "status": 3,
+        "notes": null,
+        "name_la": "Staphylea pinnata",
+        "name_nl": "Europese pimpernoot",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493378.08594146965,
+          6783622.745764402
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ec99c885f0743d9e1db7e72",
+        "species": "D. lotus",
+        "status": 3,
+        "notes": "Halesia carolina?",
+        "name_la": "Diospyros lotus",
+        "name_nl": "Lotusvrucht",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493379.46387828834,
+          6783619.751113912
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ec99c885f0743d9e1db7e73",
+        "species": "G. triacanthos",
+        "status": 3,
+        "notes": null,
+        "name_la": "Gleditsia triacanthos",
+        "name_nl": "Valse christusdoorn",
+        "name_en": "Honey locust"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493374.251564445,
+          6783622.425206123
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ec99c885f0743d9e1db7e74",
+        "species": "Onbekend",
+        "status": 3,
+        "notes": null,
+        "name_la": "Onbekend",
+        "name_nl": "Onbekend",
+        "name_en": "Unknown"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493373.4463810739,
+          6783626.254566231
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ec99c885f0743d9e1db7e75",
+        "species": "P. domestica",
+        "status": 3,
+        "notes": null,
+        "name_la": "Prunus domestica",
+        "name_nl": "Pruim, halfstam",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493366.4338348272,
+          6783623.881815991
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ec99c885f0743d9e1db7e76",
+        "species": "H. rhamnoides",
+        "status": 3,
+        "notes": null,
+        "name_la": "Hippophae rhamnoides",
+        "name_nl": "Duindoorn",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493365.20996003953,
+          6783621.244101415
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ec99c885f0743d9e1db7e77",
+        "species": "H. rhamnoides",
+        "status": 3,
+        "notes": null,
+        "name_la": "Hippophae rhamnoides",
+        "name_nl": "Duindoorn",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493361.00075972127,
+          6783620.289671676
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ec99c885f0743d9e1db7e78",
+        "species": "B. pendula",
+        "status": 3,
+        "notes": null,
+        "name_la": "Betula pendula",
+        "name_nl": "Ruwe berk",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493360.1234400161,
+          6783617.8402154455
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ec99c885f0743d9e1db7e79",
+        "species": "B. papyrifera",
+        "status": 3,
+        "notes": null,
+        "name_la": "Broussonetia papyrifera",
+        "name_nl": "Papiermoerbei",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493357.06518133194,
+          6783618.159706004
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ec99c885f0743d9e1db7e7a",
+        "species": "M. rubra",
+        "status": 3,
+        "notes": null,
+        "name_la": "Morus rubra",
+        "name_nl": "Rode moerbei",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493351.6398708158,
+          6783613.942416885
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ec99c885f0743d9e1db7e7b",
+        "species": "C. avellana",
+        "status": 3,
+        "notes": null,
+        "name_la": "Corylus avellana",
+        "name_nl": "Hazelaar",
+        "name_en": "Common hazel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493349.8059338404,
+          6783612.376319298
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ec99c885f0743d9e1db7e7c",
+        "species": "C. arnoldiana",
+        "status": 3,
+        "notes": null,
+        "name_la": "Crataegus arnoldiana",
+        "name_nl": "Meidoorn",
+        "name_en": "Hawthorn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493354.8477968539,
+          6783614.784862211
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ec99c885f0743d9e1db7e7d",
+        "species": "H. rhamnoides",
+        "status": 3,
+        "notes": null,
+        "name_la": "Hippophae rhamnoides",
+        "name_nl": "Duindoorn",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493351.56690419203,
+          6783610.617307831
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ec99c885f0743d9e1db7e7e",
+        "species": "P. domestica",
+        "status": 3,
+        "notes": null,
+        "name_la": "Prunus domestica",
+        "name_nl": "Pruim, halfstam",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493345.6860853255,
+          6783610.368890387
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ec99c885f0743d9e1db7e7f",
+        "species": "C. arnoldiana",
+        "status": 3,
+        "notes": null,
+        "name_la": "Crataegus arnoldiana",
+        "name_nl": "Meidoorn",
+        "name_en": "Hawthorn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493341.66843160184,
+          6783609.48285004
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ec99c885f0743d9e1db7e80",
+        "species": "M. bealei",
+        "status": 3,
+        "notes": null,
+        "name_la": "Mahonia bealei",
+        "name_nl": "Mahonia",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493322.2768898511,
+          6783591.395045197
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ec99c885f0743d9e1db7e81",
+        "species": "M. bealei",
+        "status": 3,
+        "notes": null,
+        "name_la": "Mahonia bealei",
+        "name_nl": "Mahonia",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493324.6042971019,
+          6783594.671023105
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ec99c885f0743d9e1db7e82",
+        "species": "M. bealei",
+        "status": 3,
+        "notes": null,
+        "name_la": "Mahonia bealei",
+        "name_nl": "Mahonia",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493329.52908679744,
+          6783600.667177265
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ec99c885f0743d9e1db7e83",
+        "species": "M. bealei",
+        "status": 3,
+        "notes": null,
+        "name_la": "Mahonia bealei",
+        "name_nl": "Mahonia",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493326.561445075,
+          6783597.888758639
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ec99c885f0743d9e1db7e84",
+        "species": "H. rhamnoides",
+        "status": 3,
+        "notes": null,
+        "name_la": "Hippophae rhamnoides",
+        "name_nl": "Duindoorn",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493324.8893521848,
+          6783598.77730065
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ec99c885f0743d9e1db7e85",
+        "species": "P. communis",
+        "status": 3,
+        "notes": null,
+        "name_la": "Pyrus communis",
+        "name_nl": "Peer (hoogstam)",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493322.00955946266,
+          6783598.898683202
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ec99c885f0743d9e1db7e86",
+        "species": "M. aquifolium",
+        "status": 3,
+        "notes": null,
+        "name_la": "Mahonia aquifolium",
+        "name_nl": "Mahonia",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493336.48597814003,
+          6783606.458600101
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ec99c885f0743d9e1db7e87",
+        "species": "M. aquifolium",
+        "status": 3,
+        "notes": null,
+        "name_la": "Mahonia aquifolium",
+        "name_nl": "Mahonia",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493340.4781597343,
+          6783608.886828411
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ec99c885f0743d9e1db7e88",
+        "species": "M. aquifolium",
+        "status": 3,
+        "notes": null,
+        "name_la": "Mahonia aquifolium",
+        "name_nl": "Mahonia",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493339.32231876533,
+          6783608.157606928
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ec99c885f0743d9e1db7e89",
+        "species": "Onbekend",
+        "status": 3,
+        "notes": null,
+        "name_la": "Onbekend",
+        "name_nl": "Onbekend",
+        "name_en": "Unknown"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493320.951899163,
+          6783594.85246926
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ec99c885f0743d9e1db7e8a",
+        "species": "Onbekend",
+        "status": 3,
+        "notes": null,
+        "name_la": "Onbekend",
+        "name_nl": "Onbekend",
+        "name_en": "Unknown"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493321.30779600615,
+          6783593.400467007
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ec99c885f0743d9e1db7e8b",
+        "species": "H. rhamnoides",
+        "status": 3,
+        "notes": null,
+        "name_la": "Hippophae rhamnoides",
+        "name_nl": "Duindoorn",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493322.77183188655,
+          6783595.487882032
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ec99c885f0743d9e1db7e8c",
+        "species": "T. sinensis",
+        "status": 3,
+        "notes": null,
+        "name_la": "Toona sinensis",
+        "name_nl": "Franseuiensoepboom (geknot)",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493386.8124289806,
+          6783606.819656222
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ec99c885f0743d9e1db7e8d",
+        "species": "C. pin.\nmajor",
+        "status": 3,
+        "notes": null,
+        "name_la": "Crataegus pinnatifida major “Big ball”",
+        "name_nl": "Meidoorn",
+        "name_en": "Hawthorn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493380.2006368171,
+          6783603.792393678
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ec99c885f0743d9e1db7e8e",
+        "species": "B. lologensis",
+        "status": 3,
+        "notes": null,
+        "name_la": "Berberis lologensis",
+        "name_nl": "Zuurbes",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493373.5757840603,
+          6783598.681649714
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ec99c885f0743d9e1db7e8f",
+        "species": "B. lologensis",
+        "status": 3,
+        "notes": null,
+        "name_la": "Berberis lologensis",
+        "name_nl": "Zuurbes",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493382.8990238832,
+          6783605.341513227
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ec99c885f0743d9e1db7e90",
+        "species": "P. communis",
+        "status": 3,
+        "notes": null,
+        "name_la": "Pyrus communis",
+        "name_nl": "Peer (hoogstam)",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493376.43887951324,
+          6783600.339829234
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ec99c885f0743d9e1db7e91",
+        "species": "B. darwinii",
+        "status": 3,
+        "notes": null,
+        "name_la": "Berberis darwinii",
+        "name_nl": "Zuurbes",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493378.6038482567,
+          6783602.302129778
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ec99c885f0743d9e1db7e92",
+        "species": "C. opaca",
+        "status": 3,
+        "notes": null,
+        "name_la": "Crataegus opaca",
+        "name_nl": "Meidoorn",
+        "name_en": "Hawthorn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493370.2108565389,
+          6783595.436547503
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ec99c885f0743d9e1db7e93",
+        "species": "P. communis",
+        "status": 3,
+        "notes": null,
+        "name_la": "Pyrus communis",
+        "name_nl": "Peer (hoogstam)",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493377.5294596161,
+          6783609.491405308
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ec99c885f0743d9e1db7e94",
+        "species": "H. rhamnoides",
+        "status": 3,
+        "notes": null,
+        "name_la": "Hippophae rhamnoides",
+        "name_nl": "Duindoorn",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493358.00017028325,
+          6783591.326957469
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ec99c885f0743d9e1db7e95",
+        "species": "Z. jujuba",
+        "status": 3,
+        "notes": null,
+        "name_la": "Ziziphus jujube",
+        "name_nl": "Dadelpruim",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493359.83868018334,
+          6783590.322369293
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ec99c885f0743d9e1db7e96",
+        "species": "Z. jujuba",
+        "status": 3,
+        "notes": null,
+        "name_la": "Ziziphus jujube",
+        "name_nl": "Dadelpruim",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493389.4548158761,
+          6783612.420725135
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ec99c885f0743d9e1db7e97",
+        "species": "Onbekend",
+        "status": 3,
+        "notes": null,
+        "name_la": "Onbekend",
+        "name_nl": "Onbekend",
+        "name_en": "Unknown"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493355.2357205805,
+          6783594.775665284
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ec99c885f0743d9e1db7e98",
+        "species": "Onbekend",
+        "status": 3,
+        "notes": null,
+        "name_la": "Onbekend",
+        "name_nl": "Onbekend",
+        "name_en": "Unknown"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493344.2035400689,
+          6783590.267415497
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ec99c885f0743d9e1db7e99",
+        "species": "D. lotus",
+        "status": 3,
+        "notes": null,
+        "name_la": "Diospyros lotus",
+        "name_nl": "Lotusvrucht",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493345.544532181,
+          6783583.974021371
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ec99c885f0743d9e1db7e9a",
+        "species": "Onbekend",
+        "status": 3,
+        "notes": null,
+        "name_la": "Onbekend",
+        "name_nl": "Onbekend",
+        "name_en": "Unknown"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493344.0408957467,
+          6783582.231549673
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ec99c885f0743d9e1db7e9b",
+        "species": "Onbekend",
+        "status": 3,
+        "notes": null,
+        "name_la": "Onbekend",
+        "name_nl": "Onbekend",
+        "name_en": "Unknown"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493340.6009351804,
+          6783586.227126689
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ec99c885f0743d9e1db7e9c",
+        "species": "Onbekend",
+        "status": 3,
+        "notes": null,
+        "name_la": "Onbekend",
+        "name_nl": "Onbekend",
+        "name_en": "Unknown"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493337.15196874115,
+          6783579.806028583
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ec99c885f0743d9e1db7e9d",
+        "species": "R. odoratum",
+        "status": 3,
+        "notes": null,
+        "name_la": "Ribes odoratum",
+        "name_nl": "Buffelkrent",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493341.1294751578,
+          6783578.590502005
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ec99c885f0743d9e1db7e9e",
+        "species": "H. rhamnoides",
+        "status": 3,
+        "notes": null,
+        "name_la": "Hippophae rhamnoides",
+        "name_nl": "Duindoorn",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493348.3875813906,
+          6783577.415628792
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ec99c885f0743d9e1db7e9f",
+        "species": "H. rhamnoides",
+        "status": 3,
+        "notes": null,
+        "name_la": "Hippophae rhamnoides",
+        "name_nl": "Duindoorn",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493347.5539479386,
+          6783577.14721927
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ec99c885f0743d9e1db7ea0",
+        "species": "L. barbarum",
+        "status": 3,
+        "notes": null,
+        "name_la": "Lycium barbarum",
+        "name_nl": "Gojibes",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493348.93738035887,
+          6783581.378468478
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ec99c885f0743d9e1db7ea1",
+        "species": "L. barbarum",
+        "status": 3,
+        "notes": null,
+        "name_la": "Lycium barbarum",
+        "name_nl": "Gojibes",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493351.2434513967,
+          6783579.625841357
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ec99c885f0743d9e1db7ea2",
+        "species": "L. barbarum",
+        "status": 3,
+        "notes": null,
+        "name_la": "Lycium barbarum",
+        "name_nl": "Gojibes",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493353.1039269231,
+          6783581.019911204
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ec99c885f0743d9e1db7ea3",
+        "species": "Onbekend",
+        "status": 3,
+        "notes": null,
+        "name_la": "Onbekend",
+        "name_nl": "Onbekend",
+        "name_en": "Unknown"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493349.7515571076,
+          6783583.384167644
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ec99c885f0743d9e1db7ea4",
+        "species": "R. ‘loganberry’",
+        "status": 3,
+        "notes": null,
+        "name_la": "Rubus 'Loganberry'",
+        "name_nl": "Framboos",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493351.8218151319,
+          6783584.935928812
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ec99c885f0743d9e1db7ea5",
+        "species": "Onbekend",
+        "status": 3,
+        "notes": null,
+        "name_la": "Onbekend",
+        "name_nl": "Onbekend",
+        "name_en": "Unknown"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493354.7506615603,
+          6783586.013822983
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ec99c885f0743d9e1db7ea6",
+        "species": "H. rhamnoides",
+        "status": 3,
+        "notes": null,
+        "name_la": "Hippophae rhamnoides",
+        "name_nl": "Duindoorn",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493359.44239898346,
+          6783586.35327852
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ec99c885f0743d9e1db7ea7",
+        "species": "H. rhamnoides",
+        "status": 3,
+        "notes": null,
+        "name_la": "Hippophae rhamnoides",
+        "name_nl": "Duindoorn",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493354.5330527352,
+          6783582.615764243
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ec99c885f0743d9e1db7ea8",
+        "species": "H. rhamnoides",
+        "status": 3,
+        "notes": null,
+        "name_la": "Hippophae rhamnoides",
+        "name_nl": "Duindoorn",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493338.8634020517,
+          6783572.287261397
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ec99c885f0743d9e1db7ea9",
+        "species": "R. ‘loganberry’",
+        "status": 3,
+        "notes": null,
+        "name_la": "Rubus 'Loganberry'",
+        "name_nl": "Framboos",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493341.54045099864,
+          6783573.702556981
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ec99c885f0743d9e1db7eaa",
+        "species": "R. odoratum",
+        "status": 3,
+        "notes": null,
+        "name_la": "Ribes odoratum",
+        "name_nl": "Buffelkrent",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493336.39153341297,
+          6783575.0794801405
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ec99c885f0743d9e1db7eab",
+        "species": "F. alnus",
+        "status": 3,
+        "notes": null,
+        "name_la": "Frangula alnus",
+        "name_nl": "Vuilboom",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493336.41624574177,
+          6783570.420553679
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ec99c885f0743d9e1db7eac",
+        "species": "F. alnus",
+        "status": 3,
+        "notes": null,
+        "name_la": "Frangula alnus",
+        "name_nl": "Vuilboom",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493336.8813675236,
+          6783572.792382228
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ec99c885f0743d9e1db7ead",
+        "species": "R. odoratum",
+        "status": 3,
+        "notes": null,
+        "name_la": "Ribes odoratum",
+        "name_nl": "Buffelkrent",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493332.40063575236,
+          6783576.4498440465
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ec99c885f0743d9e1db7eae",
+        "species": "R. odoratum",
+        "status": 3,
+        "notes": null,
+        "name_la": "Ribes odoratum",
+        "name_nl": "Buffelkrent",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493327.4531594909,
+          6783575.67263027
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5eccc7a3d512153aaa68aee6",
+        "species": "H. rhamnoides",
+        "status": 3,
+        "notes": null,
+        "name_la": "Hippophae rhamnoides",
+        "name_nl": "Duindoorn",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493344.1696655747,
+          6783604.484717332
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5eccc827a472a1e4e02e2ce7",
+        "species": "H. rhamnoides",
+        "status": 3,
+        "notes": null,
+        "name_la": "Hippophae rhamnoides",
+        "name_nl": "Duindoorn",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493339.016058065,
+          6783601.656091231
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5eccc877d512153aaa68aee7",
+        "species": "Onbekend",
+        "status": 3,
+        "notes": "Diospyrus lotus of eleagnus ?",
+        "name_la": "Onbekend",
+        "name_nl": "Onbekend",
+        "name_en": "Unknown"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493341.9215164297,
+          6783599.012017783
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5eccc976a472a1e4e02e2ce8",
+        "species": "E. x ebbingei",
+        "status": 3,
+        "notes": "of halesia of diospyros",
+        "name_la": "Elaeagnus ebbingei",
+        "name_nl": "Zilverbes",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493349.87315977074,
+          6783599.940618901
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5eccca27a472a1e4e02e2ce9",
+        "species": "R. divaricatum",
+        "status": 3,
+        "notes": null,
+        "name_la": "Ribes divaricatum",
+        "name_nl": "Worcester bes",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493346.54903633747,
+          6783597.344114658
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5eccca89d512153aaa68aee8",
+        "species": "M. nigra",
+        "status": 3,
+        "notes": "?",
+        "name_la": "Morus nigra",
+        "name_nl": "Zwarte moerbei",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493345.31425394176,
+          6783600.377901351
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ecccabdd512153aaa68aee9",
+        "species": "R. divaricatum",
+        "status": 3,
+        "notes": null,
+        "name_la": "Ribes divaricatum",
+        "name_nl": "Worcester bes",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493343.1108245078,
+          6783594.940830419
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ecccae1d512153aaa68aeea",
+        "species": "R. divaricatum",
+        "status": 3,
+        "notes": null,
+        "name_la": "Ribes divaricatum",
+        "name_nl": "Worcester bes",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493340.4448987994,
+          6783592.933337324
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ecccaf7d512153aaa68aeeb",
+        "species": "R. divaricatum",
+        "status": 3,
+        "notes": null,
+        "name_la": "Ribes divaricatum",
+        "name_nl": "Worcester bes",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493336.3281456745,
+          6783588.455948559
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ecccb64d512153aaa68aeec",
+        "species": "Onbekend",
+        "status": 3,
+        "notes": "Sorbus Granatnaja",
+        "name_la": "Onbekend",
+        "name_nl": "Onbekend",
+        "name_en": "Unknown"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493333.22740057315,
+          6783585.897757149
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ecccba7a472a1e4e02e2cea",
+        "species": "H. rhamnoides",
+        "status": 3,
+        "notes": null,
+        "name_la": "Hippophae rhamnoides",
+        "name_nl": "Duindoorn",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493334.76652573416,
+          6783598.625797671
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ecccc70a472a1e4e02e2ceb",
+        "species": "Onbekend",
+        "status": 3,
+        "notes": null,
+        "name_la": "Onbekend",
+        "name_nl": "Onbekend",
+        "name_en": "Unknown"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493336.5206237394,
+          6783597.678900298
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5eccccbed512153aaa68aeed",
+        "species": "B. pendula",
+        "status": 3,
+        "notes": null,
+        "name_la": "Betula pendula",
+        "name_nl": "Ruwe berk",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493338.3851001284,
+          6783595.295917764
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ecccd2dd512153aaa68aeee",
+        "species": "Onbekend",
+        "status": 3,
+        "notes": "eleagnus? slechte staat",
+        "name_la": "Onbekend",
+        "name_nl": "Onbekend",
+        "name_en": "Unknown"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493330.32321619126,
+          6783593.1923749745
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ecccd87d512153aaa68aeef",
+        "species": "Onbekend",
+        "status": 3,
+        "notes": "dood?",
+        "name_la": "Onbekend",
+        "name_nl": "Onbekend",
+        "name_en": "Unknown"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493335.3889474613,
+          6783591.086546129
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5eccce0aa472a1e4e02e2cec",
+        "species": "Onbekend",
+        "status": 3,
+        "notes": "crataegus! soort onbekend",
+        "name_la": "Onbekend",
+        "name_nl": "Onbekend",
+        "name_en": "Unknown"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493331.60494237975,
+          6783588.50695335
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5eccce51d512153aaa68aef0",
+        "species": "Onbekend",
+        "status": 3,
+        "notes": "eleagnus? soort onbekend",
+        "name_la": "Onbekend",
+        "name_nl": "Onbekend",
+        "name_en": "Unknown"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493330.4569693971,
+          6783586.671653436
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5eccce95a472a1e4e02e2ced",
+        "species": "Onbekend",
+        "status": 3,
+        "notes": "diospyros? slechte staat",
+        "name_la": "Onbekend",
+        "name_nl": "Onbekend",
+        "name_en": "Unknown"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493329.50433188764,
+          6783589.341865126
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ecccea2d512153aaa68aef1",
+        "species": "E. umbellata",
+        "status": 3,
+        "notes": null,
+        "name_la": "Eleagnus umbellata",
+        "name_nl": "Olijfwilg",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493324.6939172606,
+          6783585.492077031
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5eccd029a472a1e4e02e2cee",
+        "species": "Onbekend",
+        "status": 3,
+        "notes": "Doed?",
+        "name_la": "Onbekend",
+        "name_nl": "Onbekend",
+        "name_en": "Unknown"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493332.0444755067,
+          6783581.987957467
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5eccd0eba472a1e4e02e2cef",
+        "species": "F. japonica",
+        "status": 3,
+        "notes": null,
+        "name_la": "Fortunella japonica",
+        "name_nl": "Marumi kumquat",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493327.7271780191,
+          6783577.448919015
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5eccd117a472a1e4e02e2cf0",
+        "species": "Onbekend",
+        "status": 3,
+        "notes": "hartvormig blad",
+        "name_la": "Onbekend",
+        "name_nl": "Onbekend",
+        "name_en": "Unknown"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493323.2367039589,
+          6783580.838214917
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5eccd17fd512153aaa68aef2",
+        "species": "F. japonica",
+        "status": 3,
+        "notes": null,
+        "name_la": "Fortunella japonica",
+        "name_nl": "Marumi kumquat",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493324.44310994056,
+          6783575.784177694
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5eccd25ba472a1e4e02e2cf1",
+        "species": "L. barbarum",
+        "status": 3,
+        "notes": null,
+        "name_la": "Lycium barbarum",
+        "name_nl": "Gojibes",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493330.26994452404,
+          6783576.976962443
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5eccd271d512153aaa68aef3",
+        "species": "Onbekend",
+        "status": 3,
+        "notes": "hartvormig blad",
+        "name_la": "Onbekend",
+        "name_nl": "Onbekend",
+        "name_en": "Unknown"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493328.97149448935,
+          6783578.0722545525
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5eccd2fbd512153aaa68aef4",
+        "species": "R. odoratum",
+        "status": 3,
+        "notes": null,
+        "name_la": "Ribes odoratum",
+        "name_nl": "Buffelkrent",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493330.7359834589,
+          6783575.326241993
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5eccd3a9d512153aaa68aef5",
+        "species": "Onbekend",
+        "status": 3,
+        "notes": null,
+        "name_la": "Onbekend",
+        "name_nl": "Onbekend",
+        "name_en": "Unknown"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493330.98874074593,
+          6783570.923103772
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5eccd40aa472a1e4e02e2cf2",
+        "species": "H. rhamnoides",
+        "status": 3,
+        "notes": null,
+        "name_la": "Hippophae rhamnoides",
+        "name_nl": "Duindoorn",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493333.6851173032,
+          6783566.447379569
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5eccd498a472a1e4e02e2cf3",
+        "species": "C. tricuspidata",
+        "status": 3,
+        "notes": null,
+        "name_la": "Cudrania tricuspidata",
+        "name_nl": "Chinese moerbei",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493331.7359280264,
+          6783566.615588927
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5eccd49fa472a1e4e02e2cf4",
+        "species": "H. rhamnoides",
+        "status": 3,
+        "notes": null,
+        "name_la": "Hippophae rhamnoides",
+        "name_nl": "Duindoorn",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493329.2030137374,
+          6783563.5375035275
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5eccd4c2a472a1e4e02e2cf5",
+        "species": "Onbekend",
+        "status": 3,
+        "notes": "eleagnus soort, or diospyros?",
+        "name_la": "Onbekend",
+        "name_nl": "Onbekend",
+        "name_en": "Unknown"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493330.76524499344,
+          6783563.672989706
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5eccd5aba472a1e4e02e2cf6",
+        "species": "R. odoratum",
+        "status": 3,
+        "notes": null,
+        "name_la": "Ribes odoratum",
+        "name_nl": "Buffelkrent",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493323.00982735853,
+          6783573.29973022
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ecce118a472a1e4e02e2cf7",
+        "species": "E. x ebbingei",
+        "status": 3,
+        "notes": null,
+        "name_la": "Elaeagnus ebbingei",
+        "name_nl": "Zilverbes",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493318.6804016968,
+          6783556.900684217
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ecce16aa472a1e4e02e2cf8",
+        "species": "Onbekend",
+        "status": 3,
+        "notes": "hartvormig blad",
+        "name_la": "Onbekend",
+        "name_nl": "Onbekend",
+        "name_en": "Unknown"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493318.2890083799,
+          6783555.326512856
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ecce318d512153aaa68aef6",
+        "species": "T. cordata ",
+        "status": 3,
+        "notes": "hartvormig blad",
+        "name_la": "Tilia cordata ",
+        "name_nl": "Winterlinde (geknot)",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493318.46345393726,
+          6783573.939210285
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ecce4a5a472a1e4e02e2cf9",
+        "species": "C. cathayensis",
+        "status": 3,
+        "notes": null,
+        "name_la": "Chaenomeles cathayensis",
+        "name_nl": "Chinese kwee ",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493319.07815953484,
+          6783584.380103833
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ecce52ea472a1e4e02e2cfa",
+        "species": "C. cathayensis",
+        "status": 3,
+        "notes": null,
+        "name_la": "Chaenomeles cathayensis",
+        "name_nl": "Chinese kwee ",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493318.7929485196,
+          6783580.668896649
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ecce547a472a1e4e02e2cfb",
+        "species": "C. cathayensis",
+        "status": 3,
+        "notes": null,
+        "name_la": "Chaenomeles cathayensis",
+        "name_nl": "Chinese kwee ",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493318.8405074027,
+          6783577.373812037
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ecce920d512153aaa68aef7",
+        "species": "Onbekend",
+        "status": 3,
+        "notes": "walnoot juglans regia",
+        "name_la": "Onbekend",
+        "name_nl": "Onbekend",
+        "name_en": "Unknown"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493313.883138264,
+          6783565.633379744
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ecce94ca472a1e4e02e2cfc",
+        "species": "E. x ebbingei",
+        "status": 3,
+        "notes": null,
+        "name_la": "Elaeagnus ebbingei",
+        "name_nl": "Zilverbes",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493316.61697248236,
+          6783561.744717309
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ecce96aa472a1e4e02e2cfd",
+        "species": "Onbekend",
+        "status": 3,
+        "notes": "es",
+        "name_la": "Onbekend",
+        "name_nl": "Onbekend",
+        "name_en": "Unknown"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493317.9573473005,
+          6783558.870023456
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ecce997d512153aaa68aef8",
+        "species": "Onbekend",
+        "status": 3,
+        "notes": "es",
+        "name_la": "Onbekend",
+        "name_nl": "Onbekend",
+        "name_en": "Unknown"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493314.94192531396,
+          6783563.47807765
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ecce9d0a472a1e4e02e2cfe",
+        "species": "C. avellana",
+        "status": 3,
+        "notes": null,
+        "name_la": "Corylus avellana",
+        "name_nl": "Hazelaar",
+        "name_en": "Common hazel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493313.30435393454,
+          6783568.01787414
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5eccea0ea472a1e4e02e2cff",
+        "species": "Onbekend",
+        "status": 3,
+        "notes": "es",
+        "name_la": "Onbekend",
+        "name_nl": "Onbekend",
+        "name_en": "Unknown"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493305.7763198189,
+          6783574.775288206
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5eccea6da472a1e4e02e2d00",
+        "species": "Onbekend",
+        "status": 3,
+        "notes": "naaldboom, spar?",
+        "name_la": "Onbekend",
+        "name_nl": "Onbekend",
+        "name_en": "Unknown"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493307.25615155423,
+          6783580.031003387
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5eccea86a472a1e4e02e2d01",
+        "species": "Onbekend",
+        "status": 3,
+        "notes": "wilg",
+        "name_la": "Onbekend",
+        "name_nl": "Onbekend",
+        "name_en": "Unknown"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493307.4708642114,
+          6783582.134002954
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ecceab8d512153aaa68aef9",
+        "species": "H. rhamnoides",
+        "status": 3,
+        "notes": null,
+        "name_la": "Hippophae rhamnoides",
+        "name_nl": "Duindoorn",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493309.037275883,
+          6783583.531996482
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ecceadba472a1e4e02e2d02",
+        "species": "T. cordata ",
+        "status": 3,
+        "notes": null,
+        "name_la": "Tilia cordata ",
+        "name_nl": "Winterlinde (geknot)",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493308.38413532556,
+          6783583.916624929
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ecceae7d512153aaa68aefa",
+        "species": "T. cordata ",
+        "status": 3,
+        "notes": null,
+        "name_la": "Tilia cordata ",
+        "name_nl": "Winterlinde (geknot)",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493309.5789041195,
+          6783586.492743863
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ecceb04d512153aaa68aefb",
+        "species": "T. cordata ",
+        "status": 3,
+        "notes": null,
+        "name_la": "Tilia cordata ",
+        "name_nl": "Winterlinde (geknot)",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493310.62721534324,
+          6783588.343714041
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ecceb18a472a1e4e02e2d03",
+        "species": "E. x ebbingei",
+        "status": 3,
+        "notes": null,
+        "name_la": "Elaeagnus ebbingei",
+        "name_nl": "Zilverbes",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493312.42657357955,
+          6783588.122026474
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ecceb6fa472a1e4e02e2d04",
+        "species": "Sorbus Burka",
+        "status": 3,
+        "notes": null,
+        "name_la": "Sorbus 'Burka",
+        "name_nl": null,
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493313.7428956663,
+          6783593.110964077
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ecceba4a472a1e4e02e2d05",
+        "species": "T. cordata ",
+        "status": 3,
+        "notes": null,
+        "name_la": "Tilia cordata ",
+        "name_nl": "Winterlinde (geknot)",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493311.4678170477,
+          6783589.9880598765
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5eccebafd512153aaa68aefc",
+        "species": "T. cordata ",
+        "status": 3,
+        "notes": null,
+        "name_la": "Tilia cordata ",
+        "name_nl": "Winterlinde (geknot)",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493311.8453768879,
+          6783592.457731538
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5eccebe3d512153aaa68aefd",
+        "species": "C. arnoldiana",
+        "status": 3,
+        "notes": "6x, kaart uitbreiden. soort onbekend",
+        "name_la": "Crataegus arnoldiana",
+        "name_nl": "Meidoorn",
+        "name_en": "Hawthorn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493315.76759883366,
+          6783595.061844505
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5eccec8ad512153aaa68aefe",
+        "species": "Onbekend",
+        "status": 3,
+        "notes": null,
+        "name_la": "Onbekend",
+        "name_nl": "Onbekend",
+        "name_en": "Unknown"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493316.4017880463,
+          6783584.361295209
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5eccedd8a472a1e4e02e2d06",
+        "species": "Onbekend",
+        "status": 3,
+        "notes": "walnoot juglans regia",
+        "name_la": "Onbekend",
+        "name_nl": "Onbekend",
+        "name_en": "Unknown"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493329.95339521795,
+          6783544.418357642
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5eccee0ea472a1e4e02e2d07",
+        "species": "R. rubrum",
+        "status": 3,
+        "notes": null,
+        "name_la": "Ribes rubrum",
+        "name_nl": "Rode bes",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493331.8193631273,
+          6783544.174588351
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5eccee2bd512153aaa68aeff",
+        "species": "R. rubrum",
+        "status": 3,
+        "notes": null,
+        "name_la": "Ribes rubrum",
+        "name_nl": "Rode bes",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493328.25889806467,
+          6783541.031979181
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5eccee3ad512153aaa68af00",
+        "species": "R. rubrum",
+        "status": 3,
+        "notes": null,
+        "name_la": "Ribes rubrum",
+        "name_nl": "Rode bes",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493329.89764050645,
+          6783546.209131034
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5eccee45d512153aaa68af01",
+        "species": "R. rubrum",
+        "status": 3,
+        "notes": null,
+        "name_la": "Ribes rubrum",
+        "name_nl": "Rode bes",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493327.9567359544,
+          6783545.125152432
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5eccee54a472a1e4e02e2d08",
+        "species": "R. rubrum",
+        "status": 3,
+        "notes": null,
+        "name_la": "Ribes rubrum",
+        "name_nl": "Rode bes",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493329.26438935346,
+          6783547.823195818
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5eccee60d512153aaa68af02",
+        "species": "R. rubrum",
+        "status": 3,
+        "notes": null,
+        "name_la": "Ribes rubrum",
+        "name_nl": "Rode bes",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493327.0691751016,
+          6783546.7629230935
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ecceec2a472a1e4e02e2d09",
+        "species": "Onbekend",
+        "status": 3,
+        "notes": "kers? wild",
+        "name_la": "Onbekend",
+        "name_nl": "Onbekend",
+        "name_en": "Unknown"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493331.0442738722,
+          6783540.289321182
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5eccf01dd512153aaa68af03",
+        "species": "Onbekend",
+        "status": 3,
+        "notes": "walnoot juglans regia",
+        "name_la": "Onbekend",
+        "name_nl": "Onbekend",
+        "name_en": "Unknown"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493345.3884993734,
+          6783526.805192867
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5eccf0d9a472a1e4e02e2d0a",
+        "species": "C. azarolus",
+        "status": 3,
+        "notes": "soort onbekend",
+        "name_la": "Crataegus azarolus",
+        "name_nl": "Meidoorn",
+        "name_en": "Hawthorn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493345.43406309123,
+          6783519.719816317
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5eccf18da472a1e4e02e2d0b",
+        "species": "P. koraiensis",
+        "status": 3,
+        "notes": null,
+        "name_la": "Pinus koraiensis",
+        "name_nl": "Pijnboompit",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493343.83284383075,
+          6783518.1104201125
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5eccf1aaa472a1e4e02e2d0c",
+        "species": "E. x ebbingei",
+        "status": 3,
+        "notes": null,
+        "name_la": "Elaeagnus ebbingei",
+        "name_nl": "Zilverbes",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493350.3433564741,
+          6783525.044615813
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5eccf1c8a472a1e4e02e2d0d",
+        "species": "Amelanchier",
+        "status": 3,
+        "notes": null,
+        "name_la": "Amelanchier ",
+        "name_nl": "Krentenboompje",
+        "name_en": "Serviceberry"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493355.12747232645,
+          6783526.831752716
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5eccf1eba472a1e4e02e2d0e",
+        "species": "H. rhamnoides",
+        "status": 3,
+        "notes": null,
+        "name_la": "Hippophae rhamnoides",
+        "name_nl": "Duindoorn",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493357.9949867825,
+          6783526.424546029
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5eccf228a472a1e4e02e2d0f",
+        "species": "A. araucana",
+        "status": 3,
+        "notes": null,
+        "name_la": "Araucaria araucana",
+        "name_nl": "Slangenden",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493360.16495752597,
+          6783528.852887032
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5eccf5e6a472a1e4e02e2d10",
+        "species": "G. triacanthos",
+        "status": 3,
+        "notes": null,
+        "name_la": "Gleditsia triacanthos",
+        "name_nl": "Valse christusdoorn",
+        "name_en": "Honey locust"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493348.6722969575,
+          6783536.237486384
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ed74eb1a472a1e4e02e2d11",
+        "species": "H. rhamnoides",
+        "status": 3,
+        "notes": null,
+        "name_la": "Hippophae rhamnoides",
+        "name_nl": "Duindoorn",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493358.94528768177,
+          6783536.053612356
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ed74ecba472a1e4e02e2d12",
+        "species": "G. triacanthos",
+        "status": 3,
+        "notes": null,
+        "name_la": "Gleditsia triacanthos",
+        "name_nl": "Valse christusdoorn",
+        "name_en": "Honey locust"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493362.58023286297,
+          6783536.338747046
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ed74f64a472a1e4e02e2d13",
+        "species": "G. triacanthos",
+        "status": 3,
+        "notes": null,
+        "name_la": "Gleditsia triacanthos",
+        "name_nl": "Valse christusdoorn",
+        "name_en": "Honey locust"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493363.00820255163,
+          6783526.516938061
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ed750c4d512153aaa68af04",
+        "species": "H. rhamnoides",
+        "status": 3,
+        "notes": null,
+        "name_la": "Hippophae rhamnoides",
+        "name_nl": "Duindoorn",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493331.97153205064,
+          6783549.947231557
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ed75100a472a1e4e02e2d14",
+        "species": "Onbekend",
+        "status": 3,
+        "notes": "groene steel. momenteel geen blad",
+        "name_la": "Onbekend",
+        "name_nl": "Onbekend",
+        "name_en": "Unknown"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493336.6522320479,
+          6783547.398215182
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ed751c5a472a1e4e02e2d15",
+        "species": "Aronia spp.",
+        "status": 3,
+        "notes": "8.10 van boven naar beneden naast de VS appelbessen",
+        "name_la": "Aronia spp.",
+        "name_nl": "zwarte appelbes",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493386.2062805674,
+          6783554.929647295
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ed7521ea472a1e4e02e2d16",
+        "species": "Z. simulans",
+        "status": 3,
+        "notes": null,
+        "name_la": "Zanthoxylum simulans",
+        "name_nl": "Szechuan peper boompje",
+        "name_en": "Sichuan pepper"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493388.32735020824,
+          6783560.961955541
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ed75248a472a1e4e02e2d17",
+        "species": "Z. simulans",
+        "status": 3,
+        "notes": null,
+        "name_la": "Zanthoxylum simulans",
+        "name_nl": "Szechuan peper boompje",
+        "name_en": "Sichuan pepper"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493385.8611057654,
+          6783563.886650995
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ed752ffd512153aaa68af05",
+        "species": "P. avium hfs",
+        "status": 3,
+        "notes": null,
+        "name_la": "Prunus avium, halfstam",
+        "name_nl": "Zoete kers",
+        "name_en": "Wild cherry"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493383.47188469564,
+          6783561.4390444895
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ed75312a472a1e4e02e2d18",
+        "species": "P. avium hfs",
+        "status": 3,
+        "notes": null,
+        "name_la": "Prunus avium, halfstam",
+        "name_nl": "Zoete kers",
+        "name_en": "Wild cherry"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493391.7068641896,
+          6783564.886815213
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ed75338a472a1e4e02e2d19",
+        "species": "Z. simulans",
+        "status": 3,
+        "notes": null,
+        "name_la": "Zanthoxylum simulans",
+        "name_nl": "Szechuan peper boompje",
+        "name_en": "Sichuan pepper"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493383.7009932675,
+          6783566.441675187
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ed7535cd512153aaa68af06",
+        "species": "Onbekend",
+        "status": 3,
+        "notes": "halfdood. lijkt op valse christusd",
+        "name_la": "Onbekend",
+        "name_nl": "Onbekend",
+        "name_en": "Unknown"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493381.63762657164,
+          6783562.662811722
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ed75398d512153aaa68af07",
+        "species": "E. multiflora",
+        "status": 3,
+        "notes": null,
+        "name_la": "Elaeagnus multiflora",
+        "name_nl": "Goumi",
+        "name_en": "Cherry elaeagnus"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493378.67522951274,
+          6783559.173412512
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ed753b1d512153aaa68af08",
+        "species": "Onbekend",
+        "status": 3,
+        "notes": "eleagnus?",
+        "name_la": "Onbekend",
+        "name_nl": "Onbekend",
+        "name_en": "Unknown"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493381.93689430563,
+          6783556.697970543
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ed753edd512153aaa68af09",
+        "species": "P. koraiensis",
+        "status": 3,
+        "notes": null,
+        "name_la": "Pinus koraiensis",
+        "name_nl": "Pijnboompit",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493385.16237843584,
+          6783554.701211367
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ed75460a472a1e4e02e2d1a",
+        "species": "H. rhamnoides",
+        "status": 3,
+        "notes": null,
+        "name_la": "Hippophae rhamnoides",
+        "name_nl": "Duindoorn",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493375.8296544915,
+          6783551.522364056
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ed754a4d512153aaa68af0a",
+        "species": "E. multiflora",
+        "status": 3,
+        "notes": "eleagnus?",
+        "name_la": "Elaeagnus multiflora",
+        "name_nl": "Goumi",
+        "name_en": "Cherry elaeagnus"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493372.7926049106,
+          6783554.053695826
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ed75515d512153aaa68af0b",
+        "species": "Onbekend",
+        "status": 3,
+        "notes": "erg droog. ",
+        "name_la": "Onbekend",
+        "name_nl": "Onbekend",
+        "name_en": "Unknown"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493372.8912827995,
+          6783545.91688033
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ed75580d512153aaa68af0c",
+        "species": "Onbekend",
+        "status": 3,
+        "notes": "hartvormig blad. linde?",
+        "name_la": "Onbekend",
+        "name_nl": "Onbekend",
+        "name_en": "Unknown"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493367.72393359244,
+          6783547.930867827
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ed755c8a472a1e4e02e2d1b",
+        "species": "Onbekend",
+        "status": 3,
+        "notes": "klein boompje/heester. gaaf blad. bijna dood",
+        "name_la": "Onbekend",
+        "name_nl": "Onbekend",
+        "name_en": "Unknown"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493369.0050181473,
+          6783551.211155729
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ed7566ed512153aaa68af0d",
+        "species": "G. triacanthos",
+        "status": 3,
+        "notes": null,
+        "name_la": "Gleditsia triacanthos",
+        "name_nl": "Valse christusdoorn",
+        "name_en": "Honey locust"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493366.7618561164,
+          6783545.2891263245
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ed756c6a472a1e4e02e2d1c",
+        "species": "G. triacanthos",
+        "status": 3,
+        "notes": null,
+        "name_la": "Gleditsia triacanthos",
+        "name_nl": "Valse christusdoorn",
+        "name_en": "Honey locust"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493365.06575102534,
+          6783545.641210338
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ed756ded512153aaa68af0e",
+        "species": "Onbekend",
+        "status": 3,
+        "notes": "eleagnus?",
+        "name_la": "Onbekend",
+        "name_nl": "Onbekend",
+        "name_en": "Unknown"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493360.7801030767,
+          6783544.652263694
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ed757a6d512153aaa68af0f",
+        "species": "Onbekend",
+        "status": 3,
+        "notes": "gaaf blad. erg droog",
+        "name_la": "Onbekend",
+        "name_nl": "Onbekend",
+        "name_en": "Unknown"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493358.90503546473,
+          6783545.700374214
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ed757f2d512153aaa68af10",
+        "species": "G. triacanthos",
+        "status": 3,
+        "notes": null,
+        "name_la": "Gleditsia triacanthos",
+        "name_nl": "Valse christusdoorn",
+        "name_en": "Honey locust"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493354.7165806187,
+          6783549.373558308
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ed75823d512153aaa68af11",
+        "species": "G. triacanthos",
+        "status": 3,
+        "notes": null,
+        "name_la": "Gleditsia triacanthos",
+        "name_nl": "Valse christusdoorn",
+        "name_en": "Honey locust"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493357.7556378503,
+          6783543.35876571
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ed75844d512153aaa68af12",
+        "species": "Onbekend",
+        "status": 3,
+        "notes": "hartvormig blad",
+        "name_la": "Onbekend",
+        "name_nl": "Onbekend",
+        "name_en": "Unknown"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493354.76611102937,
+          6783545.240275443
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ed758a4a472a1e4e02e2d1d",
+        "species": "Onbekend",
+        "status": 3,
+        "notes": "getand hartvormig blad. crataegus?",
+        "name_la": "Onbekend",
+        "name_nl": "Onbekend",
+        "name_en": "Unknown"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493353.2178160765,
+          6783542.578090957
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ed75977a472a1e4e02e2d1e",
+        "species": "Onbekend",
+        "status": 3,
+        "notes": "eleagnus? droog",
+        "name_la": "Onbekend",
+        "name_nl": "Onbekend",
+        "name_en": "Unknown"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493349.8615061566,
+          6783544.681312419
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ed7599dd512153aaa68af13",
+        "species": "E. angustifolia",
+        "status": 3,
+        "notes": "eleagnus?",
+        "name_la": "Elaeagnus angustifolia",
+        "name_nl": "Oleaster",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493351.3083328154,
+          6783550.454808187
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ed759e3d512153aaa68af14",
+        "species": "Onbekend",
+        "status": 3,
+        "notes": "hartvormig blad",
+        "name_la": "Onbekend",
+        "name_nl": "Onbekend",
+        "name_en": "Unknown"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493343.08104088693,
+          6783550.823230665
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ed75a5ed512153aaa68af15",
+        "species": "Onbekend",
+        "status": 3,
+        "notes": "hartvormig blad",
+        "name_la": "Onbekend",
+        "name_nl": "Onbekend",
+        "name_en": "Unknown"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493342.0075298012,
+          6783554.61903983
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ed75a7ba472a1e4e02e2d1f",
+        "species": "Onbekend",
+        "status": 3,
+        "notes": "droog. heester/boompje gaaf blad",
+        "name_la": "Onbekend",
+        "name_nl": "Onbekend",
+        "name_en": "Unknown"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493340.0255831166,
+          6783552.446538174
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ed75ac7a472a1e4e02e2d20",
+        "species": "P. koraiensis",
+        "status": 3,
+        "notes": null,
+        "name_la": "Pinus koraiensis",
+        "name_nl": "Pijnboompit",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493337.3624836844,
+          6783550.261676564
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ed75af7d512153aaa68af16",
+        "species": "G. triacanthos",
+        "status": 3,
+        "notes": null,
+        "name_la": "Gleditsia triacanthos",
+        "name_nl": "Valse christusdoorn",
+        "name_en": "Honey locust"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493335.23406413855,
+          6783554.179734455
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ed76455d512153aaa68af17",
+        "species": "Amelanchier",
+        "status": 3,
+        "notes": "soort nog te bepalen",
+        "name_la": "Amelanchier ",
+        "name_nl": "Krentenboompje",
+        "name_en": "Serviceberry"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493369.13912037824,
+          6783571.581339354
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ed76487a472a1e4e02e2d21",
+        "species": "G. triacanthos",
+        "status": 3,
+        "notes": null,
+        "name_la": "Gleditsia triacanthos",
+        "name_nl": "Valse christusdoorn",
+        "name_en": "Honey locust"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493370.80371607456,
+          6783570.354765569
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ed764bed512153aaa68af18",
+        "species": "Onbekend",
+        "status": 3,
+        "notes": "hartvormig blad",
+        "name_la": "Onbekend",
+        "name_nl": "Onbekend",
+        "name_en": "Unknown"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493367.4318783696,
+          6783570.382900012
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ed764d3a472a1e4e02e2d22",
+        "species": "Onbekend",
+        "status": 3,
+        "notes": "gaaf blad heester/boompje. erg droog",
+        "name_la": "Onbekend",
+        "name_nl": "Onbekend",
+        "name_en": "Unknown"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493369.3103727495,
+          6783567.6206389405
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ed76565a472a1e4e02e2d24",
+        "species": "G. triacanthos",
+        "status": 3,
+        "notes": null,
+        "name_la": "Gleditsia triacanthos",
+        "name_nl": "Valse christusdoorn",
+        "name_en": "Honey locust"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493365.8882609051,
+          6783564.49500941
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ed76670d512153aaa68af19",
+        "species": "Amelanchier",
+        "status": 3,
+        "notes": "paars blad (droogte?) soort ntb",
+        "name_la": "Amelanchier ",
+        "name_nl": "Krentenboompje",
+        "name_en": "Serviceberry"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493362.7366896065,
+          6783564.5131757455
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ed7669da472a1e4e02e2d25",
+        "species": "Onbekend",
+        "status": 3,
+        "notes": "hartvormig blad",
+        "name_la": "Onbekend",
+        "name_nl": "Onbekend",
+        "name_en": "Unknown"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493361.91391229397,
+          6783562.949422174
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ed766f6a472a1e4e02e2d26",
+        "species": "G. triacanthos",
+        "status": 3,
+        "notes": null,
+        "name_la": "Gleditsia triacanthos",
+        "name_nl": "Valse christusdoorn",
+        "name_en": "Honey locust"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493358.7035602537,
+          6783562.005361546
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ed7670ad512153aaa68af1a",
+        "species": "Amelanchier",
+        "status": 3,
+        "notes": "soort ntb",
+        "name_la": "Amelanchier ",
+        "name_nl": "Krentenboompje",
+        "name_en": "Serviceberry"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493357.67463602446,
+          6783564.121416493
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ed76750d512153aaa68af1b",
+        "species": "Onbekend",
+        "status": 3,
+        "notes": "ntb, gaaf blad (zie foto)",
+        "name_la": "Onbekend",
+        "name_nl": "Onbekend",
+        "name_en": "Unknown"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493356.6934724396,
+          6783563.093236466
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ed767aea472a1e4e02e2d27",
+        "species": "Onbekend",
+        "status": 3,
+        "notes": "getande bladrand",
+        "name_la": "Onbekend",
+        "name_nl": "Onbekend",
+        "name_en": "Unknown"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493353.4574227559,
+          6783565.2078819275
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ed767f2d512153aaa68af1c",
+        "species": "G. triacanthos",
+        "status": 3,
+        "notes": null,
+        "name_la": "Gleditsia triacanthos",
+        "name_nl": "Valse christusdoorn",
+        "name_en": "Honey locust"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493349.41440967895,
+          6783565.806230571
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ed76802d512153aaa68af1d",
+        "species": "Aronia spp.",
+        "status": 3,
+        "notes": null,
+        "name_la": "Aronia spp.",
+        "name_nl": "zwarte appelbes",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493349.4923126868,
+          6783567.468093686
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ed76875d512153aaa68af1e",
+        "species": "Amelanchier",
+        "status": 3,
+        "notes": "soort ntb. droog",
+        "name_la": "Amelanchier ",
+        "name_nl": "Krentenboompje",
+        "name_en": "Serviceberry"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493345.6120109684,
+          6783564.095815068
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ed768b5d512153aaa68af1f",
+        "species": "C. speciosa",
+        "status": 3,
+        "notes": null,
+        "name_la": "Chaenomeles speciosa",
+        "name_nl": "Sierkwee",
+        "name_en": "Quince"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493343.5226033175,
+          6783558.2607300235
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ed76928a472a1e4e02e2d28",
+        "species": "C. speciosa",
+        "status": 3,
+        "notes": null,
+        "name_la": "Chaenomeles speciosa",
+        "name_nl": "Sierkwee",
+        "name_en": "Quince"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493344.9863171267,
+          6783557.075655339
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ed76932d512153aaa68af20",
+        "species": "C. speciosa",
+        "status": 3,
+        "notes": null,
+        "name_la": "Chaenomeles speciosa",
+        "name_nl": "Sierkwee",
+        "name_en": "Quince"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493347.2344431588,
+          6783555.672750304
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ed76983a472a1e4e02e2d29",
+        "species": "E. x ebbingei",
+        "status": 3,
+        "notes": "eleagnus ebbingei",
+        "name_la": "Elaeagnus ebbingei",
+        "name_nl": "Zilverbes",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493346.41348978656,
+          6783558.321611515
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ed769bfa472a1e4e02e2d2a",
+        "species": "Onbekend",
+        "status": 3,
+        "notes": "ntb gave bladrand heester erg droog",
+        "name_la": "Onbekend",
+        "name_nl": "Onbekend",
+        "name_en": "Unknown"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493348.9393090623,
+          6783558.159866077
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ed76a07d512153aaa68af21",
+        "species": "Onbekend",
+        "status": 3,
+        "notes": "ntb gave bladrand heester",
+        "name_la": "Onbekend",
+        "name_nl": "Onbekend",
+        "name_en": "Unknown"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493350.8284590679,
+          6783556.583308487
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ed76b76d512153aaa68af22",
+        "species": "C. speciosa",
+        "status": 3,
+        "notes": "getande/gekartelde bladrand",
+        "name_la": "Chaenomeles speciosa",
+        "name_nl": "Sierkwee",
+        "name_en": "Quince"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493352.17090515315,
+          6783553.689118684
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ed76b9ed512153aaa68af23",
+        "species": "C. speciosa",
+        "status": 3,
+        "notes": null,
+        "name_la": "Chaenomeles speciosa",
+        "name_nl": "Sierkwee",
+        "name_en": "Quince"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493354.44520856603,
+          6783553.427327433
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ed76bbfa472a1e4e02e2d2b",
+        "species": "C. speciosa",
+        "status": 3,
+        "notes": null,
+        "name_la": "Chaenomeles speciosa",
+        "name_nl": "Sierkwee",
+        "name_en": "Quince"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493362.9655090153,
+          6783553.512043057
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ed76c6bd512153aaa68af24",
+        "species": "C. speciosa",
+        "status": 3,
+        "notes": null,
+        "name_la": "Chaenomeles speciosa",
+        "name_nl": "Sierkwee",
+        "name_en": "Quince"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493366.0692614719,
+          6783554.496190957
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ed76c92d512153aaa68af25",
+        "species": "E. x ebbingei",
+        "status": 3,
+        "notes": null,
+        "name_la": "Elaeagnus ebbingei",
+        "name_nl": "Zilverbes",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493365.95530409325,
+          6783556.083864446
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ed76ccda472a1e4e02e2d2c",
+        "species": "Onbekend",
+        "status": 3,
+        "notes": "hartvormig blad",
+        "name_la": "Onbekend",
+        "name_nl": "Onbekend",
+        "name_en": "Unknown"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493367.2212013517,
+          6783557.500226686
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ed76cfda472a1e4e02e2d2d",
+        "species": "C. speciosa",
+        "status": 3,
+        "notes": null,
+        "name_la": "Chaenomeles speciosa",
+        "name_nl": "Sierkwee",
+        "name_en": "Quince"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493368.53251659655,
+          6783555.360557772
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ed76d20d512153aaa68af26",
+        "species": "C. speciosa",
+        "status": 3,
+        "notes": null,
+        "name_la": "Chaenomeles speciosa",
+        "name_nl": "Sierkwee",
+        "name_en": "Quince"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493372.11100596585,
+          6783557.690411761
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ed76d2fd512153aaa68af27",
+        "species": "C. speciosa",
+        "status": 3,
+        "notes": "erg klein",
+        "name_la": "Chaenomeles speciosa",
+        "name_nl": "Sierkwee",
+        "name_en": "Quince"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493373.13915492734,
+          6783558.306233213
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ed76d3bd512153aaa68af28",
+        "species": "C. speciosa",
+        "status": 3,
+        "notes": "erg klein",
+        "name_la": "Chaenomeles speciosa",
+        "name_nl": "Sierkwee",
+        "name_en": "Quince"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493374.8372893359,
+          6783559.908645391
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ed76d74a472a1e4e02e2d2e",
+        "species": "C. speciosa",
+        "status": 3,
+        "notes": null,
+        "name_la": "Chaenomeles speciosa",
+        "name_nl": "Sierkwee",
+        "name_en": "Quince"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493376.142580885,
+          6783561.824724772
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ed76dafa472a1e4e02e2d2f",
+        "species": "R. phoenicolasius",
+        "status": 3,
+        "notes": null,
+        "name_la": "Rubus phoenicolasius",
+        "name_nl": "Japanse wijnbes",
+        "name_en": "Japanese wineberry"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493379.8777024388,
+          6783569.029851002
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ed76dbfa472a1e4e02e2d30",
+        "species": "R. phoenicolasius",
+        "status": 3,
+        "notes": null,
+        "name_la": "Rubus phoenicolasius",
+        "name_nl": "Japanse wijnbes",
+        "name_en": "Japanese wineberry"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493376.53507342894,
+          6783570.602424714
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ed76defd512153aaa68af29",
+        "species": "Z. simulans",
+        "status": 3,
+        "notes": null,
+        "name_la": "Zanthoxylum simulans",
+        "name_nl": "Szechuan peper boompje",
+        "name_en": "Sichuan pepper"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493378.0915932696,
+          6783568.467056139
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ed76e05a472a1e4e02e2d31",
+        "species": "Z. simulans",
+        "status": 3,
+        "notes": null,
+        "name_la": "Zanthoxylum simulans",
+        "name_nl": "Szechuan peper boompje",
+        "name_en": "Sichuan pepper"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493375.37672187254,
+          6783570.285288091
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ed76e31a472a1e4e02e2d32",
+        "species": "Z. simulans",
+        "status": 3,
+        "notes": null,
+        "name_la": "Zanthoxylum simulans",
+        "name_nl": "Szechuan peper boompje",
+        "name_en": "Sichuan pepper"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493377.0547125487,
+          6783564.35366779
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ed76e5ca472a1e4e02e2d33",
+        "species": "G. triacanthos",
+        "status": 3,
+        "notes": null,
+        "name_la": "Gleditsia triacanthos",
+        "name_nl": "Valse christusdoorn",
+        "name_en": "Honey locust"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493375.08618068584,
+          6783564.547343231
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ed76e7bd512153aaa68af2a",
+        "species": "Amelanchier",
+        "status": 3,
+        "notes": null,
+        "name_la": "Amelanchier ",
+        "name_nl": "Krentenboompje",
+        "name_en": "Serviceberry"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493372.7268228749,
+          6783566.4677161025
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ed76ecda472a1e4e02e2d34",
+        "species": "Onbekend",
+        "status": 3,
+        "notes": "gave bladrand erg droog",
+        "name_la": "Onbekend",
+        "name_nl": "Onbekend",
+        "name_en": "Unknown"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493370.9380949966,
+          6783564.03607749
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ed76ef9a472a1e4e02e2d35",
+        "species": "E. x ebbingei",
+        "status": 3,
+        "notes": "x viveleg",
+        "name_la": "Elaeagnus ebbingei",
+        "name_nl": "Zilverbes",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493373.77090911916,
+          6783561.90431417
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ed76f62d512153aaa68af2b",
+        "species": "Onbekend",
+        "status": 3,
+        "notes": "gave bladrand erg droog",
+        "name_la": "Onbekend",
+        "name_nl": "Onbekend",
+        "name_en": "Unknown"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493365.3397472111,
+          6783560.015630004
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ed76fb3a472a1e4e02e2d36",
+        "species": "B. pendula",
+        "status": 3,
+        "notes": null,
+        "name_la": "Betula pendula",
+        "name_nl": "Ruwe berk",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493363.8303347327,
+          6783559.2832634635
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ed76fcbd512153aaa68af2c",
+        "species": "G. triacanthos",
+        "status": 3,
+        "notes": null,
+        "name_la": "Gleditsia triacanthos",
+        "name_nl": "Valse christusdoorn",
+        "name_en": "Honey locust"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493364.45024442667,
+          6783556.649806604
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ed76fe9a472a1e4e02e2d37",
+        "species": "Amelanchier",
+        "status": 3,
+        "notes": null,
+        "name_la": "Amelanchier ",
+        "name_nl": "Krentenboompje",
+        "name_en": "Serviceberry"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493361.6774453665,
+          6783558.772459046
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ede9334d512153aaa68af2e",
+        "species": "Aronia spp.",
+        "status": 3,
+        "notes": null,
+        "name_la": "Aronia spp.",
+        "name_nl": "zwarte appelbes",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493385.18422134314,
+          6783553.348056615
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ede934aa472a1e4e02e2d38",
+        "species": "Aronia spp.",
+        "status": 3,
+        "notes": null,
+        "name_la": "Aronia spp.",
+        "name_nl": "zwarte appelbes",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493359.3347712481,
+          6783540.918662686
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ede934fa472a1e4e02e2d39",
+        "species": "Aronia spp.",
+        "status": 3,
+        "notes": null,
+        "name_la": "Aronia spp.",
+        "name_nl": "zwarte appelbes",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493361.9587177041,
+          6783540.892546975
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ede9355a472a1e4e02e2d3a",
+        "species": "Aronia spp.",
+        "status": 3,
+        "notes": null,
+        "name_la": "Aronia spp.",
+        "name_nl": "zwarte appelbes",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493364.45038509544,
+          6783541.29247486
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ede935ad512153aaa68af2f",
+        "species": "Aronia spp.",
+        "status": 3,
+        "notes": null,
+        "name_la": "Aronia spp.",
+        "name_nl": "zwarte appelbes",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493366.16045744484,
+          6783541.652147227
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ede935ed512153aaa68af30",
+        "species": "Aronia spp.",
+        "status": 3,
+        "notes": null,
+        "name_la": "Aronia spp.",
+        "name_nl": "zwarte appelbes",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493368.27504199505,
+          6783542.012849826
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ede9363d512153aaa68af31",
+        "species": "Aronia spp.",
+        "status": 3,
+        "notes": null,
+        "name_la": "Aronia spp.",
+        "name_nl": "zwarte appelbes",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493370.32297189755,
+          6783542.788830317
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ede9369a472a1e4e02e2d3b",
+        "species": "Aronia spp.",
+        "status": 3,
+        "notes": null,
+        "name_la": "Aronia spp.",
+        "name_nl": "zwarte appelbes",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493372.0545756427,
+          6783543.2797515225
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ede936da472a1e4e02e2d3c",
+        "species": "Aronia spp.",
+        "status": 3,
+        "notes": null,
+        "name_la": "Aronia spp.",
+        "name_nl": "zwarte appelbes",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493373.91639799176,
+          6783544.153653529
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ede9371a472a1e4e02e2d3d",
+        "species": "Aronia spp.",
+        "status": 3,
+        "notes": null,
+        "name_la": "Aronia spp.",
+        "name_nl": "zwarte appelbes",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493375.60877644893,
+          6783545.021657571
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ede9375a472a1e4e02e2d3e",
+        "species": "Aronia spp.",
+        "status": 3,
+        "notes": null,
+        "name_la": "Aronia spp.",
+        "name_nl": "zwarte appelbes",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493376.858447648,
+          6783545.861202024
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ede937ba472a1e4e02e2d3f",
+        "species": "Aronia spp.",
+        "status": 3,
+        "notes": null,
+        "name_la": "Aronia spp.",
+        "name_nl": "zwarte appelbes",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493379.71231126104,
+          6783547.852779586
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ede937ea472a1e4e02e2d40",
+        "species": "Aronia spp.",
+        "status": 3,
+        "notes": null,
+        "name_la": "Aronia spp.",
+        "name_nl": "zwarte appelbes",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493381.17935687676,
+          6783549.195787979
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ede9382a472a1e4e02e2d41",
+        "species": "Aronia spp.",
+        "status": 3,
+        "notes": null,
+        "name_la": "Aronia spp.",
+        "name_nl": "zwarte appelbes",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493382.5210516222,
+          6783550.390883875
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5ede9388a472a1e4e02e2d42",
+        "species": "Aronia spp.",
+        "status": 3,
+        "notes": null,
+        "name_la": "Aronia spp.",
+        "name_nl": "zwarte appelbes",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493384.124213806,
+          6783551.947429182
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5edf3cb4a472a1e4e02e2d43",
+        "species": "H. rhamnoides",
+        "status": 3,
+        "notes": null,
+        "name_la": "Hippophae rhamnoides",
+        "name_nl": "Duindoorn",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493391.01340500376,
+          6783600.0742743
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5edf3d83a472a1e4e02e2d44",
+        "species": "Onbekend",
+        "status": 3,
+        "notes": "hartvormig blad",
+        "name_la": "Onbekend",
+        "name_nl": "Onbekend",
+        "name_en": "Unknown"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493398.77490744495,
+          6783602.6883511385
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5edf3de9d512153aaa68af33",
+        "species": "Onbekend",
+        "status": 3,
+        "notes": "gaaf blad droog",
+        "name_la": "Onbekend",
+        "name_nl": "Onbekend",
+        "name_en": "Unknown"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493392.42053252575,
+          6783597.296565065
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5edf3ecba472a1e4e02e2d45",
+        "species": "Onbekend",
+        "status": 3,
+        "notes": "eleagnus",
+        "name_la": "Onbekend",
+        "name_nl": "Onbekend",
+        "name_en": "Unknown"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493394.9509191636,
+          6783591.8199088015
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5edf3ee6a472a1e4e02e2d46",
+        "species": "Onbekend",
+        "status": 3,
+        "notes": "hartvormig blad",
+        "name_la": "Onbekend",
+        "name_nl": "Onbekend",
+        "name_en": "Unknown"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493397.02031314897,
+          6783587.983572099
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5edf4009a472a1e4e02e2d47",
+        "species": "Onbekend",
+        "status": 3,
+        "notes": "Eleagnus",
+        "name_la": "Onbekend",
+        "name_nl": "Onbekend",
+        "name_en": "Unknown"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493397.59526260674,
+          6783584.584144112
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5edf401da472a1e4e02e2d48",
+        "species": "G. triacanthos",
+        "status": 3,
+        "notes": null,
+        "name_la": "Gleditsia triacanthos",
+        "name_nl": "Valse christusdoorn",
+        "name_en": "Honey locust"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493401.63729348895,
+          6783586.039936873
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5edf408fa472a1e4e02e2d49",
+        "species": "C. mas",
+        "status": 3,
+        "notes": null,
+        "name_la": "Cornus mas",
+        "name_nl": "Gele kornoelje",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493399.84910081944,
+          6783583.1651196955
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5edf40f1d512153aaa68af34",
+        "species": "Onbekend",
+        "status": 3,
+        "notes": "gaaf blad droog",
+        "name_la": "Onbekend",
+        "name_nl": "Onbekend",
+        "name_en": "Unknown"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493401.2546147202,
+          6783578.47030319
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5edf411bd512153aaa68af35",
+        "species": "H. rhamnoides",
+        "status": 3,
+        "notes": null,
+        "name_la": "Hippophae rhamnoides",
+        "name_nl": "Duindoorn",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493406.29392927623,
+          6783580.065643807
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5edf4187d512153aaa68af36",
+        "species": "G. triacanthos",
+        "status": 3,
+        "notes": null,
+        "name_la": "Gleditsia triacanthos",
+        "name_nl": "Valse christusdoorn",
+        "name_en": "Honey locust"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493409.3286228481,
+          6783575.114976332
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5edf41b0d512153aaa68af37",
+        "species": "M. alba",
+        "status": 3,
+        "notes": "Lavendel",
+        "name_la": "Morus alba",
+        "name_nl": "Witte moerbei",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493409.27037506155,
+          6783572.461740462
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5edf41b2d512153aaa68af38",
+        "species": "H. rhamnoides",
+        "status": 3,
+        "notes": null,
+        "name_la": "Hippophae rhamnoides",
+        "name_nl": "Duindoorn",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493406.4076364717,
+          6783572.456663972
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5edf41d4a472a1e4e02e2d4a",
+        "species": "C. mas",
+        "status": 3,
+        "notes": null,
+        "name_la": "Cornus mas",
+        "name_nl": "Gele kornoelje",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493406.25042561506,
+          6783575.970135486
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5edf4216d512153aaa68af39",
+        "species": "H. rhamnoides",
+        "status": 3,
+        "notes": null,
+        "name_la": "Hippophae rhamnoides",
+        "name_nl": "Duindoorn",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493400.59567843244,
+          6783573.238154518
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5edf423ad512153aaa68af3a",
+        "species": "H. rhamnoides",
+        "status": 3,
+        "notes": null,
+        "name_la": "Hippophae rhamnoides",
+        "name_nl": "Duindoorn",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493402.70595662645,
+          6783569.191969558
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5edf425bd512153aaa68af3b",
+        "species": "H. rhamnoides",
+        "status": 3,
+        "notes": null,
+        "name_la": "Hippophae rhamnoides",
+        "name_nl": "Duindoorn",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493398.89790527086,
+          6783567.628536644
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5edf42d0a472a1e4e02e2d4b",
+        "species": "E. x ebbingei",
+        "status": 3,
+        "notes": null,
+        "name_la": "Elaeagnus ebbingei",
+        "name_nl": "Zilverbes",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493397.7100131265,
+          6783563.8325499445
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5edf4311d512153aaa68af3c",
+        "species": "Onbekend",
+        "status": 3,
+        "notes": null,
+        "name_la": "Onbekend",
+        "name_nl": "Onbekend",
+        "name_en": "Unknown"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493391.54406800604,
+          6783562.948505193
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5edf435bd512153aaa68af3d",
+        "species": "G. triacanthos",
+        "status": 3,
+        "notes": null,
+        "name_la": "Gleditsia triacanthos",
+        "name_nl": "Valse christusdoorn",
+        "name_en": "Honey locust"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493389.44960655645,
+          6783566.345592592
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5edf43c5a472a1e4e02e2d4c",
+        "species": "H. rhamnoides",
+        "status": 3,
+        "notes": null,
+        "name_la": "Hippophae rhamnoides",
+        "name_nl": "Duindoorn",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493384.3629366646,
+          6783571.990104525
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5edf4447a472a1e4e02e2d4d",
+        "species": "R. nigrum",
+        "status": 3,
+        "notes": null,
+        "name_la": "Ribes nigrum",
+        "name_nl": "Zwarte bes",
+        "name_en": "Blackcurrant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493385.06009462255,
+          6783574.734921738
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5edf4464d512153aaa68af3f",
+        "species": "R. nigrum",
+        "status": 3,
+        "notes": null,
+        "name_la": "Ribes nigrum",
+        "name_nl": "Zwarte bes",
+        "name_en": "Blackcurrant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493393.53113070125,
+          6783575.587793741
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5edf446ad512153aaa68af40",
+        "species": "R. nigrum",
+        "status": 3,
+        "notes": null,
+        "name_la": "Ribes nigrum",
+        "name_nl": "Zwarte bes",
+        "name_en": "Blackcurrant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493391.5434604612,
+          6783575.287796683
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5edf4470d512153aaa68af41",
+        "species": "R. nigrum",
+        "status": 3,
+        "notes": null,
+        "name_la": "Ribes nigrum",
+        "name_nl": "Zwarte bes",
+        "name_en": "Blackcurrant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493389.64844408433,
+          6783575.143620691
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5edf4476d512153aaa68af42",
+        "species": "R. nigrum",
+        "status": 3,
+        "notes": null,
+        "name_la": "Ribes nigrum",
+        "name_nl": "Zwarte bes",
+        "name_en": "Blackcurrant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493387.5757306708,
+          6783575.051878908
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5edf4493a472a1e4e02e2d4e",
+        "species": "Onbekend",
+        "status": 3,
+        "notes": "eleagnus",
+        "name_la": "Onbekend",
+        "name_nl": "Onbekend",
+        "name_en": "Unknown"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493384.76135589543,
+          6783576.606905301
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5edf4532d512153aaa68af43",
+        "species": "Onbekend",
+        "status": 3,
+        "notes": null,
+        "name_la": "Onbekend",
+        "name_nl": "Onbekend",
+        "name_en": "Unknown"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493384.3628968907,
+          6783579.215401193
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5edf454aa472a1e4e02e2d4f",
+        "species": "Onbekend",
+        "status": 3,
+        "notes": null,
+        "name_la": "Onbekend",
+        "name_nl": "Onbekend",
+        "name_en": "Unknown"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493389.09728664486,
+          6783579.369695964
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5edf455fa472a1e4e02e2d50",
+        "species": "Onbekend",
+        "status": 3,
+        "notes": null,
+        "name_la": "Onbekend",
+        "name_nl": "Onbekend",
+        "name_en": "Unknown"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493393.1563662094,
+          6783578.356400688
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5edf4575d512153aaa68af44",
+        "species": "Onbekend",
+        "status": 3,
+        "notes": null,
+        "name_la": "Onbekend",
+        "name_nl": "Onbekend",
+        "name_en": "Unknown"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493389.09728664486,
+          6783579.369695964
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5edf4585a472a1e4e02e2d51",
+        "species": "Onbekend",
+        "status": 3,
+        "notes": "hartvormig blad",
+        "name_la": "Onbekend",
+        "name_nl": "Onbekend",
+        "name_en": "Unknown"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493393.375408946,
+          6783581.849915273
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5edf45b3d512153aaa68af45",
+        "species": "Onbekend",
+        "status": 3,
+        "notes": "eleagnus",
+        "name_la": "Onbekend",
+        "name_nl": "Onbekend",
+        "name_en": "Unknown"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493388.867786606,
+          6783581.807662629
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5edf45e5d512153aaa68af46",
+        "species": "Onbekend",
+        "status": 3,
+        "notes": "crataegus soort ntb",
+        "name_la": "Onbekend",
+        "name_nl": "Onbekend",
+        "name_en": "Unknown"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493392.11854502495,
+          6783583.867636
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5edf464ea472a1e4e02e2d52",
+        "species": "G. triacanthos",
+        "status": 3,
+        "notes": "of caragana",
+        "name_la": "Gleditsia triacanthos",
+        "name_nl": "Valse christusdoorn",
+        "name_en": "Honey locust"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493391.42678290897,
+          6783586.9217753215
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5edf46d3a472a1e4e02e2d53",
+        "species": "H. rhamnoides",
+        "status": 3,
+        "notes": null,
+        "name_la": "Hippophae rhamnoides",
+        "name_nl": "Duindoorn",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493380.89094128954,
+          6783592.740453375
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5edf4738d512153aaa68af47",
+        "species": "H. rhamnoides",
+        "status": 3,
+        "notes": null,
+        "name_la": "Hippophae rhamnoides",
+        "name_nl": "Duindoorn",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493384.18215654505,
+          6783595.042881263
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5edf47dfd512153aaa68af48",
+        "species": "Onbekend",
+        "status": 3,
+        "notes": "elsbes? zacht blad",
+        "name_la": "Onbekend",
+        "name_nl": "Onbekend",
+        "name_en": "Unknown"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493387.5046080186,
+          6783593.549543668
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5edf4807a472a1e4e02e2d54",
+        "species": "Onbekend",
+        "status": 3,
+        "notes": "hartvormig blad",
+        "name_la": "Onbekend",
+        "name_nl": "Onbekend",
+        "name_en": "Unknown"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493389.3196201607,
+          6783590.914482054
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5edf4873a472a1e4e02e2d55",
+        "species": "Onbekend",
+        "status": 3,
+        "notes": "rubus soort",
+        "name_la": "Onbekend",
+        "name_nl": "Onbekend",
+        "name_en": "Unknown"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493386.616106597,
+          6783596.684075712
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5edf48c1d512153aaa68af49",
+        "species": "Onbekend",
+        "status": 3,
+        "notes": "erg droog geen blad",
+        "name_la": "Onbekend",
+        "name_nl": "Onbekend",
+        "name_en": "Unknown"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493382.27782396437,
+          6783590.51775534
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5edf48f8a472a1e4e02e2d56",
+        "species": "Onbekend",
+        "status": 3,
+        "notes": "rubus",
+        "name_la": "Onbekend",
+        "name_nl": "Onbekend",
+        "name_en": "Unknown"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493376.82336300466,
+          6783587.404158693
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5edf4978d512153aaa68af4a",
+        "species": "Onbekend",
+        "status": 3,
+        "notes": null,
+        "name_la": "Onbekend",
+        "name_nl": "Onbekend",
+        "name_en": "Unknown"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493376.34357112955,
+          6783584.42789418
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5edf49a1a472a1e4e02e2d57",
+        "species": "S. torminalis",
+        "status": 3,
+        "notes": null,
+        "name_la": "Sorbus torminalis",
+        "name_nl": "Elsbes",
+        "name_en": "Wild service tree"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493371.2188693095,
+          6783584.487665457
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5edf49b2d512153aaa68af4b",
+        "species": "S. torminalis",
+        "status": 3,
+        "notes": null,
+        "name_la": "Sorbus torminalis",
+        "name_nl": "Elsbes",
+        "name_en": "Wild service tree"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493372.6050705423,
+          6783582.422521078
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5edf49c7a472a1e4e02e2d58",
+        "species": "S. torminalis",
+        "status": 3,
+        "notes": null,
+        "name_la": "Sorbus torminalis",
+        "name_nl": "Elsbes",
+        "name_en": "Wild service tree"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493373.7221365615,
+          6783580.273170897
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5edf4a06a472a1e4e02e2d59",
+        "species": "L. barbarum",
+        "status": 3,
+        "notes": null,
+        "name_la": "Lycium barbarum",
+        "name_nl": "Gojibes",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493376.81978545326,
+          6783577.412499563
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5edf4a0ea472a1e4e02e2d5a",
+        "species": "L. barbarum",
+        "status": 3,
+        "notes": null,
+        "name_la": "Lycium barbarum",
+        "name_nl": "Gojibes",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493380.1077754707,
+          6783578.3866170775
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5edf4a84d512153aaa68af4c",
+        "species": "R. rubrum",
+        "status": 3,
+        "notes": "witte",
+        "name_la": "Ribes rubrum",
+        "name_nl": "Rode bes",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493380.76435138617,
+          6783575.533353313
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5edf4aafa472a1e4e02e2d5b",
+        "species": "R. rubrum",
+        "status": 3,
+        "notes": "witte",
+        "name_la": "Ribes rubrum",
+        "name_nl": "Rode bes",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493378.529288373,
+          6783576.010859386
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5edf4b04a472a1e4e02e2d5c",
+        "species": "Onbekend",
+        "status": 3,
+        "notes": "hartvormig blad",
+        "name_la": "Onbekend",
+        "name_nl": "Onbekend",
+        "name_en": "Unknown"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493379.5069627667,
+          6783582.639898381
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5edf5409a472a1e4e02e2d5d",
+        "species": "Onbekend",
+        "status": 3,
+        "notes": "gaaf blad",
+        "name_la": "Onbekend",
+        "name_nl": "Onbekend",
+        "name_en": "Unknown"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493370.1383192944,
+          6783580.185909006
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5edf547aa472a1e4e02e2d5e",
+        "species": "Onbekend",
+        "status": 3,
+        "notes": "crataegus anomaca",
+        "name_la": "Onbekend",
+        "name_nl": "Onbekend",
+        "name_en": "Unknown"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493368.20649400796,
+          6783581.516689254
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5edf54b7d512153aaa68af4d",
+        "species": "H. rhamnoides",
+        "status": 3,
+        "notes": null,
+        "name_la": "Hippophae rhamnoides",
+        "name_nl": "Duindoorn",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493367.31693177344,
+          6783578.982637228
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5edf5535d512153aaa68af4e",
+        "species": "S. torminalis",
+        "status": 3,
+        "notes": null,
+        "name_la": "Sorbus torminalis",
+        "name_nl": "Elsbes",
+        "name_en": "Wild service tree"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493364.4314971077,
+          6783578.637380976
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5edf5540a472a1e4e02e2d5f",
+        "species": "S. torminalis",
+        "status": 3,
+        "notes": null,
+        "name_la": "Sorbus torminalis",
+        "name_nl": "Elsbes",
+        "name_en": "Wild service tree"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493365.03448846005,
+          6783577.677186329
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5edf55f2a472a1e4e02e2d60",
+        "species": "Onbekend",
+        "status": 3,
+        "notes": null,
+        "name_la": "Onbekend",
+        "name_nl": "Onbekend",
+        "name_en": "Unknown"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493353.9740532548,
+          6783568.956312532
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5edf5624d512153aaa68af4f",
+        "species": "Onbekend",
+        "status": 3,
+        "notes": null,
+        "name_la": "Onbekend",
+        "name_nl": "Onbekend",
+        "name_en": "Unknown"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493352.4673332379,
+          6783570.267776971
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5edf5630a472a1e4e02e2d61",
+        "species": "Onbekend",
+        "status": 3,
+        "notes": null,
+        "name_la": "Onbekend",
+        "name_nl": "Onbekend",
+        "name_en": "Unknown"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493356.7687271098,
+          6783567.504405455
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5edf563ad512153aaa68af50",
+        "species": "Onbekend",
+        "status": 3,
+        "notes": null,
+        "name_la": "Onbekend",
+        "name_nl": "Onbekend",
+        "name_en": "Unknown"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493365.380268652,
+          6783572.243629845
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5edf5652a472a1e4e02e2d62",
+        "species": "Onbekend",
+        "status": 3,
+        "notes": null,
+        "name_la": "Onbekend",
+        "name_nl": "Onbekend",
+        "name_en": "Unknown"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493364.54361225036,
+          6783570.637000817
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5edf5659a472a1e4e02e2d63",
+        "species": "Onbekend",
+        "status": 3,
+        "notes": null,
+        "name_la": "Onbekend",
+        "name_nl": "Onbekend",
+        "name_en": "Unknown"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493363.3624546417,
+          6783569.161497772
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5edf565fd512153aaa68af51",
+        "species": "Onbekend",
+        "status": 3,
+        "notes": null,
+        "name_la": "Onbekend",
+        "name_nl": "Onbekend",
+        "name_en": "Unknown"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493361.7688164129,
+          6783568.24759358
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5edf5666d512153aaa68af52",
+        "species": "Onbekend",
+        "status": 3,
+        "notes": null,
+        "name_la": "Onbekend",
+        "name_nl": "Onbekend",
+        "name_en": "Unknown"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493359.61976603075,
+          6783567.321790279
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5edf6385a472a1e4e02e2d64",
+        "species": "M. germanica",
+        "status": 3,
+        "notes": null,
+        "name_la": "Mespilus germanica",
+        "name_nl": "Mispel",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493393.78341681254,
+          6783549.808777932
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5edf63cbd512153aaa68af53",
+        "species": "H. rhamnoides",
+        "status": 3,
+        "notes": null,
+        "name_la": "Hippophae rhamnoides",
+        "name_nl": "Duindoorn",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493390.62677991856,
+          6783551.27112057
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5edf63e1a472a1e4e02e2d65",
+        "species": "E. x ebbingei",
+        "status": 3,
+        "notes": null,
+        "name_la": "Elaeagnus ebbingei",
+        "name_nl": "Zilverbes",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493391.1721533893,
+          6783547.856944604
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5edf6423d512153aaa68af54",
+        "species": "S. nigra",
+        "status": 3,
+        "notes": null,
+        "name_la": "Sambucus nigra",
+        "name_nl": "Vlier",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493382.843155704,
+          6783545.140434495
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5edf648dd512153aaa68af55",
+        "species": "C. avellana",
+        "status": 3,
+        "notes": null,
+        "name_la": "Corylus avellana",
+        "name_nl": "Hazelaar",
+        "name_en": "Common hazel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493383.300055702,
+          6783542.486778401
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5edf64aad512153aaa68af56",
+        "species": "E. x ebbingei",
+        "status": 3,
+        "notes": null,
+        "name_la": "Elaeagnus ebbingei",
+        "name_nl": "Zilverbes",
+        "name_en": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493381.40620953415,
+          6783539.365324664
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5edf64e4a472a1e4e02e2d66",
+        "species": "C. avellana",
+        "status": 3,
+        "notes": null,
+        "name_la": "Corylus avellana",
+        "name_nl": "Hazelaar",
+        "name_en": "Common hazel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493378.474476847,
+          6783538.883493339
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": "5edf65c7a472a1e4e02e2d67",
+        "species": "G. triacanthos",
+        "status": 3,
+        "notes": null,
+        "name_la": "Gleditsia triacanthos",
+        "name_nl": "Valse christusdoorn",
+        "name_en": "Honey locust"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493365.1681341543,
+          6783530.327040911
+        ]
+      }
+    }
+  ]
+}
