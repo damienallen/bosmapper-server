@@ -16,7 +16,7 @@ MARGIN_TOP = 20
 MARGIN_BOTTOM = 10
 MARGIN_LEFT = 10
 MARGIN_RIGHT = 5
-TEXT_TOP_MARGIN = 15
+TEXT_MARGIN = 1.5
 
 TRANSLATION = [0.45, 1.22]
 ROTATION_ANGLE = -144.5 * pi / 180
@@ -76,12 +76,20 @@ def extract_features(feature_list):
         )
         adjusted_radius = crown_radius / 2 * scale_factor
 
+        height = (
+            feature["properties"]["height"]
+            if feature["properties"]["height"]
+            else DEFAULT_HEIGHT
+        )
+        adjusted_height = height * scale_factor
+
         trees.append(
             {
                 "species": feature["properties"]["species"],
                 "x": (feature["geometry"]["coordinates"][1] - min_lat) * scale_factor,
                 "y": (feature["geometry"]["coordinates"][0] - min_lon) * scale_factor,
                 "radius": adjusted_radius,
+                "height": adjusted_height,
             }
         )
 
@@ -160,16 +168,22 @@ def draw_fills(ctx, scale_factor, trees, species_list):
 
 
 def draw_text(ctx, scale_factor, trees, species_list):
-    # min_radius = min([species["radius"] for species in species_list])
-    # max_radius = max([species["radius"] for species in species_list]) + 0.01
-    # percent = (trees[0]["radius"] - min_radius) / (max_radius - min_radius)
-    # fill_color = fade_white(COLOR_GREY_90, percent)
 
     for tree in trees:
 
         ctx.save()
-        ctx.set_source_rgb(*COLOR_BLACK)
-        ctx.set_font_size(1 * scale_factor)
+
+        min_radius = -25 * scale_factor
+        max_radius = 15 * scale_factor
+        fill_percent = min((tree["radius"] - min_radius) / (max_radius - min_radius), 1)
+        fill_color = fade_white(COLOR_BLACK, 1 - fill_percent)
+        ctx.set_source_rgb(*fill_color)
+
+        min_height = -25 * scale_factor
+        max_height = 15 * scale_factor
+        size_percent = min((tree["height"] - min_height) / (max_height - min_height), 1)
+        ctx.set_font_size(1 * scale_factor * size_percent)
+
         ctx.select_font_face("Arial", cairo.FONT_SLANT_NORMAL, cairo.FONT_WEIGHT_NORMAL)
 
         fascent, fdescent, fheight, fxadvance, fyadvance = ctx.font_extents()
@@ -180,7 +194,7 @@ def draw_text(ctx, scale_factor, trees, species_list):
         ctx.translate(tree["x"], tree["y"])
         ctx.rotate(-ROTATION_ANGLE)
         ctx.translate(nx, ny)
-        ctx.move_to(0, scale_factor)
+        ctx.move_to(0, TEXT_MARGIN * scale_factor)
         ctx.show_text(tree["species"])
 
         ctx.restore()
