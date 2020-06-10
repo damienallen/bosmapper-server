@@ -21,6 +21,9 @@ TEXT_MARGIN = 1
 COMPASS_LAT = 6783555.3
 COMPASS_LON = 493401.8
 
+SCALE_LAT = 6783574.8
+SCALE_LON = 493427.1
+
 # TRANSLATION = [0, 0]
 # ROTATION_ANGLE = 0
 
@@ -271,8 +274,6 @@ def draw_base_features(ctx, base_features, scale_factor, min_lon, min_lat):
 def draw_compass(ctx, scale_factor, min_lon, min_lat):
 
     ctx.save()
-
-    # Center coordinates
     x = (COMPASS_LAT - min_lat) * scale_factor
     y = (COMPASS_LON - min_lon) * scale_factor
 
@@ -302,16 +303,38 @@ def draw_compass(ctx, scale_factor, min_lon, min_lat):
     ctx.rotate(-ROTATION_ANGLE)
     ctx.translate(nx, ny)
     ctx.move_to(0, 0)
-
-    # ctx.move_to(x - 3 * scale_factor, y)
     ctx.show_text("N")
 
     ctx.restore()
 
 
 def draw_scale(ctx, scale_factor, min_lon, min_lat):
+
     ctx.save()
-    ctx.restore()
+    x = (SCALE_LAT - min_lat) * scale_factor
+    y = (SCALE_LON - min_lon) * scale_factor
+
+    # Draw scale
+    ctx.translate(x, y)
+    ctx.rotate(-ROTATION_ANGLE)
+    ctx.move_to(0, 15 * scale_factor)
+    ctx.line_to(0, 25 * scale_factor)
+
+    for y_offset in range(0, 11):
+        ctx.move_to(0, (15 + y_offset) * scale_factor)
+        ctx.line_to(0.5 * scale_factor, (15 + y_offset) * scale_factor)
+
+    ctx.set_line_width(scale_factor * 0.15)
+    ctx.set_source_rgb(*COLOR_BLACK)
+    ctx.stroke()
+
+    # Draw text
+    ctx.select_font_face("Arial", cairo.FONT_SLANT_NORMAL, cairo.FONT_WEIGHT_NORMAL)
+    ctx.set_font_size(1 * scale_factor)
+    ctx.move_to(1 * scale_factor, 20.5 * scale_factor)
+    ctx.show_text("10m")
+
+    ctx.save()
 
 
 def generate_pdf(svg_path):
