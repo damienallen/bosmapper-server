@@ -18,11 +18,11 @@ MARGIN_LEFT = 10
 MARGIN_RIGHT = 5
 TEXT_MARGIN = 1
 
-COMPASS_LAT = 6783555.3
-COMPASS_LON = 493401.8
+COMPASS_LAT = 6783651
+COMPASS_LON = 493399
 
-SCALE_LAT = 6783574.8
-SCALE_LON = 493427.1
+SCALE_LAT = 6783567
+SCALE_LON = 493297
 
 # TRANSLATION = [0, 0]
 # ROTATION_ANGLE = 0
@@ -184,7 +184,7 @@ def draw_text(ctx, scale_factor, trees, species_list):
 
         ctx.save()
 
-        min_radius = -25 * scale_factor
+        min_radius = -50 * scale_factor
         max_radius = 15 * scale_factor
         fill_percent = min((tree["radius"] - min_radius) / (max_radius - min_radius), 1)
         fill_color = fade_white(COLOR_BLACK, 1 - fill_percent)
@@ -278,12 +278,12 @@ def draw_compass(ctx, scale_factor, min_lon, min_lat):
     y = (COMPASS_LON - min_lon) * scale_factor
 
     # Draw arrow
-    ctx.move_to(x - 2 * scale_factor, y)
-    ctx.line_to(x + 2 * scale_factor, y)
-    ctx.line_to(x + 1 * scale_factor, y - 0.5 * scale_factor)
+    ctx.move_to(x - (2) * scale_factor, y)
+    ctx.line_to(x + (2) * scale_factor, y)
+    ctx.line_to(x + (1) * scale_factor, y - 0.5 * scale_factor)
 
     ctx.set_line_width(scale_factor * 0.15)
-    ctx.set_source_rgb(*COLOR_BLACK)
+    ctx.set_source_rgba(*COLOR_BLACK, 0.3)
     ctx.stroke()
 
     ctx.save()
@@ -311,18 +311,20 @@ def draw_compass(ctx, scale_factor, min_lon, min_lat):
 def draw_scale(ctx, scale_factor, min_lon, min_lat):
 
     ctx.save()
+    x_offset = -12.5
+    y_offset = -6
     x = (SCALE_LAT - min_lat) * scale_factor
     y = (SCALE_LON - min_lon) * scale_factor
 
     # Draw scale
     ctx.translate(x, y)
     ctx.rotate(-ROTATION_ANGLE)
-    ctx.move_to(0, 15 * scale_factor)
-    ctx.line_to(0, 25 * scale_factor)
+    ctx.move_to(x_offset * scale_factor, y_offset * scale_factor)
+    ctx.line_to((x_offset + 10) * scale_factor, y_offset * scale_factor)
 
-    for y_offset in range(0, 11):
-        ctx.move_to(0, (15 + y_offset) * scale_factor)
-        ctx.line_to(0.5 * scale_factor, (15 + y_offset) * scale_factor)
+    for offset in range(0, 11):
+        ctx.move_to((x_offset + offset) * scale_factor, y_offset * scale_factor)
+        ctx.line_to((x_offset + offset) * scale_factor, (y_offset + 0.5) * scale_factor)
 
     ctx.set_line_width(scale_factor * 0.15)
     ctx.set_source_rgb(*COLOR_BLACK)
@@ -331,7 +333,7 @@ def draw_scale(ctx, scale_factor, min_lon, min_lat):
     # Draw text
     ctx.select_font_face("Arial", cairo.FONT_SLANT_NORMAL, cairo.FONT_WEIGHT_NORMAL)
     ctx.set_font_size(1 * scale_factor)
-    ctx.move_to(1 * scale_factor, 20.5 * scale_factor)
+    ctx.move_to(-8.5 * scale_factor, (y_offset + 2) * scale_factor)
     ctx.show_text("10m")
 
     ctx.save()

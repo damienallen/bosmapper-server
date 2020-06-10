@@ -32,6 +32,7 @@ html, body {
 
 .date {
   color: #999;
+  font-family: 'Roboto Slab', serif;
   text-transform: uppercase;
   font-weight: 700;
 }
