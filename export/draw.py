@@ -18,6 +18,12 @@ MARGIN_LEFT = 10
 MARGIN_RIGHT = 5
 TEXT_MARGIN = 1
 
+COMPASS_LAT = 6783555.3
+COMPASS_LON = 493401.8
+
+# TRANSLATION = [0, 0]
+# ROTATION_ANGLE = 0
+
 TRANSLATION = [0.45, 1.22]
 ROTATION_ANGLE = -144.5 * pi / 180
 
@@ -262,6 +268,52 @@ def draw_base_features(ctx, base_features, scale_factor, min_lon, min_lat):
         ctx.restore()
 
 
+def draw_compass(ctx, scale_factor, min_lon, min_lat):
+
+    ctx.save()
+
+    # Center coordinates
+    x = (COMPASS_LAT - min_lat) * scale_factor
+    y = (COMPASS_LON - min_lon) * scale_factor
+
+    # Draw arrow
+    ctx.move_to(x - 2 * scale_factor, y)
+    ctx.line_to(x + 2 * scale_factor, y)
+    ctx.line_to(x + 1 * scale_factor, y - 0.5 * scale_factor)
+
+    ctx.set_line_width(scale_factor * 0.15)
+    ctx.set_source_rgb(*COLOR_BLACK)
+    ctx.stroke()
+
+    ctx.save()
+
+    ctx.restore()
+
+    # Draw N
+    ctx.select_font_face("Arial", cairo.FONT_SLANT_NORMAL, cairo.FONT_WEIGHT_NORMAL)
+    ctx.set_font_size(2 * scale_factor)
+
+    fascent, fdescent, fheight, fxadvance, fyadvance = ctx.font_extents()
+    x_off, y_off, tw, th = ctx.text_extents("N")[:4]
+    nx = -tw / 2.0
+    ny = fheight / 2
+
+    ctx.translate(x - 1 * scale_factor, y - 2.2 * scale_factor)
+    ctx.rotate(-ROTATION_ANGLE)
+    ctx.translate(nx, ny)
+    ctx.move_to(0, 0)
+
+    # ctx.move_to(x - 3 * scale_factor, y)
+    ctx.show_text("N")
+
+    ctx.restore()
+
+
+def draw_scale(ctx, scale_factor, min_lon, min_lat):
+    ctx.save()
+    ctx.restore()
+
+
 def generate_pdf(svg_path):
     print("Generating PDF version")
     template_dir = current_dir / "template"
@@ -313,8 +365,10 @@ def main():
 
         draw_overlay(ctx, scale_factor, trees)
         draw_text(ctx, scale_factor, trees, species_list)
+        draw_compass(ctx, scale_factor, min_lon, min_lat)
+        draw_scale(ctx, scale_factor, min_lon, min_lat)
 
-    generate_pdf(svg_path)
+    # generate_pdf(svg_path)
 
 
 if __name__ == "__main__":
