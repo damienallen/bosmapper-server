@@ -11,13 +11,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ec99c875f0743d9e1db7e12",
+        "oid": "5ee143e6a7e97f1981c6565d",
         "species": "G. triacanthos",
         "status": 3,
         "notes": null,
         "name_la": "Gleditsia triacanthos",
         "name_nl": "Valse christusdoorn",
-        "name_en": "Honey locust"
+        "name_en": "Honey locust",
+        "width": 10.0,
+        "height": 20.0
       },
       "geometry": {
         "type": "Point",
@@ -30,13 +32,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ec99c875f0743d9e1db7e13",
+        "oid": "5ee143e6a7e97f1981c6565e",
         "species": "M. bealei",
         "status": 3,
         "notes": null,
         "name_la": "Mahonia bealei",
         "name_nl": "Mahonia",
-        "name_en": null
+        "name_en": null,
+        "width": 7.0,
+        "height": 10.0
       },
       "geometry": {
         "type": "Point",
@@ -49,13 +53,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ec99c875f0743d9e1db7e14",
+        "oid": "5ee143e6a7e97f1981c6565f",
         "species": "M. bealei",
         "status": 3,
         "notes": null,
         "name_la": "Mahonia bealei",
         "name_nl": "Mahonia",
-        "name_en": null
+        "name_en": null,
+        "width": 7.0,
+        "height": 10.0
       },
       "geometry": {
         "type": "Point",
@@ -68,13 +74,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ec99c875f0743d9e1db7e15",
+        "oid": "5ee143e6a7e97f1981c65660",
         "species": "M. bealei",
         "status": 3,
         "notes": null,
         "name_la": "Mahonia bealei",
         "name_nl": "Mahonia",
-        "name_en": null
+        "name_en": null,
+        "width": 7.0,
+        "height": 10.0
       },
       "geometry": {
         "type": "Point",
@@ -87,13 +95,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ec99c875f0743d9e1db7e16",
+        "oid": "5ee143e6a7e97f1981c65661",
         "species": "M. bealei",
         "status": 3,
         "notes": null,
         "name_la": "Mahonia bealei",
         "name_nl": "Mahonia",
-        "name_en": null
+        "name_en": null,
+        "width": 7.0,
+        "height": 10.0
       },
       "geometry": {
         "type": "Point",
@@ -106,13 +116,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ec99c875f0743d9e1db7e17",
+        "oid": "5ee143e6a7e97f1981c65662",
         "species": "S. domestica",
         "status": 3,
         "notes": null,
         "name_la": "Sorbus domestica",
         "name_nl": "Peervormige lijsterbes",
-        "name_en": null
+        "name_en": null,
+        "width": 8.0,
+        "height": 20.0
       },
       "geometry": {
         "type": "Point",
@@ -125,13 +137,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ec99c875f0743d9e1db7e18",
+        "oid": "5ee143e6a7e97f1981c65663",
         "species": "P. sinensis",
         "status": 3,
         "notes": null,
         "name_la": "Pseudocydonia sinensis ",
         "name_nl": "Chinese kweepeer",
-        "name_en": null
+        "name_en": null,
+        "width": 6.0,
+        "height": 7.0
       },
       "geometry": {
         "type": "Point",
@@ -144,13 +158,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ec99c875f0743d9e1db7e19",
+        "oid": "5ee143e6a7e97f1981c65664",
         "species": "R. typhina",
         "status": 3,
         "notes": null,
         "name_la": "Rhus typhina",
         "name_nl": "Fluweelboom",
-        "name_en": null
+        "name_en": null,
+        "width": 3.0,
+        "height": 3.0
       },
       "geometry": {
         "type": "Point",
@@ -163,13 +179,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ec99c875f0743d9e1db7e1a",
+        "oid": "5ee143e6a7e97f1981c65665",
         "species": "R. glabra",
         "status": 3,
         "notes": null,
         "name_la": "Rhus glabra",
         "name_nl": "Fluweelboom",
-        "name_en": null
+        "name_en": null,
+        "width": 3.0,
+        "height": 3.0
       },
       "geometry": {
         "type": "Point",
@@ -182,13 +200,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ec99c875f0743d9e1db7e1b",
+        "oid": "5ee143e6a7e97f1981c65666",
         "species": "P. communis",
         "status": 3,
         "notes": null,
         "name_la": "Pyrus communis",
         "name_nl": "Peer (hoogstam)",
-        "name_en": null
+        "name_en": null,
+        "width": 6.0,
+        "height": 10.0
       },
       "geometry": {
         "type": "Point",
@@ -201,13 +221,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ec99c875f0743d9e1db7e1c",
+        "oid": "5ee143e6a7e97f1981c65667",
         "species": "P. communis",
         "status": 3,
         "notes": null,
         "name_la": "Pyrus communis",
         "name_nl": "Peer (hoogstam)",
-        "name_en": null
+        "name_en": null,
+        "width": 6.0,
+        "height": 10.0
       },
       "geometry": {
         "type": "Point",
@@ -220,13 +242,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ec99c875f0743d9e1db7e1d",
+        "oid": "5ee143e6a7e97f1981c65668",
         "species": "C. ellwangeriana",
         "status": 3,
         "notes": null,
         "name_la": "Crataegus ellwangeriana",
         "name_nl": "Meidoorn",
-        "name_en": "Hawthorn"
+        "name_en": "Hawthorn",
+        "width": 5.0,
+        "height": 6.0
       },
       "geometry": {
         "type": "Point",
@@ -239,13 +263,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ec99c875f0743d9e1db7e1e",
+        "oid": "5ee143e6a7e97f1981c65669",
         "species": "L. barbarum",
         "status": 3,
         "notes": null,
         "name_la": "Lycium barbarum",
         "name_nl": "Gojibes",
-        "name_en": null
+        "name_en": null,
+        "width": 2.5,
+        "height": 2.5
       },
       "geometry": {
         "type": "Point",
@@ -258,13 +284,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ec99c875f0743d9e1db7e1f",
+        "oid": "5ee143e6a7e97f1981c6566a",
         "species": "L. barbarum",
         "status": 3,
         "notes": null,
         "name_la": "Lycium barbarum",
         "name_nl": "Gojibes",
-        "name_en": null
+        "name_en": null,
+        "width": 2.5,
+        "height": 2.5
       },
       "geometry": {
         "type": "Point",
@@ -277,13 +305,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ec99c875f0743d9e1db7e20",
+        "oid": "5ee143e6a7e97f1981c6566b",
         "species": "L. barbarum",
         "status": 3,
         "notes": null,
         "name_la": "Lycium barbarum",
         "name_nl": "Gojibes",
-        "name_en": null
+        "name_en": null,
+        "width": 2.5,
+        "height": 2.5
       },
       "geometry": {
         "type": "Point",
@@ -296,13 +326,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ec99c875f0743d9e1db7e21",
+        "oid": "5ee143e6a7e97f1981c6566c",
         "species": "F. carica",
         "status": 3,
         "notes": null,
         "name_la": "Ficus carica",
         "name_nl": "Vijg",
-        "name_en": null
+        "name_en": null,
+        "width": 6.0,
+        "height": 6.0
       },
       "geometry": {
         "type": "Point",
@@ -315,13 +347,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ec99c875f0743d9e1db7e22",
+        "oid": "5ee143e6a7e97f1981c6566d",
         "species": "S. aucuparia",
         "status": 3,
         "notes": null,
         "name_la": "Sorbus aucuparia 'edulis'",
         "name_nl": "Eetbare lijsterbes",
-        "name_en": null
+        "name_en": null,
+        "width": 7.0,
+        "height": 12.0
       },
       "geometry": {
         "type": "Point",
@@ -334,13 +368,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ec99c875f0743d9e1db7e23",
+        "oid": "5ee143e6a7e97f1981c6566e",
         "species": "C. mexicana",
         "status": 3,
         "notes": null,
         "name_la": "Crataegus mexicana",
         "name_nl": "Meidoorn",
-        "name_en": "Hawthorn"
+        "name_en": "Hawthorn",
+        "width": 5.0,
+        "height": 6.0
       },
       "geometry": {
         "type": "Point",
@@ -353,13 +389,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ec99c875f0743d9e1db7e24",
+        "oid": "5ee143e6a7e97f1981c6566f",
         "species": "C. schraderiana",
         "status": 3,
         "notes": null,
         "name_la": "Crataegus schraderiana",
         "name_nl": "Meidoorn",
-        "name_en": "Hawthorn"
+        "name_en": "Hawthorn",
+        "width": 5.0,
+        "height": 6.0
       },
       "geometry": {
         "type": "Point",
@@ -372,13 +410,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ec99c875f0743d9e1db7e25",
+        "oid": "5ee143e6a7e97f1981c65670",
         "species": "C. pennsylveniaca",
         "status": 3,
         "notes": null,
         "name_la": "Crataegus pennsylveniaca",
         "name_nl": "Meidoorn",
-        "name_en": "Hawthorn"
+        "name_en": "Hawthorn",
+        "width": 5.0,
+        "height": 6.0
       },
       "geometry": {
         "type": "Point",
@@ -391,13 +431,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ec99c875f0743d9e1db7e27",
+        "oid": "5ee143e6a7e97f1981c65671",
         "species": "D. virg. x kaki",
         "status": 3,
         "notes": "dood",
         "name_la": "Diospyros virginiana x kaki",
         "name_nl": "Persimoen hybride",
-        "name_en": null
+        "name_en": null,
+        "width": 8.0,
+        "height": 15.0
       },
       "geometry": {
         "type": "Point",
@@ -410,13 +452,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ec99c875f0743d9e1db7e28",
+        "oid": "5ee143e6a7e97f1981c65672",
         "species": "R. divaricatum",
         "status": 3,
         "notes": null,
         "name_la": "Ribes divaricatum",
         "name_nl": "Worcester bes",
-        "name_en": null
+        "name_en": null,
+        "width": 2.0,
+        "height": 2.0
       },
       "geometry": {
         "type": "Point",
@@ -429,13 +473,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ec99c875f0743d9e1db7e29",
+        "oid": "5ee143e6a7e97f1981c65673",
         "species": "M. nigra",
         "status": 3,
         "notes": null,
         "name_la": "Morus nigra",
         "name_nl": "Zwarte moerbei",
-        "name_en": null
+        "name_en": null,
+        "width": 12.0,
+        "height": 8.0
       },
       "geometry": {
         "type": "Point",
@@ -448,13 +494,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ec99c875f0743d9e1db7e2a",
+        "oid": "5ee143e6a7e97f1981c65674",
         "species": "D. fargesii",
         "status": 3,
         "notes": null,
         "name_la": "Decaisnea fargesii",
         "name_nl": "Augurkenstruik (Blauwe boon)",
-        "name_en": null
+        "name_en": null,
+        "width": 3.0,
+        "height": 5.0
       },
       "geometry": {
         "type": "Point",
@@ -467,13 +515,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ec99c875f0743d9e1db7e2b",
+        "oid": "5ee143e6a7e97f1981c65675",
         "species": "L. barbarum",
         "status": 3,
         "notes": null,
         "name_la": "Lycium barbarum",
         "name_nl": "Gojibes",
-        "name_en": null
+        "name_en": null,
+        "width": 2.5,
+        "height": 2.5
       },
       "geometry": {
         "type": "Point",
@@ -486,13 +536,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ec99c875f0743d9e1db7e2c",
+        "oid": "5ee143e6a7e97f1981c65676",
         "species": "E. japonica",
         "status": 3,
         "notes": null,
         "name_la": "Eriobotrya japonica ",
         "name_nl": "Japanse Wolmispel (Loquat)",
-        "name_en": null
+        "name_en": null,
+        "width": 5.0,
+        "height": 6.0
       },
       "geometry": {
         "type": "Point",
@@ -505,13 +557,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ec99c875f0743d9e1db7e2d",
+        "oid": "5ee143e6a7e97f1981c65677",
         "species": "E. japonica",
         "status": 3,
         "notes": null,
         "name_la": "Eriobotrya japonica ",
         "name_nl": "Japanse Wolmispel (Loquat)",
-        "name_en": null
+        "name_en": null,
+        "width": 5.0,
+        "height": 6.0
       },
       "geometry": {
         "type": "Point",
@@ -524,13 +578,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ec99c875f0743d9e1db7e2f",
+        "oid": "5ee143e6a7e97f1981c65678",
         "species": "C. mas",
         "status": 3,
         "notes": null,
         "name_la": "Cornus mas",
         "name_nl": "Gele kornoelje",
-        "name_en": null
+        "name_en": null,
+        "width": 5.0,
+        "height": 6.0
       },
       "geometry": {
         "type": "Point",
@@ -543,13 +599,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ec99c875f0743d9e1db7e30",
+        "oid": "5ee143e6a7e97f1981c65679",
         "species": "C. mas",
         "status": 3,
         "notes": null,
         "name_la": "Cornus mas",
         "name_nl": "Gele kornoelje",
-        "name_en": null
+        "name_en": null,
+        "width": 5.0,
+        "height": 6.0
       },
       "geometry": {
         "type": "Point",
@@ -562,13 +620,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ec99c875f0743d9e1db7e31",
+        "oid": "5ee143e6a7e97f1981c6567a",
         "species": "Q. rotundifolia",
         "status": 3,
         "notes": null,
         "name_la": "Quercus rotundifolia",
         "name_nl": "Steeneik",
-        "name_en": null
+        "name_en": null,
+        "width": null,
+        "height": null
       },
       "geometry": {
         "type": "Point",
@@ -581,13 +641,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ec99c875f0743d9e1db7e32",
+        "oid": "5ee143e6a7e97f1981c6567b",
         "species": "C. mas",
         "status": 3,
         "notes": null,
         "name_la": "Cornus mas",
         "name_nl": "Gele kornoelje",
-        "name_en": null
+        "name_en": null,
+        "width": 5.0,
+        "height": 6.0
       },
       "geometry": {
         "type": "Point",
@@ -600,13 +662,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ec99c875f0743d9e1db7e33",
+        "oid": "5ee143e6a7e97f1981c6567c",
         "species": "C. mas",
         "status": 3,
         "notes": "paczeski",
         "name_la": "Cornus mas",
         "name_nl": "Gele kornoelje",
-        "name_en": null
+        "name_en": null,
+        "width": 5.0,
+        "height": 6.0
       },
       "geometry": {
         "type": "Point",
@@ -619,13 +683,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ec99c885f0743d9e1db7e34",
+        "oid": "5ee143e6a7e97f1981c6567d",
         "species": "M. alba",
         "status": 3,
         "notes": "sugar cube",
         "name_la": "Morus alba",
         "name_nl": "Witte moerbei",
-        "name_en": null
+        "name_en": null,
+        "width": 12.0,
+        "height": 15.0
       },
       "geometry": {
         "type": "Point",
@@ -638,13 +704,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ec99c885f0743d9e1db7e3c",
+        "oid": "5ee143e6a7e97f1981c6567e",
         "species": "P. pluot",
         "status": 3,
         "notes": "japanse pruim black amber",
         "name_la": "Pluot",
         "name_nl": "Pluot",
-        "name_en": "Pluot"
+        "name_en": "Pluot",
+        "width": null,
+        "height": null
       },
       "geometry": {
         "type": "Point",
@@ -657,13 +725,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ec99c885f0743d9e1db7e3e",
+        "oid": "5ee143e6a7e97f1981c6567f",
         "species": "M. pensylvanica",
         "status": 3,
         "notes": null,
         "name_la": "Myrica pensylvanica",
         "name_nl": "Wasgagel",
-        "name_en": "Northern bayberry"
+        "name_en": "Northern bayberry",
+        "width": null,
+        "height": null
       },
       "geometry": {
         "type": "Point",
@@ -676,13 +746,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ec99c885f0743d9e1db7e3f",
+        "oid": "5ee143e6a7e97f1981c65680",
         "species": "T. nucifera",
         "status": 3,
         "notes": null,
         "name_la": "Torreya nucifera",
         "name_nl": "Kaya",
-        "name_en": "Japanese torreya"
+        "name_en": "Japanese torreya",
+        "width": 10.0,
+        "height": 20.0
       },
       "geometry": {
         "type": "Point",
@@ -695,13 +767,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ec99c885f0743d9e1db7e42",
+        "oid": "5ee143e6a7e97f1981c65681",
         "species": "Amelanchier",
         "status": 3,
         "notes": "erg droog",
         "name_la": "Amelanchier ",
         "name_nl": "Krentenboompje",
-        "name_en": "Serviceberry"
+        "name_en": "Serviceberry",
+        "width": 3.5,
+        "height": 4.0
       },
       "geometry": {
         "type": "Point",
@@ -714,13 +788,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ec99c885f0743d9e1db7e43",
+        "oid": "5ee143e6a7e97f1981c65682",
         "species": "C. speciosa",
         "status": 3,
         "notes": null,
         "name_la": "Chaenomeles speciosa",
         "name_nl": "Sierkwee",
-        "name_en": "Quince"
+        "name_en": "Quince",
+        "width": 1.0,
+        "height": 1.0
       },
       "geometry": {
         "type": "Point",
@@ -733,13 +809,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ec99c885f0743d9e1db7e47",
+        "oid": "5ee143e6a7e97f1981c65683",
         "species": "Amelanchier",
         "status": 3,
         "notes": null,
         "name_la": "Amelanchier ",
         "name_nl": "Krentenboompje",
-        "name_en": "Serviceberry"
+        "name_en": "Serviceberry",
+        "width": 3.5,
+        "height": 4.0
       },
       "geometry": {
         "type": "Point",
@@ -752,13 +830,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ec99c885f0743d9e1db7e48",
+        "oid": "5ee143e6a7e97f1981c65684",
         "species": "A. melanocarpa",
         "status": 3,
         "notes": null,
         "name_la": "Aronia melanocarpa",
         "name_nl": "Zwarte appelbes (VS)",
-        "name_en": "Black chokeberry (US)"
+        "name_en": "Black chokeberry (US)",
+        "width": null,
+        "height": null
       },
       "geometry": {
         "type": "Point",
@@ -771,13 +851,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ec99c885f0743d9e1db7e49",
+        "oid": "5ee143e6a7e97f1981c65685",
         "species": "A. melanocarpa",
         "status": 3,
         "notes": null,
         "name_la": "Aronia melanocarpa",
         "name_nl": "Zwarte appelbes (VS)",
-        "name_en": "Black chokeberry (US)"
+        "name_en": "Black chokeberry (US)",
+        "width": null,
+        "height": null
       },
       "geometry": {
         "type": "Point",
@@ -790,13 +872,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ec99c885f0743d9e1db7e4a",
+        "oid": "5ee143e6a7e97f1981c65686",
         "species": "A. melanocarpa",
         "status": 3,
         "notes": null,
         "name_la": "Aronia melanocarpa",
         "name_nl": "Zwarte appelbes (VS)",
-        "name_en": "Black chokeberry (US)"
+        "name_en": "Black chokeberry (US)",
+        "width": null,
+        "height": null
       },
       "geometry": {
         "type": "Point",
@@ -809,13 +893,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ec99c885f0743d9e1db7e4b",
+        "oid": "5ee143e6a7e97f1981c65687",
         "species": "A. melanocarpa",
         "status": 3,
         "notes": null,
         "name_la": "Aronia melanocarpa",
         "name_nl": "Zwarte appelbes (VS)",
-        "name_en": "Black chokeberry (US)"
+        "name_en": "Black chokeberry (US)",
+        "width": null,
+        "height": null
       },
       "geometry": {
         "type": "Point",
@@ -828,13 +914,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ec99c885f0743d9e1db7e4c",
+        "oid": "5ee143e6a7e97f1981c65688",
         "species": "A. melanocarpa",
         "status": 3,
         "notes": null,
         "name_la": "Aronia melanocarpa",
         "name_nl": "Zwarte appelbes (VS)",
-        "name_en": "Black chokeberry (US)"
+        "name_en": "Black chokeberry (US)",
+        "width": null,
+        "height": null
       },
       "geometry": {
         "type": "Point",
@@ -847,13 +935,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ec99c885f0743d9e1db7e4d",
+        "oid": "5ee143e6a7e97f1981c65689",
         "species": "C. avellana",
         "status": 3,
         "notes": "waarschijnlijk geen cultivar",
         "name_la": "Corylus avellana",
         "name_nl": "Hazelaar",
-        "name_en": "Common hazel"
+        "name_en": "Common hazel",
+        "width": 6.0,
+        "height": 6.0
       },
       "geometry": {
         "type": "Point",
@@ -866,13 +956,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ec99c885f0743d9e1db7e4e",
+        "oid": "5ee143e6a7e97f1981c6568a",
         "species": "A. araucana",
         "status": 3,
         "notes": null,
         "name_la": "Araucaria araucana",
         "name_nl": "Slangenden",
-        "name_en": null
+        "name_en": null,
+        "width": 10.0,
+        "height": 25.0
       },
       "geometry": {
         "type": "Point",
@@ -885,13 +977,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ec99c885f0743d9e1db7e50",
+        "oid": "5ee143e6a7e97f1981c6568b",
         "species": "P. koraiensis",
         "status": 3,
         "notes": null,
         "name_la": "Pinus koraiensis",
         "name_nl": "Pijnboompit",
-        "name_en": null
+        "name_en": null,
+        "width": 15.0,
+        "height": 20.0
       },
       "geometry": {
         "type": "Point",
@@ -904,13 +998,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ec99c885f0743d9e1db7e51",
+        "oid": "5ee143e6a7e97f1981c6568c",
         "species": "P. koraiensis",
         "status": 3,
         "notes": null,
         "name_la": "Pinus koraiensis",
         "name_nl": "Pijnboompit",
-        "name_en": null
+        "name_en": null,
+        "width": 15.0,
+        "height": 20.0
       },
       "geometry": {
         "type": "Point",
@@ -923,13 +1019,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ec99c885f0743d9e1db7e52",
+        "oid": "5ee143e6a7e97f1981c6568d",
         "species": "C. avellana",
         "status": 3,
         "notes": null,
         "name_la": "Corylus avellana",
         "name_nl": "Hazelaar",
-        "name_en": "Common hazel"
+        "name_en": "Common hazel",
+        "width": 6.0,
+        "height": 6.0
       },
       "geometry": {
         "type": "Point",
@@ -942,13 +1040,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ec99c885f0743d9e1db7e53",
+        "oid": "5ee143e6a7e97f1981c6568e",
         "species": "C. avellana",
         "status": 3,
         "notes": null,
         "name_la": "Corylus avellana",
         "name_nl": "Hazelaar",
-        "name_en": "Common hazel"
+        "name_en": "Common hazel",
+        "width": 6.0,
+        "height": 6.0
       },
       "geometry": {
         "type": "Point",
@@ -961,13 +1061,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ec99c885f0743d9e1db7e54",
+        "oid": "5ee143e6a7e97f1981c6568f",
         "species": "C. avellana",
         "status": 3,
         "notes": null,
         "name_la": "Corylus avellana",
         "name_nl": "Hazelaar",
-        "name_en": "Common hazel"
+        "name_en": "Common hazel",
+        "width": 6.0,
+        "height": 6.0
       },
       "geometry": {
         "type": "Point",
@@ -980,13 +1082,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ec99c885f0743d9e1db7e55",
+        "oid": "5ee143e6a7e97f1981c65690",
         "species": "C. tricuspidata",
         "status": 3,
         "notes": null,
         "name_la": "Cudrania tricuspidata",
         "name_nl": "Chinese moerbei",
-        "name_en": null
+        "name_en": null,
+        "width": 6.0,
+        "height": 6.0
       },
       "geometry": {
         "type": "Point",
@@ -999,13 +1103,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ec99c885f0743d9e1db7e56",
+        "oid": "5ee143e6a7e97f1981c65691",
         "species": "E. x ebbingei",
         "status": 3,
         "notes": null,
         "name_la": "Elaeagnus ebbingei",
         "name_nl": "Zilverbes",
-        "name_en": null
+        "name_en": null,
+        "width": 3.0,
+        "height": 3.0
       },
       "geometry": {
         "type": "Point",
@@ -1018,13 +1124,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ec99c885f0743d9e1db7e57",
+        "oid": "5ee143e6a7e97f1981c65692",
         "species": "E. x ebbingei",
         "status": 3,
         "notes": null,
         "name_la": "Elaeagnus ebbingei",
         "name_nl": "Zilverbes",
-        "name_en": null
+        "name_en": null,
+        "width": 3.0,
+        "height": 3.0
       },
       "geometry": {
         "type": "Point",
@@ -1037,13 +1145,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ec99c885f0743d9e1db7e58",
+        "oid": "5ee143e6a7e97f1981c65693",
         "species": "H. rhamnoides",
         "status": 3,
         "notes": null,
         "name_la": "Hippophae rhamnoides",
         "name_nl": "Duindoorn",
-        "name_en": null
+        "name_en": null,
+        "width": 5.0,
+        "height": 6.0
       },
       "geometry": {
         "type": "Point",
@@ -1056,13 +1166,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ec99c885f0743d9e1db7e59",
+        "oid": "5ee143e6a7e97f1981c65694",
         "species": "H. rhamnoides",
         "status": 3,
         "notes": null,
         "name_la": "Hippophae rhamnoides",
         "name_nl": "Duindoorn",
-        "name_en": null
+        "name_en": null,
+        "width": 5.0,
+        "height": 6.0
       },
       "geometry": {
         "type": "Point",
@@ -1075,13 +1187,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ec99c885f0743d9e1db7e5a",
+        "oid": "5ee143e6a7e97f1981c65695",
         "species": "S. domestica",
         "status": 3,
         "notes": null,
         "name_la": "Sorbus domestica",
         "name_nl": "Peervormige lijsterbes",
-        "name_en": null
+        "name_en": null,
+        "width": 8.0,
+        "height": 20.0
       },
       "geometry": {
         "type": "Point",
@@ -1094,13 +1208,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ec99c885f0743d9e1db7e5b",
+        "oid": "5ee143e6a7e97f1981c65696",
         "species": "G. triacanthos",
         "status": 3,
         "notes": null,
         "name_la": "Gleditsia triacanthos",
         "name_nl": "Valse christusdoorn",
-        "name_en": "Honey locust"
+        "name_en": "Honey locust",
+        "width": 10.0,
+        "height": 20.0
       },
       "geometry": {
         "type": "Point",
@@ -1113,13 +1229,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ec99c885f0743d9e1db7e5c",
+        "oid": "5ee143e6a7e97f1981c65697",
         "species": "P. sinensis",
         "status": 3,
         "notes": null,
         "name_la": "Pseudocydonia sinensis ",
         "name_nl": "Chinese kweepeer",
-        "name_en": null
+        "name_en": null,
+        "width": 6.0,
+        "height": 7.0
       },
       "geometry": {
         "type": "Point",
@@ -1132,13 +1250,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ec99c885f0743d9e1db7e5d",
+        "oid": "5ee143e6a7e97f1981c65698",
         "species": "H. rhamnoides",
         "status": 3,
         "notes": null,
         "name_la": "Hippophae rhamnoides",
         "name_nl": "Duindoorn",
-        "name_en": null
+        "name_en": null,
+        "width": 5.0,
+        "height": 6.0
       },
       "geometry": {
         "type": "Point",
@@ -1151,13 +1271,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ec99c885f0743d9e1db7e5e",
+        "oid": "5ee143e6a7e97f1981c65699",
         "species": "H. rhamnoides",
         "status": 3,
         "notes": null,
         "name_la": "Hippophae rhamnoides",
         "name_nl": "Duindoorn",
-        "name_en": null
+        "name_en": null,
+        "width": 5.0,
+        "height": 6.0
       },
       "geometry": {
         "type": "Point",
@@ -1170,13 +1292,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ec99c885f0743d9e1db7e5f",
+        "oid": "5ee143e6a7e97f1981c6569a",
         "species": "R. glabra",
         "status": 3,
         "notes": null,
         "name_la": "Rhus glabra",
         "name_nl": "Fluweelboom",
-        "name_en": null
+        "name_en": null,
+        "width": 3.0,
+        "height": 3.0
       },
       "geometry": {
         "type": "Point",
@@ -1189,13 +1313,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ec99c885f0743d9e1db7e60",
+        "oid": "5ee143e6a7e97f1981c6569b",
         "species": "R. typhina",
         "status": 3,
         "notes": null,
         "name_la": "Rhus typhina",
         "name_nl": "Fluweelboom",
-        "name_en": null
+        "name_en": null,
+        "width": 3.0,
+        "height": 3.0
       },
       "geometry": {
         "type": "Point",
@@ -1208,13 +1334,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ec99c885f0743d9e1db7e61",
+        "oid": "5ee143e6a7e97f1981c6569c",
         "species": "R. glabra",
         "status": 3,
         "notes": null,
         "name_la": "Rhus glabra",
         "name_nl": "Fluweelboom",
-        "name_en": null
+        "name_en": null,
+        "width": 3.0,
+        "height": 3.0
       },
       "geometry": {
         "type": "Point",
@@ -1227,13 +1355,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ec99c885f0743d9e1db7e62",
+        "oid": "5ee143e6a7e97f1981c6569d",
         "species": "R. typhina",
         "status": 3,
         "notes": null,
         "name_la": "Rhus typhina",
         "name_nl": "Fluweelboom",
-        "name_en": null
+        "name_en": null,
+        "width": 3.0,
+        "height": 3.0
       },
       "geometry": {
         "type": "Point",
@@ -1246,13 +1376,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ec99c885f0743d9e1db7e63",
+        "oid": "5ee143e6a7e97f1981c6569e",
         "species": "P. communis",
         "status": 3,
         "notes": null,
         "name_la": "Pyrus communis",
         "name_nl": "Peer (hoogstam)",
-        "name_en": null
+        "name_en": null,
+        "width": 6.0,
+        "height": 10.0
       },
       "geometry": {
         "type": "Point",
@@ -1265,13 +1397,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ec99c885f0743d9e1db7e64",
+        "oid": "5ee143e6a7e97f1981c6569f",
         "species": "C. arnoldiana",
         "status": 3,
         "notes": null,
         "name_la": "Crataegus arnoldiana",
         "name_nl": "Meidoorn",
-        "name_en": "Hawthorn"
+        "name_en": "Hawthorn",
+        "width": 5.0,
+        "height": 6.0
       },
       "geometry": {
         "type": "Point",
@@ -1284,13 +1418,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ec99c885f0743d9e1db7e65",
+        "oid": "5ee143e6a7e97f1981c656a0",
         "species": "P. cerasius",
         "status": 3,
         "notes": null,
         "name_la": "Prunus cerasius",
         "name_nl": "Zure kers",
-        "name_en": null
+        "name_en": null,
+        "width": 4.0,
+        "height": 4.0
       },
       "geometry": {
         "type": "Point",
@@ -1303,13 +1439,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ec99c885f0743d9e1db7e66",
+        "oid": "5ee143e6a7e97f1981c656a1",
         "species": "H. rhamnoides",
         "status": 3,
         "notes": null,
         "name_la": "Hippophae rhamnoides",
         "name_nl": "Duindoorn",
-        "name_en": null
+        "name_en": null,
+        "width": 5.0,
+        "height": 6.0
       },
       "geometry": {
         "type": "Point",
@@ -1322,13 +1460,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ec99c885f0743d9e1db7e67",
+        "oid": "5ee143e6a7e97f1981c656a2",
         "species": "B. pendula",
         "status": 3,
         "notes": null,
         "name_la": "Betula pendula",
         "name_nl": "Ruwe berk",
-        "name_en": null
+        "name_en": null,
+        "width": 6.0,
+        "height": 20.0
       },
       "geometry": {
         "type": "Point",
@@ -1341,13 +1481,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ec99c885f0743d9e1db7e68",
+        "oid": "5ee143e6a7e97f1981c656a3",
         "species": "Aronia spp.",
         "status": 3,
         "notes": null,
         "name_la": "Aronia spp.",
         "name_nl": "zwarte appelbes",
-        "name_en": null
+        "name_en": null,
+        "width": 3.0,
+        "height": 3.0
       },
       "geometry": {
         "type": "Point",
@@ -1360,13 +1502,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ec99c885f0743d9e1db7e69",
+        "oid": "5ee143e6a7e97f1981c656a4",
         "species": "Onbekend",
         "status": 3,
         "notes": null,
         "name_la": "Onbekend",
         "name_nl": "Onbekend",
-        "name_en": "Unknown"
+        "name_en": "Unknown",
+        "width": null,
+        "height": null
       },
       "geometry": {
         "type": "Point",
@@ -1379,13 +1523,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ec99c885f0743d9e1db7e6a",
+        "oid": "5ee143e6a7e97f1981c656a5",
         "species": "C. sativa",
         "status": 3,
         "notes": null,
         "name_la": "Castanea sativa",
         "name_nl": "Kastanjeboom",
-        "name_en": null
+        "name_en": null,
+        "width": 20.0,
+        "height": 20.0
       },
       "geometry": {
         "type": "Point",
@@ -1398,13 +1544,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ec99c885f0743d9e1db7e6b",
+        "oid": "5ee143e6a7e97f1981c656a6",
         "species": "G. triacanthos",
         "status": 3,
         "notes": null,
         "name_la": "Gleditsia triacanthos",
         "name_nl": "Valse christusdoorn",
-        "name_en": "Honey locust"
+        "name_en": "Honey locust",
+        "width": 10.0,
+        "height": 20.0
       },
       "geometry": {
         "type": "Point",
@@ -1417,13 +1565,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ec99c885f0743d9e1db7e6c",
+        "oid": "5ee143e6a7e97f1981c656a7",
         "species": "G. triacanthos",
         "status": 3,
         "notes": null,
         "name_la": "Gleditsia triacanthos",
         "name_nl": "Valse christusdoorn",
-        "name_en": "Honey locust"
+        "name_en": "Honey locust",
+        "width": 10.0,
+        "height": 20.0
       },
       "geometry": {
         "type": "Point",
@@ -1436,13 +1586,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ec99c885f0743d9e1db7e6d",
+        "oid": "5ee143e6a7e97f1981c656a8",
         "species": "S. pinnata",
         "status": 3,
         "notes": null,
         "name_la": "Staphylea pinnata",
         "name_nl": "Europese pimpernoot",
-        "name_en": null
+        "name_en": null,
+        "width": 1.5,
+        "height": 1.5
       },
       "geometry": {
         "type": "Point",
@@ -1455,13 +1607,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ec99c885f0743d9e1db7e6e",
+        "oid": "5ee143e6a7e97f1981c656a9",
         "species": "M. rubra",
         "status": 3,
         "notes": null,
         "name_la": "Morus rubra",
         "name_nl": "Rode moerbei",
-        "name_en": null
+        "name_en": null,
+        "width": 10.0,
+        "height": 15.0
       },
       "geometry": {
         "type": "Point",
@@ -1474,13 +1628,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ec99c885f0743d9e1db7e6f",
+        "oid": "5ee143e6a7e97f1981c656aa",
         "species": "H. rhamnoides",
         "status": 3,
         "notes": null,
         "name_la": "Hippophae rhamnoides",
         "name_nl": "Duindoorn",
-        "name_en": null
+        "name_en": null,
+        "width": 5.0,
+        "height": 6.0
       },
       "geometry": {
         "type": "Point",
@@ -1493,13 +1649,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ec99c885f0743d9e1db7e70",
+        "oid": "5ee143e6a7e97f1981c656ab",
         "species": "B. pendula",
         "status": 3,
         "notes": null,
         "name_la": "Betula pendula",
         "name_nl": "Ruwe berk",
-        "name_en": null
+        "name_en": null,
+        "width": 6.0,
+        "height": 20.0
       },
       "geometry": {
         "type": "Point",
@@ -1512,13 +1670,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ec99c885f0743d9e1db7e71",
+        "oid": "5ee143e6a7e97f1981c656ac",
         "species": "S. pinnata",
         "status": 3,
         "notes": null,
         "name_la": "Staphylea pinnata",
         "name_nl": "Europese pimpernoot",
-        "name_en": null
+        "name_en": null,
+        "width": 1.5,
+        "height": 1.5
       },
       "geometry": {
         "type": "Point",
@@ -1531,13 +1691,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ec99c885f0743d9e1db7e72",
+        "oid": "5ee143e6a7e97f1981c656ad",
         "species": "D. lotus",
         "status": 3,
         "notes": "Halesia carolina?",
         "name_la": "Diospyros lotus",
         "name_nl": "Lotusvrucht",
-        "name_en": null
+        "name_en": null,
+        "width": 6.0,
+        "height": 10.0
       },
       "geometry": {
         "type": "Point",
@@ -1550,13 +1712,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ec99c885f0743d9e1db7e73",
+        "oid": "5ee143e6a7e97f1981c656ae",
         "species": "G. triacanthos",
         "status": 3,
         "notes": null,
         "name_la": "Gleditsia triacanthos",
         "name_nl": "Valse christusdoorn",
-        "name_en": "Honey locust"
+        "name_en": "Honey locust",
+        "width": 10.0,
+        "height": 20.0
       },
       "geometry": {
         "type": "Point",
@@ -1569,13 +1733,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ec99c885f0743d9e1db7e74",
+        "oid": "5ee143e6a7e97f1981c656af",
         "species": "Onbekend",
         "status": 3,
         "notes": null,
         "name_la": "Onbekend",
         "name_nl": "Onbekend",
-        "name_en": "Unknown"
+        "name_en": "Unknown",
+        "width": null,
+        "height": null
       },
       "geometry": {
         "type": "Point",
@@ -1588,13 +1754,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ec99c885f0743d9e1db7e75",
+        "oid": "5ee143e6a7e97f1981c656b0",
         "species": "P. domestica",
         "status": 3,
         "notes": null,
         "name_la": "Prunus domestica",
         "name_nl": "Pruim, halfstam",
-        "name_en": null
+        "name_en": null,
+        "width": 3.0,
+        "height": 4.0
       },
       "geometry": {
         "type": "Point",
@@ -1607,13 +1775,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ec99c885f0743d9e1db7e76",
+        "oid": "5ee143e6a7e97f1981c656b1",
         "species": "H. rhamnoides",
         "status": 3,
         "notes": null,
         "name_la": "Hippophae rhamnoides",
         "name_nl": "Duindoorn",
-        "name_en": null
+        "name_en": null,
+        "width": 5.0,
+        "height": 6.0
       },
       "geometry": {
         "type": "Point",
@@ -1626,13 +1796,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ec99c885f0743d9e1db7e77",
+        "oid": "5ee143e6a7e97f1981c656b2",
         "species": "H. rhamnoides",
         "status": 3,
         "notes": null,
         "name_la": "Hippophae rhamnoides",
         "name_nl": "Duindoorn",
-        "name_en": null
+        "name_en": null,
+        "width": 5.0,
+        "height": 6.0
       },
       "geometry": {
         "type": "Point",
@@ -1645,13 +1817,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ec99c885f0743d9e1db7e78",
+        "oid": "5ee143e6a7e97f1981c656b3",
         "species": "B. pendula",
         "status": 3,
         "notes": null,
         "name_la": "Betula pendula",
         "name_nl": "Ruwe berk",
-        "name_en": null
+        "name_en": null,
+        "width": 6.0,
+        "height": 20.0
       },
       "geometry": {
         "type": "Point",
@@ -1664,13 +1838,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ec99c885f0743d9e1db7e79",
+        "oid": "5ee143e6a7e97f1981c656b4",
         "species": "B. papyrifera",
         "status": 3,
         "notes": null,
         "name_la": "Broussonetia papyrifera",
         "name_nl": "Papiermoerbei",
-        "name_en": null
+        "name_en": null,
+        "width": 8.0,
+        "height": 12.0
       },
       "geometry": {
         "type": "Point",
@@ -1683,13 +1859,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ec99c885f0743d9e1db7e7a",
+        "oid": "5ee143e6a7e97f1981c656b5",
         "species": "M. rubra",
         "status": 3,
         "notes": null,
         "name_la": "Morus rubra",
         "name_nl": "Rode moerbei",
-        "name_en": null
+        "name_en": null,
+        "width": 10.0,
+        "height": 15.0
       },
       "geometry": {
         "type": "Point",
@@ -1702,13 +1880,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ec99c885f0743d9e1db7e7b",
+        "oid": "5ee143e6a7e97f1981c656b6",
         "species": "C. avellana",
         "status": 3,
         "notes": null,
         "name_la": "Corylus avellana",
         "name_nl": "Hazelaar",
-        "name_en": "Common hazel"
+        "name_en": "Common hazel",
+        "width": 6.0,
+        "height": 6.0
       },
       "geometry": {
         "type": "Point",
@@ -1721,13 +1901,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ec99c885f0743d9e1db7e7c",
+        "oid": "5ee143e6a7e97f1981c656b7",
         "species": "C. arnoldiana",
         "status": 3,
         "notes": null,
         "name_la": "Crataegus arnoldiana",
         "name_nl": "Meidoorn",
-        "name_en": "Hawthorn"
+        "name_en": "Hawthorn",
+        "width": 5.0,
+        "height": 6.0
       },
       "geometry": {
         "type": "Point",
@@ -1740,13 +1922,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ec99c885f0743d9e1db7e7d",
+        "oid": "5ee143e6a7e97f1981c656b8",
         "species": "H. rhamnoides",
         "status": 3,
         "notes": null,
         "name_la": "Hippophae rhamnoides",
         "name_nl": "Duindoorn",
-        "name_en": null
+        "name_en": null,
+        "width": 5.0,
+        "height": 6.0
       },
       "geometry": {
         "type": "Point",
@@ -1759,13 +1943,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ec99c885f0743d9e1db7e7e",
+        "oid": "5ee143e6a7e97f1981c656b9",
         "species": "P. domestica",
         "status": 3,
         "notes": null,
         "name_la": "Prunus domestica",
         "name_nl": "Pruim, halfstam",
-        "name_en": null
+        "name_en": null,
+        "width": 3.0,
+        "height": 4.0
       },
       "geometry": {
         "type": "Point",
@@ -1778,13 +1964,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ec99c885f0743d9e1db7e7f",
+        "oid": "5ee143e6a7e97f1981c656ba",
         "species": "C. arnoldiana",
         "status": 3,
         "notes": null,
         "name_la": "Crataegus arnoldiana",
         "name_nl": "Meidoorn",
-        "name_en": "Hawthorn"
+        "name_en": "Hawthorn",
+        "width": 5.0,
+        "height": 6.0
       },
       "geometry": {
         "type": "Point",
@@ -1797,13 +1985,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ec99c885f0743d9e1db7e80",
+        "oid": "5ee143e6a7e97f1981c656bb",
         "species": "M. bealei",
         "status": 3,
         "notes": null,
         "name_la": "Mahonia bealei",
         "name_nl": "Mahonia",
-        "name_en": null
+        "name_en": null,
+        "width": 7.0,
+        "height": 10.0
       },
       "geometry": {
         "type": "Point",
@@ -1816,13 +2006,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ec99c885f0743d9e1db7e81",
+        "oid": "5ee143e6a7e97f1981c656bc",
         "species": "M. bealei",
         "status": 3,
         "notes": null,
         "name_la": "Mahonia bealei",
         "name_nl": "Mahonia",
-        "name_en": null
+        "name_en": null,
+        "width": 7.0,
+        "height": 10.0
       },
       "geometry": {
         "type": "Point",
@@ -1835,13 +2027,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ec99c885f0743d9e1db7e82",
+        "oid": "5ee143e6a7e97f1981c656bd",
         "species": "M. bealei",
         "status": 3,
         "notes": null,
         "name_la": "Mahonia bealei",
         "name_nl": "Mahonia",
-        "name_en": null
+        "name_en": null,
+        "width": 7.0,
+        "height": 10.0
       },
       "geometry": {
         "type": "Point",
@@ -1854,13 +2048,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ec99c885f0743d9e1db7e83",
+        "oid": "5ee143e6a7e97f1981c656be",
         "species": "M. bealei",
         "status": 3,
         "notes": null,
         "name_la": "Mahonia bealei",
         "name_nl": "Mahonia",
-        "name_en": null
+        "name_en": null,
+        "width": 7.0,
+        "height": 10.0
       },
       "geometry": {
         "type": "Point",
@@ -1873,13 +2069,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ec99c885f0743d9e1db7e84",
+        "oid": "5ee143e6a7e97f1981c656bf",
         "species": "H. rhamnoides",
         "status": 3,
         "notes": null,
         "name_la": "Hippophae rhamnoides",
         "name_nl": "Duindoorn",
-        "name_en": null
+        "name_en": null,
+        "width": 5.0,
+        "height": 6.0
       },
       "geometry": {
         "type": "Point",
@@ -1892,13 +2090,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ec99c885f0743d9e1db7e85",
+        "oid": "5ee143e6a7e97f1981c656c0",
         "species": "P. communis",
         "status": 3,
         "notes": null,
         "name_la": "Pyrus communis",
         "name_nl": "Peer (hoogstam)",
-        "name_en": null
+        "name_en": null,
+        "width": 6.0,
+        "height": 10.0
       },
       "geometry": {
         "type": "Point",
@@ -1911,13 +2111,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ec99c885f0743d9e1db7e86",
+        "oid": "5ee143e6a7e97f1981c656c1",
         "species": "M. aquifolium",
         "status": 3,
         "notes": null,
         "name_la": "Mahonia aquifolium",
         "name_nl": "Mahonia",
-        "name_en": null
+        "name_en": null,
+        "width": 7.0,
+        "height": 10.0
       },
       "geometry": {
         "type": "Point",
@@ -1930,13 +2132,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ec99c885f0743d9e1db7e87",
+        "oid": "5ee143e6a7e97f1981c656c2",
         "species": "M. aquifolium",
         "status": 3,
         "notes": null,
         "name_la": "Mahonia aquifolium",
         "name_nl": "Mahonia",
-        "name_en": null
+        "name_en": null,
+        "width": 7.0,
+        "height": 10.0
       },
       "geometry": {
         "type": "Point",
@@ -1949,13 +2153,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ec99c885f0743d9e1db7e88",
+        "oid": "5ee143e6a7e97f1981c656c3",
         "species": "M. aquifolium",
         "status": 3,
         "notes": null,
         "name_la": "Mahonia aquifolium",
         "name_nl": "Mahonia",
-        "name_en": null
+        "name_en": null,
+        "width": 7.0,
+        "height": 10.0
       },
       "geometry": {
         "type": "Point",
@@ -1968,13 +2174,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ec99c885f0743d9e1db7e89",
+        "oid": "5ee143e6a7e97f1981c656c4",
         "species": "Onbekend",
         "status": 3,
         "notes": null,
         "name_la": "Onbekend",
         "name_nl": "Onbekend",
-        "name_en": "Unknown"
+        "name_en": "Unknown",
+        "width": null,
+        "height": null
       },
       "geometry": {
         "type": "Point",
@@ -1987,13 +2195,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ec99c885f0743d9e1db7e8a",
+        "oid": "5ee143e6a7e97f1981c656c5",
         "species": "Onbekend",
         "status": 3,
         "notes": null,
         "name_la": "Onbekend",
         "name_nl": "Onbekend",
-        "name_en": "Unknown"
+        "name_en": "Unknown",
+        "width": null,
+        "height": null
       },
       "geometry": {
         "type": "Point",
@@ -2006,13 +2216,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ec99c885f0743d9e1db7e8b",
+        "oid": "5ee143e6a7e97f1981c656c6",
         "species": "H. rhamnoides",
         "status": 3,
         "notes": null,
         "name_la": "Hippophae rhamnoides",
         "name_nl": "Duindoorn",
-        "name_en": null
+        "name_en": null,
+        "width": 5.0,
+        "height": 6.0
       },
       "geometry": {
         "type": "Point",
@@ -2025,13 +2237,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ec99c885f0743d9e1db7e8c",
+        "oid": "5ee143e6a7e97f1981c656c7",
         "species": "T. sinensis",
         "status": 3,
         "notes": null,
         "name_la": "Toona sinensis",
         "name_nl": "Franseuiensoepboom (geknot)",
-        "name_en": null
+        "name_en": null,
+        "width": 2.0,
+        "height": 3.0
       },
       "geometry": {
         "type": "Point",
@@ -2044,13 +2258,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ec99c885f0743d9e1db7e8d",
+        "oid": "5ee143e6a7e97f1981c656c8",
         "species": "C. pin.\nmajor",
         "status": 3,
         "notes": null,
         "name_la": "Crataegus pinnatifida major “Big ball”",
         "name_nl": "Meidoorn",
-        "name_en": "Hawthorn"
+        "name_en": "Hawthorn",
+        "width": 7.0,
+        "height": 7.0
       },
       "geometry": {
         "type": "Point",
@@ -2063,13 +2279,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ec99c885f0743d9e1db7e8e",
+        "oid": "5ee143e6a7e97f1981c656c9",
         "species": "B. lologensis",
         "status": 3,
         "notes": null,
         "name_la": "Berberis lologensis",
         "name_nl": "Zuurbes",
-        "name_en": null
+        "name_en": null,
+        "width": 2.5,
+        "height": 2.5
       },
       "geometry": {
         "type": "Point",
@@ -2082,13 +2300,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ec99c885f0743d9e1db7e8f",
+        "oid": "5ee143e6a7e97f1981c656ca",
         "species": "B. lologensis",
         "status": 3,
         "notes": null,
         "name_la": "Berberis lologensis",
         "name_nl": "Zuurbes",
-        "name_en": null
+        "name_en": null,
+        "width": 2.5,
+        "height": 2.5
       },
       "geometry": {
         "type": "Point",
@@ -2101,13 +2321,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ec99c885f0743d9e1db7e90",
+        "oid": "5ee143e6a7e97f1981c656cb",
         "species": "P. communis",
         "status": 3,
         "notes": null,
         "name_la": "Pyrus communis",
         "name_nl": "Peer (hoogstam)",
-        "name_en": null
+        "name_en": null,
+        "width": 6.0,
+        "height": 10.0
       },
       "geometry": {
         "type": "Point",
@@ -2120,13 +2342,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ec99c885f0743d9e1db7e91",
+        "oid": "5ee143e6a7e97f1981c656cc",
         "species": "B. darwinii",
         "status": 3,
         "notes": null,
         "name_la": "Berberis darwinii",
         "name_nl": "Zuurbes",
-        "name_en": null
+        "name_en": null,
+        "width": 2.5,
+        "height": 2.5
       },
       "geometry": {
         "type": "Point",
@@ -2139,13 +2363,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ec99c885f0743d9e1db7e92",
+        "oid": "5ee143e6a7e97f1981c656cd",
         "species": "C. opaca",
         "status": 3,
         "notes": null,
         "name_la": "Crataegus opaca",
         "name_nl": "Meidoorn",
-        "name_en": "Hawthorn"
+        "name_en": "Hawthorn",
+        "width": 6.0,
+        "height": 9.0
       },
       "geometry": {
         "type": "Point",
@@ -2158,13 +2384,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ec99c885f0743d9e1db7e93",
+        "oid": "5ee143e6a7e97f1981c656ce",
         "species": "P. communis",
         "status": 3,
         "notes": null,
         "name_la": "Pyrus communis",
         "name_nl": "Peer (hoogstam)",
-        "name_en": null
+        "name_en": null,
+        "width": 6.0,
+        "height": 10.0
       },
       "geometry": {
         "type": "Point",
@@ -2177,13 +2405,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ec99c885f0743d9e1db7e94",
+        "oid": "5ee143e6a7e97f1981c656cf",
         "species": "H. rhamnoides",
         "status": 3,
         "notes": null,
         "name_la": "Hippophae rhamnoides",
         "name_nl": "Duindoorn",
-        "name_en": null
+        "name_en": null,
+        "width": 5.0,
+        "height": 6.0
       },
       "geometry": {
         "type": "Point",
@@ -2196,13 +2426,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ec99c885f0743d9e1db7e95",
+        "oid": "5ee143e6a7e97f1981c656d0",
         "species": "Z. jujuba",
         "status": 3,
         "notes": null,
         "name_la": "Ziziphus jujube",
         "name_nl": "Dadelpruim",
-        "name_en": null
+        "name_en": null,
+        "width": 7.0,
+        "height": 10.0
       },
       "geometry": {
         "type": "Point",
@@ -2215,13 +2447,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ec99c885f0743d9e1db7e96",
+        "oid": "5ee143e6a7e97f1981c656d1",
         "species": "Z. jujuba",
         "status": 3,
         "notes": null,
         "name_la": "Ziziphus jujube",
         "name_nl": "Dadelpruim",
-        "name_en": null
+        "name_en": null,
+        "width": 7.0,
+        "height": 10.0
       },
       "geometry": {
         "type": "Point",
@@ -2234,13 +2468,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ec99c885f0743d9e1db7e97",
+        "oid": "5ee143e6a7e97f1981c656d2",
         "species": "Onbekend",
         "status": 3,
         "notes": null,
         "name_la": "Onbekend",
         "name_nl": "Onbekend",
-        "name_en": "Unknown"
+        "name_en": "Unknown",
+        "width": null,
+        "height": null
       },
       "geometry": {
         "type": "Point",
@@ -2253,13 +2489,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ec99c885f0743d9e1db7e98",
+        "oid": "5ee143e6a7e97f1981c656d3",
         "species": "Onbekend",
         "status": 3,
         "notes": null,
         "name_la": "Onbekend",
         "name_nl": "Onbekend",
-        "name_en": "Unknown"
+        "name_en": "Unknown",
+        "width": null,
+        "height": null
       },
       "geometry": {
         "type": "Point",
@@ -2272,13 +2510,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ec99c885f0743d9e1db7e99",
+        "oid": "5ee143e6a7e97f1981c656d4",
         "species": "D. lotus",
         "status": 3,
         "notes": null,
         "name_la": "Diospyros lotus",
         "name_nl": "Lotusvrucht",
-        "name_en": null
+        "name_en": null,
+        "width": 6.0,
+        "height": 10.0
       },
       "geometry": {
         "type": "Point",
@@ -2291,13 +2531,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ec99c885f0743d9e1db7e9a",
+        "oid": "5ee143e6a7e97f1981c656d5",
         "species": "Onbekend",
         "status": 3,
         "notes": null,
         "name_la": "Onbekend",
         "name_nl": "Onbekend",
-        "name_en": "Unknown"
+        "name_en": "Unknown",
+        "width": null,
+        "height": null
       },
       "geometry": {
         "type": "Point",
@@ -2310,13 +2552,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ec99c885f0743d9e1db7e9b",
+        "oid": "5ee143e6a7e97f1981c656d6",
         "species": "Onbekend",
         "status": 3,
         "notes": null,
         "name_la": "Onbekend",
         "name_nl": "Onbekend",
-        "name_en": "Unknown"
+        "name_en": "Unknown",
+        "width": null,
+        "height": null
       },
       "geometry": {
         "type": "Point",
@@ -2329,13 +2573,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ec99c885f0743d9e1db7e9c",
+        "oid": "5ee143e6a7e97f1981c656d7",
         "species": "Onbekend",
         "status": 3,
         "notes": null,
         "name_la": "Onbekend",
         "name_nl": "Onbekend",
-        "name_en": "Unknown"
+        "name_en": "Unknown",
+        "width": null,
+        "height": null
       },
       "geometry": {
         "type": "Point",
@@ -2348,13 +2594,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ec99c885f0743d9e1db7e9d",
+        "oid": "5ee143e6a7e97f1981c656d8",
         "species": "R. odoratum",
         "status": 3,
         "notes": null,
         "name_la": "Ribes odoratum",
         "name_nl": "Buffelkrent",
-        "name_en": null
+        "name_en": null,
+        "width": 1.25,
+        "height": 1.25
       },
       "geometry": {
         "type": "Point",
@@ -2367,13 +2615,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ec99c885f0743d9e1db7e9e",
+        "oid": "5ee143e6a7e97f1981c656d9",
         "species": "H. rhamnoides",
         "status": 3,
         "notes": null,
         "name_la": "Hippophae rhamnoides",
         "name_nl": "Duindoorn",
-        "name_en": null
+        "name_en": null,
+        "width": 5.0,
+        "height": 6.0
       },
       "geometry": {
         "type": "Point",
@@ -2386,13 +2636,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ec99c885f0743d9e1db7e9f",
+        "oid": "5ee143e6a7e97f1981c656da",
         "species": "H. rhamnoides",
         "status": 3,
         "notes": null,
         "name_la": "Hippophae rhamnoides",
         "name_nl": "Duindoorn",
-        "name_en": null
+        "name_en": null,
+        "width": 5.0,
+        "height": 6.0
       },
       "geometry": {
         "type": "Point",
@@ -2405,13 +2657,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ec99c885f0743d9e1db7ea0",
+        "oid": "5ee143e6a7e97f1981c656db",
         "species": "L. barbarum",
         "status": 3,
         "notes": null,
         "name_la": "Lycium barbarum",
         "name_nl": "Gojibes",
-        "name_en": null
+        "name_en": null,
+        "width": 2.5,
+        "height": 2.5
       },
       "geometry": {
         "type": "Point",
@@ -2424,13 +2678,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ec99c885f0743d9e1db7ea1",
+        "oid": "5ee143e6a7e97f1981c656dc",
         "species": "L. barbarum",
         "status": 3,
         "notes": null,
         "name_la": "Lycium barbarum",
         "name_nl": "Gojibes",
-        "name_en": null
+        "name_en": null,
+        "width": 2.5,
+        "height": 2.5
       },
       "geometry": {
         "type": "Point",
@@ -2443,13 +2699,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ec99c885f0743d9e1db7ea2",
+        "oid": "5ee143e6a7e97f1981c656dd",
         "species": "L. barbarum",
         "status": 3,
         "notes": null,
         "name_la": "Lycium barbarum",
         "name_nl": "Gojibes",
-        "name_en": null
+        "name_en": null,
+        "width": 2.5,
+        "height": 2.5
       },
       "geometry": {
         "type": "Point",
@@ -2462,13 +2720,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ec99c885f0743d9e1db7ea3",
+        "oid": "5ee143e6a7e97f1981c656de",
         "species": "Onbekend",
         "status": 3,
         "notes": null,
         "name_la": "Onbekend",
         "name_nl": "Onbekend",
-        "name_en": "Unknown"
+        "name_en": "Unknown",
+        "width": null,
+        "height": null
       },
       "geometry": {
         "type": "Point",
@@ -2481,13 +2741,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ec99c885f0743d9e1db7ea4",
+        "oid": "5ee143e6a7e97f1981c656df",
         "species": "R. ‘loganberry’",
         "status": 3,
         "notes": null,
         "name_la": "Rubus 'Loganberry'",
         "name_nl": "Framboos",
-        "name_en": null
+        "name_en": null,
+        "width": 3.0,
+        "height": 2.0
       },
       "geometry": {
         "type": "Point",
@@ -2500,13 +2762,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ec99c885f0743d9e1db7ea5",
+        "oid": "5ee143e6a7e97f1981c656e0",
         "species": "Onbekend",
         "status": 3,
         "notes": null,
         "name_la": "Onbekend",
         "name_nl": "Onbekend",
-        "name_en": "Unknown"
+        "name_en": "Unknown",
+        "width": null,
+        "height": null
       },
       "geometry": {
         "type": "Point",
@@ -2519,13 +2783,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ec99c885f0743d9e1db7ea6",
+        "oid": "5ee143e6a7e97f1981c656e1",
         "species": "H. rhamnoides",
         "status": 3,
         "notes": null,
         "name_la": "Hippophae rhamnoides",
         "name_nl": "Duindoorn",
-        "name_en": null
+        "name_en": null,
+        "width": 5.0,
+        "height": 6.0
       },
       "geometry": {
         "type": "Point",
@@ -2538,13 +2804,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ec99c885f0743d9e1db7ea7",
+        "oid": "5ee143e6a7e97f1981c656e2",
         "species": "H. rhamnoides",
         "status": 3,
         "notes": null,
         "name_la": "Hippophae rhamnoides",
         "name_nl": "Duindoorn",
-        "name_en": null
+        "name_en": null,
+        "width": 5.0,
+        "height": 6.0
       },
       "geometry": {
         "type": "Point",
@@ -2557,13 +2825,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ec99c885f0743d9e1db7ea8",
+        "oid": "5ee143e6a7e97f1981c656e3",
         "species": "H. rhamnoides",
         "status": 3,
         "notes": null,
         "name_la": "Hippophae rhamnoides",
         "name_nl": "Duindoorn",
-        "name_en": null
+        "name_en": null,
+        "width": 5.0,
+        "height": 6.0
       },
       "geometry": {
         "type": "Point",
@@ -2576,13 +2846,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ec99c885f0743d9e1db7ea9",
+        "oid": "5ee143e6a7e97f1981c656e4",
         "species": "R. ‘loganberry’",
         "status": 3,
         "notes": null,
         "name_la": "Rubus 'Loganberry'",
         "name_nl": "Framboos",
-        "name_en": null
+        "name_en": null,
+        "width": 3.0,
+        "height": 2.0
       },
       "geometry": {
         "type": "Point",
@@ -2595,13 +2867,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ec99c885f0743d9e1db7eaa",
+        "oid": "5ee143e6a7e97f1981c656e5",
         "species": "R. odoratum",
         "status": 3,
         "notes": null,
         "name_la": "Ribes odoratum",
         "name_nl": "Buffelkrent",
-        "name_en": null
+        "name_en": null,
+        "width": 1.25,
+        "height": 1.25
       },
       "geometry": {
         "type": "Point",
@@ -2614,13 +2888,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ec99c885f0743d9e1db7eab",
+        "oid": "5ee143e6a7e97f1981c656e6",
         "species": "F. alnus",
         "status": 3,
         "notes": null,
         "name_la": "Frangula alnus",
         "name_nl": "Vuilboom",
-        "name_en": null
+        "name_en": null,
+        "width": null,
+        "height": null
       },
       "geometry": {
         "type": "Point",
@@ -2633,13 +2909,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ec99c885f0743d9e1db7eac",
+        "oid": "5ee143e6a7e97f1981c656e7",
         "species": "F. alnus",
         "status": 3,
         "notes": null,
         "name_la": "Frangula alnus",
         "name_nl": "Vuilboom",
-        "name_en": null
+        "name_en": null,
+        "width": null,
+        "height": null
       },
       "geometry": {
         "type": "Point",
@@ -2652,13 +2930,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ec99c885f0743d9e1db7ead",
+        "oid": "5ee143e6a7e97f1981c656e8",
         "species": "R. odoratum",
         "status": 3,
         "notes": null,
         "name_la": "Ribes odoratum",
         "name_nl": "Buffelkrent",
-        "name_en": null
+        "name_en": null,
+        "width": 1.25,
+        "height": 1.25
       },
       "geometry": {
         "type": "Point",
@@ -2671,13 +2951,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ec99c885f0743d9e1db7eae",
+        "oid": "5ee143e6a7e97f1981c656e9",
         "species": "R. odoratum",
         "status": 3,
         "notes": null,
         "name_la": "Ribes odoratum",
         "name_nl": "Buffelkrent",
-        "name_en": null
+        "name_en": null,
+        "width": 1.25,
+        "height": 1.25
       },
       "geometry": {
         "type": "Point",
@@ -2690,13 +2972,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5eccc7a3d512153aaa68aee6",
+        "oid": "5ee143e6a7e97f1981c656ea",
         "species": "H. rhamnoides",
         "status": 3,
         "notes": null,
         "name_la": "Hippophae rhamnoides",
         "name_nl": "Duindoorn",
-        "name_en": null
+        "name_en": null,
+        "width": 5.0,
+        "height": 6.0
       },
       "geometry": {
         "type": "Point",
@@ -2709,13 +2993,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5eccc827a472a1e4e02e2ce7",
+        "oid": "5ee143e6a7e97f1981c656eb",
         "species": "H. rhamnoides",
         "status": 3,
         "notes": null,
         "name_la": "Hippophae rhamnoides",
         "name_nl": "Duindoorn",
-        "name_en": null
+        "name_en": null,
+        "width": 5.0,
+        "height": 6.0
       },
       "geometry": {
         "type": "Point",
@@ -2728,13 +3014,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5eccc877d512153aaa68aee7",
+        "oid": "5ee143e6a7e97f1981c656ec",
         "species": "Onbekend",
         "status": 3,
         "notes": "Diospyrus lotus of eleagnus ?",
         "name_la": "Onbekend",
         "name_nl": "Onbekend",
-        "name_en": "Unknown"
+        "name_en": "Unknown",
+        "width": null,
+        "height": null
       },
       "geometry": {
         "type": "Point",
@@ -2747,13 +3035,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5eccc976a472a1e4e02e2ce8",
+        "oid": "5ee143e6a7e97f1981c656ed",
         "species": "E. x ebbingei",
         "status": 3,
         "notes": "of halesia of diospyros",
         "name_la": "Elaeagnus ebbingei",
         "name_nl": "Zilverbes",
-        "name_en": null
+        "name_en": null,
+        "width": 3.0,
+        "height": 3.0
       },
       "geometry": {
         "type": "Point",
@@ -2766,13 +3056,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5eccca27a472a1e4e02e2ce9",
+        "oid": "5ee143e6a7e97f1981c656ee",
         "species": "R. divaricatum",
         "status": 3,
         "notes": null,
         "name_la": "Ribes divaricatum",
         "name_nl": "Worcester bes",
-        "name_en": null
+        "name_en": null,
+        "width": 2.0,
+        "height": 2.0
       },
       "geometry": {
         "type": "Point",
@@ -2785,13 +3077,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5eccca89d512153aaa68aee8",
+        "oid": "5ee143e6a7e97f1981c656ef",
         "species": "M. nigra",
         "status": 3,
         "notes": "?",
         "name_la": "Morus nigra",
         "name_nl": "Zwarte moerbei",
-        "name_en": null
+        "name_en": null,
+        "width": 12.0,
+        "height": 8.0
       },
       "geometry": {
         "type": "Point",
@@ -2804,13 +3098,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ecccabdd512153aaa68aee9",
+        "oid": "5ee143e6a7e97f1981c656f0",
         "species": "R. divaricatum",
         "status": 3,
         "notes": null,
         "name_la": "Ribes divaricatum",
         "name_nl": "Worcester bes",
-        "name_en": null
+        "name_en": null,
+        "width": 2.0,
+        "height": 2.0
       },
       "geometry": {
         "type": "Point",
@@ -2823,13 +3119,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ecccae1d512153aaa68aeea",
+        "oid": "5ee143e6a7e97f1981c656f1",
         "species": "R. divaricatum",
         "status": 3,
         "notes": null,
         "name_la": "Ribes divaricatum",
         "name_nl": "Worcester bes",
-        "name_en": null
+        "name_en": null,
+        "width": 2.0,
+        "height": 2.0
       },
       "geometry": {
         "type": "Point",
@@ -2842,13 +3140,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ecccaf7d512153aaa68aeeb",
+        "oid": "5ee143e6a7e97f1981c656f2",
         "species": "R. divaricatum",
         "status": 3,
         "notes": null,
         "name_la": "Ribes divaricatum",
         "name_nl": "Worcester bes",
-        "name_en": null
+        "name_en": null,
+        "width": 2.0,
+        "height": 2.0
       },
       "geometry": {
         "type": "Point",
@@ -2861,13 +3161,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ecccb64d512153aaa68aeec",
+        "oid": "5ee143e6a7e97f1981c656f3",
         "species": "Onbekend",
         "status": 3,
         "notes": "Sorbus Granatnaja",
         "name_la": "Onbekend",
         "name_nl": "Onbekend",
-        "name_en": "Unknown"
+        "name_en": "Unknown",
+        "width": null,
+        "height": null
       },
       "geometry": {
         "type": "Point",
@@ -2880,13 +3182,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ecccba7a472a1e4e02e2cea",
+        "oid": "5ee143e6a7e97f1981c656f4",
         "species": "H. rhamnoides",
         "status": 3,
         "notes": null,
         "name_la": "Hippophae rhamnoides",
         "name_nl": "Duindoorn",
-        "name_en": null
+        "name_en": null,
+        "width": 5.0,
+        "height": 6.0
       },
       "geometry": {
         "type": "Point",
@@ -2899,13 +3203,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ecccc70a472a1e4e02e2ceb",
+        "oid": "5ee143e6a7e97f1981c656f5",
         "species": "Onbekend",
         "status": 3,
         "notes": null,
         "name_la": "Onbekend",
         "name_nl": "Onbekend",
-        "name_en": "Unknown"
+        "name_en": "Unknown",
+        "width": null,
+        "height": null
       },
       "geometry": {
         "type": "Point",
@@ -2918,13 +3224,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5eccccbed512153aaa68aeed",
+        "oid": "5ee143e6a7e97f1981c656f6",
         "species": "B. pendula",
         "status": 3,
         "notes": null,
         "name_la": "Betula pendula",
         "name_nl": "Ruwe berk",
-        "name_en": null
+        "name_en": null,
+        "width": 6.0,
+        "height": 20.0
       },
       "geometry": {
         "type": "Point",
@@ -2937,13 +3245,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ecccd2dd512153aaa68aeee",
+        "oid": "5ee143e6a7e97f1981c656f7",
         "species": "Onbekend",
         "status": 3,
         "notes": "eleagnus? slechte staat",
         "name_la": "Onbekend",
         "name_nl": "Onbekend",
-        "name_en": "Unknown"
+        "name_en": "Unknown",
+        "width": null,
+        "height": null
       },
       "geometry": {
         "type": "Point",
@@ -2956,13 +3266,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ecccd87d512153aaa68aeef",
+        "oid": "5ee143e6a7e97f1981c656f8",
         "species": "Onbekend",
         "status": 3,
         "notes": "dood?",
         "name_la": "Onbekend",
         "name_nl": "Onbekend",
-        "name_en": "Unknown"
+        "name_en": "Unknown",
+        "width": null,
+        "height": null
       },
       "geometry": {
         "type": "Point",
@@ -2975,13 +3287,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5eccce0aa472a1e4e02e2cec",
+        "oid": "5ee143e6a7e97f1981c656f9",
         "species": "Onbekend",
         "status": 3,
         "notes": "crataegus! soort onbekend",
         "name_la": "Onbekend",
         "name_nl": "Onbekend",
-        "name_en": "Unknown"
+        "name_en": "Unknown",
+        "width": null,
+        "height": null
       },
       "geometry": {
         "type": "Point",
@@ -2994,13 +3308,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5eccce51d512153aaa68aef0",
+        "oid": "5ee143e6a7e97f1981c656fa",
         "species": "Onbekend",
         "status": 3,
         "notes": "eleagnus? soort onbekend",
         "name_la": "Onbekend",
         "name_nl": "Onbekend",
-        "name_en": "Unknown"
+        "name_en": "Unknown",
+        "width": null,
+        "height": null
       },
       "geometry": {
         "type": "Point",
@@ -3013,13 +3329,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5eccce95a472a1e4e02e2ced",
+        "oid": "5ee143e6a7e97f1981c656fb",
         "species": "Onbekend",
         "status": 3,
         "notes": "diospyros? slechte staat",
         "name_la": "Onbekend",
         "name_nl": "Onbekend",
-        "name_en": "Unknown"
+        "name_en": "Unknown",
+        "width": null,
+        "height": null
       },
       "geometry": {
         "type": "Point",
@@ -3032,13 +3350,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ecccea2d512153aaa68aef1",
+        "oid": "5ee143e6a7e97f1981c656fc",
         "species": "E. umbellata",
         "status": 3,
         "notes": null,
         "name_la": "Eleagnus umbellata",
         "name_nl": "Olijfwilg",
-        "name_en": null
+        "name_en": null,
+        "width": 5.0,
+        "height": 5.0
       },
       "geometry": {
         "type": "Point",
@@ -3051,13 +3371,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5eccd029a472a1e4e02e2cee",
+        "oid": "5ee143e6a7e97f1981c656fd",
         "species": "Onbekend",
         "status": 3,
         "notes": "Doed?",
         "name_la": "Onbekend",
         "name_nl": "Onbekend",
-        "name_en": "Unknown"
+        "name_en": "Unknown",
+        "width": null,
+        "height": null
       },
       "geometry": {
         "type": "Point",
@@ -3070,13 +3392,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5eccd0eba472a1e4e02e2cef",
+        "oid": "5ee143e6a7e97f1981c656fe",
         "species": "F. japonica",
         "status": 3,
         "notes": null,
         "name_la": "Fortunella japonica",
         "name_nl": "Marumi kumquat",
-        "name_en": null
+        "name_en": null,
+        "width": 2.0,
+        "height": 2.5
       },
       "geometry": {
         "type": "Point",
@@ -3089,13 +3413,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5eccd117a472a1e4e02e2cf0",
+        "oid": "5ee143e6a7e97f1981c656ff",
         "species": "Onbekend",
         "status": 3,
         "notes": "hartvormig blad",
         "name_la": "Onbekend",
         "name_nl": "Onbekend",
-        "name_en": "Unknown"
+        "name_en": "Unknown",
+        "width": null,
+        "height": null
       },
       "geometry": {
         "type": "Point",
@@ -3108,13 +3434,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5eccd17fd512153aaa68aef2",
+        "oid": "5ee143e6a7e97f1981c65700",
         "species": "F. japonica",
         "status": 3,
         "notes": null,
         "name_la": "Fortunella japonica",
         "name_nl": "Marumi kumquat",
-        "name_en": null
+        "name_en": null,
+        "width": 2.0,
+        "height": 2.5
       },
       "geometry": {
         "type": "Point",
@@ -3127,13 +3455,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5eccd25ba472a1e4e02e2cf1",
+        "oid": "5ee143e6a7e97f1981c65701",
         "species": "L. barbarum",
         "status": 3,
         "notes": null,
         "name_la": "Lycium barbarum",
         "name_nl": "Gojibes",
-        "name_en": null
+        "name_en": null,
+        "width": 2.5,
+        "height": 2.5
       },
       "geometry": {
         "type": "Point",
@@ -3146,13 +3476,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5eccd271d512153aaa68aef3",
+        "oid": "5ee143e6a7e97f1981c65702",
         "species": "Onbekend",
         "status": 3,
         "notes": "hartvormig blad",
         "name_la": "Onbekend",
         "name_nl": "Onbekend",
-        "name_en": "Unknown"
+        "name_en": "Unknown",
+        "width": null,
+        "height": null
       },
       "geometry": {
         "type": "Point",
@@ -3165,13 +3497,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5eccd2fbd512153aaa68aef4",
+        "oid": "5ee143e6a7e97f1981c65703",
         "species": "R. odoratum",
         "status": 3,
         "notes": null,
         "name_la": "Ribes odoratum",
         "name_nl": "Buffelkrent",
-        "name_en": null
+        "name_en": null,
+        "width": 1.25,
+        "height": 1.25
       },
       "geometry": {
         "type": "Point",
@@ -3184,13 +3518,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5eccd3a9d512153aaa68aef5",
+        "oid": "5ee143e6a7e97f1981c65704",
         "species": "Onbekend",
         "status": 3,
         "notes": null,
         "name_la": "Onbekend",
         "name_nl": "Onbekend",
-        "name_en": "Unknown"
+        "name_en": "Unknown",
+        "width": null,
+        "height": null
       },
       "geometry": {
         "type": "Point",
@@ -3203,13 +3539,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5eccd40aa472a1e4e02e2cf2",
+        "oid": "5ee143e6a7e97f1981c65705",
         "species": "H. rhamnoides",
         "status": 3,
         "notes": null,
         "name_la": "Hippophae rhamnoides",
         "name_nl": "Duindoorn",
-        "name_en": null
+        "name_en": null,
+        "width": 5.0,
+        "height": 6.0
       },
       "geometry": {
         "type": "Point",
@@ -3222,13 +3560,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5eccd498a472a1e4e02e2cf3",
+        "oid": "5ee143e6a7e97f1981c65706",
         "species": "C. tricuspidata",
         "status": 3,
         "notes": null,
         "name_la": "Cudrania tricuspidata",
         "name_nl": "Chinese moerbei",
-        "name_en": null
+        "name_en": null,
+        "width": 6.0,
+        "height": 6.0
       },
       "geometry": {
         "type": "Point",
@@ -3241,13 +3581,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5eccd49fa472a1e4e02e2cf4",
+        "oid": "5ee143e6a7e97f1981c65707",
         "species": "H. rhamnoides",
         "status": 3,
         "notes": null,
         "name_la": "Hippophae rhamnoides",
         "name_nl": "Duindoorn",
-        "name_en": null
+        "name_en": null,
+        "width": 5.0,
+        "height": 6.0
       },
       "geometry": {
         "type": "Point",
@@ -3260,13 +3602,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5eccd4c2a472a1e4e02e2cf5",
+        "oid": "5ee143e6a7e97f1981c65708",
         "species": "Onbekend",
         "status": 3,
         "notes": "eleagnus soort, or diospyros?",
         "name_la": "Onbekend",
         "name_nl": "Onbekend",
-        "name_en": "Unknown"
+        "name_en": "Unknown",
+        "width": null,
+        "height": null
       },
       "geometry": {
         "type": "Point",
@@ -3279,13 +3623,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5eccd5aba472a1e4e02e2cf6",
+        "oid": "5ee143e6a7e97f1981c65709",
         "species": "R. odoratum",
         "status": 3,
         "notes": null,
         "name_la": "Ribes odoratum",
         "name_nl": "Buffelkrent",
-        "name_en": null
+        "name_en": null,
+        "width": 1.25,
+        "height": 1.25
       },
       "geometry": {
         "type": "Point",
@@ -3298,13 +3644,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ecce118a472a1e4e02e2cf7",
+        "oid": "5ee143e6a7e97f1981c6570a",
         "species": "E. x ebbingei",
         "status": 3,
         "notes": null,
         "name_la": "Elaeagnus ebbingei",
         "name_nl": "Zilverbes",
-        "name_en": null
+        "name_en": null,
+        "width": 3.0,
+        "height": 3.0
       },
       "geometry": {
         "type": "Point",
@@ -3317,13 +3665,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ecce16aa472a1e4e02e2cf8",
+        "oid": "5ee143e6a7e97f1981c6570b",
         "species": "Onbekend",
         "status": 3,
         "notes": "hartvormig blad",
         "name_la": "Onbekend",
         "name_nl": "Onbekend",
-        "name_en": "Unknown"
+        "name_en": "Unknown",
+        "width": null,
+        "height": null
       },
       "geometry": {
         "type": "Point",
@@ -3336,13 +3686,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ecce318d512153aaa68aef6",
+        "oid": "5ee143e6a7e97f1981c6570c",
         "species": "T. cordata ",
         "status": 3,
         "notes": "hartvormig blad",
         "name_la": "Tilia cordata ",
         "name_nl": "Winterlinde (geknot)",
-        "name_en": null
+        "name_en": null,
+        "width": 2.0,
+        "height": 3.0
       },
       "geometry": {
         "type": "Point",
@@ -3355,13 +3707,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ecce4a5a472a1e4e02e2cf9",
+        "oid": "5ee143e6a7e97f1981c6570d",
         "species": "C. cathayensis",
         "status": 3,
         "notes": null,
         "name_la": "Chaenomeles cathayensis",
         "name_nl": "Chinese kwee ",
-        "name_en": null
+        "name_en": null,
+        "width": 3.0,
+        "height": 3.0
       },
       "geometry": {
         "type": "Point",
@@ -3374,13 +3728,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ecce52ea472a1e4e02e2cfa",
+        "oid": "5ee143e6a7e97f1981c6570e",
         "species": "C. cathayensis",
         "status": 3,
         "notes": null,
         "name_la": "Chaenomeles cathayensis",
         "name_nl": "Chinese kwee ",
-        "name_en": null
+        "name_en": null,
+        "width": 3.0,
+        "height": 3.0
       },
       "geometry": {
         "type": "Point",
@@ -3393,13 +3749,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ecce547a472a1e4e02e2cfb",
+        "oid": "5ee143e6a7e97f1981c6570f",
         "species": "C. cathayensis",
         "status": 3,
         "notes": null,
         "name_la": "Chaenomeles cathayensis",
         "name_nl": "Chinese kwee ",
-        "name_en": null
+        "name_en": null,
+        "width": 3.0,
+        "height": 3.0
       },
       "geometry": {
         "type": "Point",
@@ -3412,13 +3770,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ecce920d512153aaa68aef7",
+        "oid": "5ee143e6a7e97f1981c65710",
         "species": "Onbekend",
         "status": 3,
         "notes": "walnoot juglans regia",
         "name_la": "Onbekend",
         "name_nl": "Onbekend",
-        "name_en": "Unknown"
+        "name_en": "Unknown",
+        "width": null,
+        "height": null
       },
       "geometry": {
         "type": "Point",
@@ -3431,13 +3791,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ecce94ca472a1e4e02e2cfc",
+        "oid": "5ee143e6a7e97f1981c65711",
         "species": "E. x ebbingei",
         "status": 3,
         "notes": null,
         "name_la": "Elaeagnus ebbingei",
         "name_nl": "Zilverbes",
-        "name_en": null
+        "name_en": null,
+        "width": 3.0,
+        "height": 3.0
       },
       "geometry": {
         "type": "Point",
@@ -3450,13 +3812,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ecce96aa472a1e4e02e2cfd",
+        "oid": "5ee143e6a7e97f1981c65712",
         "species": "Onbekend",
         "status": 3,
         "notes": "es",
         "name_la": "Onbekend",
         "name_nl": "Onbekend",
-        "name_en": "Unknown"
+        "name_en": "Unknown",
+        "width": null,
+        "height": null
       },
       "geometry": {
         "type": "Point",
@@ -3469,13 +3833,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ecce997d512153aaa68aef8",
+        "oid": "5ee143e6a7e97f1981c65713",
         "species": "Onbekend",
         "status": 3,
         "notes": "es",
         "name_la": "Onbekend",
         "name_nl": "Onbekend",
-        "name_en": "Unknown"
+        "name_en": "Unknown",
+        "width": null,
+        "height": null
       },
       "geometry": {
         "type": "Point",
@@ -3488,13 +3854,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ecce9d0a472a1e4e02e2cfe",
+        "oid": "5ee143e6a7e97f1981c65714",
         "species": "C. avellana",
         "status": 3,
         "notes": null,
         "name_la": "Corylus avellana",
         "name_nl": "Hazelaar",
-        "name_en": "Common hazel"
+        "name_en": "Common hazel",
+        "width": 6.0,
+        "height": 6.0
       },
       "geometry": {
         "type": "Point",
@@ -3507,13 +3875,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5eccea0ea472a1e4e02e2cff",
+        "oid": "5ee143e6a7e97f1981c65715",
         "species": "Onbekend",
         "status": 3,
         "notes": "es",
         "name_la": "Onbekend",
         "name_nl": "Onbekend",
-        "name_en": "Unknown"
+        "name_en": "Unknown",
+        "width": null,
+        "height": null
       },
       "geometry": {
         "type": "Point",
@@ -3526,13 +3896,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5eccea6da472a1e4e02e2d00",
+        "oid": "5ee143e6a7e97f1981c65716",
         "species": "Onbekend",
         "status": 3,
         "notes": "naaldboom, spar?",
         "name_la": "Onbekend",
         "name_nl": "Onbekend",
-        "name_en": "Unknown"
+        "name_en": "Unknown",
+        "width": null,
+        "height": null
       },
       "geometry": {
         "type": "Point",
@@ -3545,13 +3917,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5eccea86a472a1e4e02e2d01",
+        "oid": "5ee143e6a7e97f1981c65717",
         "species": "Onbekend",
         "status": 3,
         "notes": "wilg",
         "name_la": "Onbekend",
         "name_nl": "Onbekend",
-        "name_en": "Unknown"
+        "name_en": "Unknown",
+        "width": null,
+        "height": null
       },
       "geometry": {
         "type": "Point",
@@ -3564,13 +3938,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ecceab8d512153aaa68aef9",
+        "oid": "5ee143e6a7e97f1981c65718",
         "species": "H. rhamnoides",
         "status": 3,
         "notes": null,
         "name_la": "Hippophae rhamnoides",
         "name_nl": "Duindoorn",
-        "name_en": null
+        "name_en": null,
+        "width": 5.0,
+        "height": 6.0
       },
       "geometry": {
         "type": "Point",
@@ -3583,13 +3959,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ecceadba472a1e4e02e2d02",
+        "oid": "5ee143e6a7e97f1981c65719",
         "species": "T. cordata ",
         "status": 3,
         "notes": null,
         "name_la": "Tilia cordata ",
         "name_nl": "Winterlinde (geknot)",
-        "name_en": null
+        "name_en": null,
+        "width": 2.0,
+        "height": 3.0
       },
       "geometry": {
         "type": "Point",
@@ -3602,13 +3980,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ecceae7d512153aaa68aefa",
+        "oid": "5ee143e6a7e97f1981c6571a",
         "species": "T. cordata ",
         "status": 3,
         "notes": null,
         "name_la": "Tilia cordata ",
         "name_nl": "Winterlinde (geknot)",
-        "name_en": null
+        "name_en": null,
+        "width": 2.0,
+        "height": 3.0
       },
       "geometry": {
         "type": "Point",
@@ -3621,13 +4001,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ecceb04d512153aaa68aefb",
+        "oid": "5ee143e6a7e97f1981c6571b",
         "species": "T. cordata ",
         "status": 3,
         "notes": null,
         "name_la": "Tilia cordata ",
         "name_nl": "Winterlinde (geknot)",
-        "name_en": null
+        "name_en": null,
+        "width": 2.0,
+        "height": 3.0
       },
       "geometry": {
         "type": "Point",
@@ -3640,13 +4022,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ecceb18a472a1e4e02e2d03",
+        "oid": "5ee143e6a7e97f1981c6571c",
         "species": "E. x ebbingei",
         "status": 3,
         "notes": null,
         "name_la": "Elaeagnus ebbingei",
         "name_nl": "Zilverbes",
-        "name_en": null
+        "name_en": null,
+        "width": 3.0,
+        "height": 3.0
       },
       "geometry": {
         "type": "Point",
@@ -3659,13 +4043,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ecceb6fa472a1e4e02e2d04",
+        "oid": "5ee143e6a7e97f1981c6571d",
         "species": "Sorbus Burka",
         "status": 3,
         "notes": null,
         "name_la": "Sorbus 'Burka",
         "name_nl": null,
-        "name_en": null
+        "name_en": null,
+        "width": 5.0,
+        "height": 7.0
       },
       "geometry": {
         "type": "Point",
@@ -3678,13 +4064,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ecceba4a472a1e4e02e2d05",
+        "oid": "5ee143e6a7e97f1981c6571e",
         "species": "T. cordata ",
         "status": 3,
         "notes": null,
         "name_la": "Tilia cordata ",
         "name_nl": "Winterlinde (geknot)",
-        "name_en": null
+        "name_en": null,
+        "width": 2.0,
+        "height": 3.0
       },
       "geometry": {
         "type": "Point",
@@ -3697,13 +4085,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5eccebafd512153aaa68aefc",
+        "oid": "5ee143e6a7e97f1981c6571f",
         "species": "T. cordata ",
         "status": 3,
         "notes": null,
         "name_la": "Tilia cordata ",
         "name_nl": "Winterlinde (geknot)",
-        "name_en": null
+        "name_en": null,
+        "width": 2.0,
+        "height": 3.0
       },
       "geometry": {
         "type": "Point",
@@ -3716,13 +4106,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5eccebe3d512153aaa68aefd",
+        "oid": "5ee143e6a7e97f1981c65720",
         "species": "C. arnoldiana",
         "status": 3,
         "notes": "6x, kaart uitbreiden. soort onbekend",
         "name_la": "Crataegus arnoldiana",
         "name_nl": "Meidoorn",
-        "name_en": "Hawthorn"
+        "name_en": "Hawthorn",
+        "width": 5.0,
+        "height": 6.0
       },
       "geometry": {
         "type": "Point",
@@ -3735,13 +4127,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5eccec8ad512153aaa68aefe",
+        "oid": "5ee143e6a7e97f1981c65721",
         "species": "Onbekend",
         "status": 3,
         "notes": null,
         "name_la": "Onbekend",
         "name_nl": "Onbekend",
-        "name_en": "Unknown"
+        "name_en": "Unknown",
+        "width": null,
+        "height": null
       },
       "geometry": {
         "type": "Point",
@@ -3754,13 +4148,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5eccedd8a472a1e4e02e2d06",
+        "oid": "5ee143e6a7e97f1981c65722",
         "species": "Onbekend",
         "status": 3,
         "notes": "walnoot juglans regia",
         "name_la": "Onbekend",
         "name_nl": "Onbekend",
-        "name_en": "Unknown"
+        "name_en": "Unknown",
+        "width": null,
+        "height": null
       },
       "geometry": {
         "type": "Point",
@@ -3773,13 +4169,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5eccee0ea472a1e4e02e2d07",
+        "oid": "5ee143e6a7e97f1981c65723",
         "species": "R. rubrum",
         "status": 3,
         "notes": null,
         "name_la": "Ribes rubrum",
         "name_nl": "Rode bes",
-        "name_en": null
+        "name_en": null,
+        "width": 1.5,
+        "height": 2.0
       },
       "geometry": {
         "type": "Point",
@@ -3792,13 +4190,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5eccee2bd512153aaa68aeff",
+        "oid": "5ee143e6a7e97f1981c65724",
         "species": "R. rubrum",
         "status": 3,
         "notes": null,
         "name_la": "Ribes rubrum",
         "name_nl": "Rode bes",
-        "name_en": null
+        "name_en": null,
+        "width": 1.5,
+        "height": 2.0
       },
       "geometry": {
         "type": "Point",
@@ -3811,13 +4211,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5eccee3ad512153aaa68af00",
+        "oid": "5ee143e6a7e97f1981c65725",
         "species": "R. rubrum",
         "status": 3,
         "notes": null,
         "name_la": "Ribes rubrum",
         "name_nl": "Rode bes",
-        "name_en": null
+        "name_en": null,
+        "width": 1.5,
+        "height": 2.0
       },
       "geometry": {
         "type": "Point",
@@ -3830,13 +4232,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5eccee45d512153aaa68af01",
+        "oid": "5ee143e6a7e97f1981c65726",
         "species": "R. rubrum",
         "status": 3,
         "notes": null,
         "name_la": "Ribes rubrum",
         "name_nl": "Rode bes",
-        "name_en": null
+        "name_en": null,
+        "width": 1.5,
+        "height": 2.0
       },
       "geometry": {
         "type": "Point",
@@ -3849,13 +4253,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5eccee54a472a1e4e02e2d08",
+        "oid": "5ee143e6a7e97f1981c65727",
         "species": "R. rubrum",
         "status": 3,
         "notes": null,
         "name_la": "Ribes rubrum",
         "name_nl": "Rode bes",
-        "name_en": null
+        "name_en": null,
+        "width": 1.5,
+        "height": 2.0
       },
       "geometry": {
         "type": "Point",
@@ -3868,13 +4274,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5eccee60d512153aaa68af02",
+        "oid": "5ee143e6a7e97f1981c65728",
         "species": "R. rubrum",
         "status": 3,
         "notes": null,
         "name_la": "Ribes rubrum",
         "name_nl": "Rode bes",
-        "name_en": null
+        "name_en": null,
+        "width": 1.5,
+        "height": 2.0
       },
       "geometry": {
         "type": "Point",
@@ -3887,13 +4295,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ecceec2a472a1e4e02e2d09",
+        "oid": "5ee143e6a7e97f1981c65729",
         "species": "Onbekend",
         "status": 3,
         "notes": "kers? wild",
         "name_la": "Onbekend",
         "name_nl": "Onbekend",
-        "name_en": "Unknown"
+        "name_en": "Unknown",
+        "width": null,
+        "height": null
       },
       "geometry": {
         "type": "Point",
@@ -3906,13 +4316,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5eccf01dd512153aaa68af03",
+        "oid": "5ee143e6a7e97f1981c6572a",
         "species": "Onbekend",
         "status": 3,
         "notes": "walnoot juglans regia",
         "name_la": "Onbekend",
         "name_nl": "Onbekend",
-        "name_en": "Unknown"
+        "name_en": "Unknown",
+        "width": null,
+        "height": null
       },
       "geometry": {
         "type": "Point",
@@ -3925,13 +4337,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5eccf0d9a472a1e4e02e2d0a",
+        "oid": "5ee143e6a7e97f1981c6572b",
         "species": "C. azarolus",
         "status": 3,
         "notes": "soort onbekend",
         "name_la": "Crataegus azarolus",
         "name_nl": "Meidoorn",
-        "name_en": "Hawthorn"
+        "name_en": "Hawthorn",
+        "width": 6.0,
+        "height": 10.0
       },
       "geometry": {
         "type": "Point",
@@ -3944,13 +4358,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5eccf18da472a1e4e02e2d0b",
+        "oid": "5ee143e6a7e97f1981c6572c",
         "species": "P. koraiensis",
         "status": 3,
         "notes": null,
         "name_la": "Pinus koraiensis",
         "name_nl": "Pijnboompit",
-        "name_en": null
+        "name_en": null,
+        "width": 15.0,
+        "height": 20.0
       },
       "geometry": {
         "type": "Point",
@@ -3963,13 +4379,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5eccf1aaa472a1e4e02e2d0c",
+        "oid": "5ee143e6a7e97f1981c6572d",
         "species": "E. x ebbingei",
         "status": 3,
         "notes": null,
         "name_la": "Elaeagnus ebbingei",
         "name_nl": "Zilverbes",
-        "name_en": null
+        "name_en": null,
+        "width": 3.0,
+        "height": 3.0
       },
       "geometry": {
         "type": "Point",
@@ -3982,13 +4400,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5eccf1c8a472a1e4e02e2d0d",
+        "oid": "5ee143e6a7e97f1981c6572e",
         "species": "Amelanchier",
         "status": 3,
         "notes": null,
         "name_la": "Amelanchier ",
         "name_nl": "Krentenboompje",
-        "name_en": "Serviceberry"
+        "name_en": "Serviceberry",
+        "width": 3.5,
+        "height": 4.0
       },
       "geometry": {
         "type": "Point",
@@ -4001,13 +4421,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5eccf1eba472a1e4e02e2d0e",
+        "oid": "5ee143e6a7e97f1981c6572f",
         "species": "H. rhamnoides",
         "status": 3,
         "notes": null,
         "name_la": "Hippophae rhamnoides",
         "name_nl": "Duindoorn",
-        "name_en": null
+        "name_en": null,
+        "width": 5.0,
+        "height": 6.0
       },
       "geometry": {
         "type": "Point",
@@ -4020,13 +4442,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5eccf228a472a1e4e02e2d0f",
+        "oid": "5ee143e6a7e97f1981c65730",
         "species": "A. araucana",
         "status": 3,
         "notes": null,
         "name_la": "Araucaria araucana",
         "name_nl": "Slangenden",
-        "name_en": null
+        "name_en": null,
+        "width": 10.0,
+        "height": 25.0
       },
       "geometry": {
         "type": "Point",
@@ -4039,13 +4463,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5eccf5e6a472a1e4e02e2d10",
+        "oid": "5ee143e6a7e97f1981c65731",
         "species": "G. triacanthos",
         "status": 3,
         "notes": null,
         "name_la": "Gleditsia triacanthos",
         "name_nl": "Valse christusdoorn",
-        "name_en": "Honey locust"
+        "name_en": "Honey locust",
+        "width": 10.0,
+        "height": 20.0
       },
       "geometry": {
         "type": "Point",
@@ -4058,13 +4484,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ed74eb1a472a1e4e02e2d11",
+        "oid": "5ee143e6a7e97f1981c65732",
         "species": "H. rhamnoides",
         "status": 3,
         "notes": null,
         "name_la": "Hippophae rhamnoides",
         "name_nl": "Duindoorn",
-        "name_en": null
+        "name_en": null,
+        "width": 5.0,
+        "height": 6.0
       },
       "geometry": {
         "type": "Point",
@@ -4077,13 +4505,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ed74ecba472a1e4e02e2d12",
+        "oid": "5ee143e6a7e97f1981c65733",
         "species": "G. triacanthos",
         "status": 3,
         "notes": null,
         "name_la": "Gleditsia triacanthos",
         "name_nl": "Valse christusdoorn",
-        "name_en": "Honey locust"
+        "name_en": "Honey locust",
+        "width": 10.0,
+        "height": 20.0
       },
       "geometry": {
         "type": "Point",
@@ -4096,13 +4526,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ed74f64a472a1e4e02e2d13",
+        "oid": "5ee143e6a7e97f1981c65734",
         "species": "G. triacanthos",
         "status": 3,
         "notes": null,
         "name_la": "Gleditsia triacanthos",
         "name_nl": "Valse christusdoorn",
-        "name_en": "Honey locust"
+        "name_en": "Honey locust",
+        "width": 10.0,
+        "height": 20.0
       },
       "geometry": {
         "type": "Point",
@@ -4115,13 +4547,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ed750c4d512153aaa68af04",
+        "oid": "5ee143e6a7e97f1981c65735",
         "species": "H. rhamnoides",
         "status": 3,
         "notes": null,
         "name_la": "Hippophae rhamnoides",
         "name_nl": "Duindoorn",
-        "name_en": null
+        "name_en": null,
+        "width": 5.0,
+        "height": 6.0
       },
       "geometry": {
         "type": "Point",
@@ -4134,13 +4568,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ed75100a472a1e4e02e2d14",
+        "oid": "5ee143e6a7e97f1981c65736",
         "species": "Onbekend",
         "status": 3,
         "notes": "groene steel. momenteel geen blad",
         "name_la": "Onbekend",
         "name_nl": "Onbekend",
-        "name_en": "Unknown"
+        "name_en": "Unknown",
+        "width": null,
+        "height": null
       },
       "geometry": {
         "type": "Point",
@@ -4153,13 +4589,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ed751c5a472a1e4e02e2d15",
+        "oid": "5ee143e6a7e97f1981c65737",
         "species": "Aronia spp.",
         "status": 3,
         "notes": "8.10 van boven naar beneden naast de VS appelbessen",
         "name_la": "Aronia spp.",
         "name_nl": "zwarte appelbes",
-        "name_en": null
+        "name_en": null,
+        "width": 3.0,
+        "height": 3.0
       },
       "geometry": {
         "type": "Point",
@@ -4172,13 +4610,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ed7521ea472a1e4e02e2d16",
+        "oid": "5ee143e6a7e97f1981c65738",
         "species": "Z. simulans",
         "status": 3,
         "notes": null,
         "name_la": "Zanthoxylum simulans",
         "name_nl": "Szechuan peper boompje",
-        "name_en": "Sichuan pepper"
+        "name_en": "Sichuan pepper",
+        "width": 2.5,
+        "height": 2.5
       },
       "geometry": {
         "type": "Point",
@@ -4191,13 +4631,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ed75248a472a1e4e02e2d17",
+        "oid": "5ee143e6a7e97f1981c65739",
         "species": "Z. simulans",
         "status": 3,
         "notes": null,
         "name_la": "Zanthoxylum simulans",
         "name_nl": "Szechuan peper boompje",
-        "name_en": "Sichuan pepper"
+        "name_en": "Sichuan pepper",
+        "width": 2.5,
+        "height": 2.5
       },
       "geometry": {
         "type": "Point",
@@ -4210,13 +4652,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ed752ffd512153aaa68af05",
+        "oid": "5ee143e6a7e97f1981c6573a",
         "species": "P. avium hfs",
         "status": 3,
         "notes": null,
         "name_la": "Prunus avium, halfstam",
         "name_nl": "Zoete kers",
-        "name_en": "Wild cherry"
+        "name_en": "Wild cherry",
+        "width": 4.0,
+        "height": 6.0
       },
       "geometry": {
         "type": "Point",
@@ -4229,13 +4673,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ed75312a472a1e4e02e2d18",
+        "oid": "5ee143e6a7e97f1981c6573b",
         "species": "P. avium hfs",
         "status": 3,
         "notes": null,
         "name_la": "Prunus avium, halfstam",
         "name_nl": "Zoete kers",
-        "name_en": "Wild cherry"
+        "name_en": "Wild cherry",
+        "width": 4.0,
+        "height": 6.0
       },
       "geometry": {
         "type": "Point",
@@ -4248,13 +4694,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ed75338a472a1e4e02e2d19",
+        "oid": "5ee143e6a7e97f1981c6573c",
         "species": "Z. simulans",
         "status": 3,
         "notes": null,
         "name_la": "Zanthoxylum simulans",
         "name_nl": "Szechuan peper boompje",
-        "name_en": "Sichuan pepper"
+        "name_en": "Sichuan pepper",
+        "width": 2.5,
+        "height": 2.5
       },
       "geometry": {
         "type": "Point",
@@ -4267,13 +4715,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ed7535cd512153aaa68af06",
+        "oid": "5ee143e6a7e97f1981c6573d",
         "species": "Onbekend",
         "status": 3,
         "notes": "halfdood. lijkt op valse christusd",
         "name_la": "Onbekend",
         "name_nl": "Onbekend",
-        "name_en": "Unknown"
+        "name_en": "Unknown",
+        "width": null,
+        "height": null
       },
       "geometry": {
         "type": "Point",
@@ -4286,13 +4736,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ed75398d512153aaa68af07",
+        "oid": "5ee143e6a7e97f1981c6573e",
         "species": "E. multiflora",
         "status": 3,
         "notes": null,
         "name_la": "Elaeagnus multiflora",
         "name_nl": "Goumi",
-        "name_en": "Cherry elaeagnus"
+        "name_en": "Cherry elaeagnus",
+        "width": 3.0,
+        "height": 3.0
       },
       "geometry": {
         "type": "Point",
@@ -4305,13 +4757,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ed753b1d512153aaa68af08",
+        "oid": "5ee143e6a7e97f1981c6573f",
         "species": "Onbekend",
         "status": 3,
         "notes": "eleagnus?",
         "name_la": "Onbekend",
         "name_nl": "Onbekend",
-        "name_en": "Unknown"
+        "name_en": "Unknown",
+        "width": null,
+        "height": null
       },
       "geometry": {
         "type": "Point",
@@ -4324,13 +4778,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ed753edd512153aaa68af09",
+        "oid": "5ee143e6a7e97f1981c65740",
         "species": "P. koraiensis",
         "status": 3,
         "notes": null,
         "name_la": "Pinus koraiensis",
         "name_nl": "Pijnboompit",
-        "name_en": null
+        "name_en": null,
+        "width": 15.0,
+        "height": 20.0
       },
       "geometry": {
         "type": "Point",
@@ -4343,13 +4799,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ed75460a472a1e4e02e2d1a",
+        "oid": "5ee143e6a7e97f1981c65741",
         "species": "H. rhamnoides",
         "status": 3,
         "notes": null,
         "name_la": "Hippophae rhamnoides",
         "name_nl": "Duindoorn",
-        "name_en": null
+        "name_en": null,
+        "width": 5.0,
+        "height": 6.0
       },
       "geometry": {
         "type": "Point",
@@ -4362,13 +4820,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ed754a4d512153aaa68af0a",
+        "oid": "5ee143e6a7e97f1981c65742",
         "species": "E. multiflora",
         "status": 3,
         "notes": "eleagnus?",
         "name_la": "Elaeagnus multiflora",
         "name_nl": "Goumi",
-        "name_en": "Cherry elaeagnus"
+        "name_en": "Cherry elaeagnus",
+        "width": 3.0,
+        "height": 3.0
       },
       "geometry": {
         "type": "Point",
@@ -4381,13 +4841,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ed75515d512153aaa68af0b",
+        "oid": "5ee143e6a7e97f1981c65743",
         "species": "Onbekend",
         "status": 3,
         "notes": "erg droog. ",
         "name_la": "Onbekend",
         "name_nl": "Onbekend",
-        "name_en": "Unknown"
+        "name_en": "Unknown",
+        "width": null,
+        "height": null
       },
       "geometry": {
         "type": "Point",
@@ -4400,13 +4862,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ed75580d512153aaa68af0c",
+        "oid": "5ee143e6a7e97f1981c65744",
         "species": "Onbekend",
         "status": 3,
         "notes": "hartvormig blad. linde?",
         "name_la": "Onbekend",
         "name_nl": "Onbekend",
-        "name_en": "Unknown"
+        "name_en": "Unknown",
+        "width": null,
+        "height": null
       },
       "geometry": {
         "type": "Point",
@@ -4419,13 +4883,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ed755c8a472a1e4e02e2d1b",
+        "oid": "5ee143e6a7e97f1981c65745",
         "species": "Onbekend",
         "status": 3,
         "notes": "klein boompje/heester. gaaf blad. bijna dood",
         "name_la": "Onbekend",
         "name_nl": "Onbekend",
-        "name_en": "Unknown"
+        "name_en": "Unknown",
+        "width": null,
+        "height": null
       },
       "geometry": {
         "type": "Point",
@@ -4438,13 +4904,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ed7566ed512153aaa68af0d",
+        "oid": "5ee143e6a7e97f1981c65746",
         "species": "G. triacanthos",
         "status": 3,
         "notes": null,
         "name_la": "Gleditsia triacanthos",
         "name_nl": "Valse christusdoorn",
-        "name_en": "Honey locust"
+        "name_en": "Honey locust",
+        "width": 10.0,
+        "height": 20.0
       },
       "geometry": {
         "type": "Point",
@@ -4457,13 +4925,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ed756c6a472a1e4e02e2d1c",
+        "oid": "5ee143e6a7e97f1981c65747",
         "species": "G. triacanthos",
         "status": 3,
         "notes": null,
         "name_la": "Gleditsia triacanthos",
         "name_nl": "Valse christusdoorn",
-        "name_en": "Honey locust"
+        "name_en": "Honey locust",
+        "width": 10.0,
+        "height": 20.0
       },
       "geometry": {
         "type": "Point",
@@ -4476,13 +4946,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ed756ded512153aaa68af0e",
+        "oid": "5ee143e6a7e97f1981c65748",
         "species": "Onbekend",
         "status": 3,
         "notes": "eleagnus?",
         "name_la": "Onbekend",
         "name_nl": "Onbekend",
-        "name_en": "Unknown"
+        "name_en": "Unknown",
+        "width": null,
+        "height": null
       },
       "geometry": {
         "type": "Point",
@@ -4495,13 +4967,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ed757a6d512153aaa68af0f",
+        "oid": "5ee143e6a7e97f1981c65749",
         "species": "Onbekend",
         "status": 3,
         "notes": "gaaf blad. erg droog",
         "name_la": "Onbekend",
         "name_nl": "Onbekend",
-        "name_en": "Unknown"
+        "name_en": "Unknown",
+        "width": null,
+        "height": null
       },
       "geometry": {
         "type": "Point",
@@ -4514,13 +4988,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ed757f2d512153aaa68af10",
+        "oid": "5ee143e6a7e97f1981c6574a",
         "species": "G. triacanthos",
         "status": 3,
         "notes": null,
         "name_la": "Gleditsia triacanthos",
         "name_nl": "Valse christusdoorn",
-        "name_en": "Honey locust"
+        "name_en": "Honey locust",
+        "width": 10.0,
+        "height": 20.0
       },
       "geometry": {
         "type": "Point",
@@ -4533,13 +5009,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ed75823d512153aaa68af11",
+        "oid": "5ee143e6a7e97f1981c6574b",
         "species": "G. triacanthos",
         "status": 3,
         "notes": null,
         "name_la": "Gleditsia triacanthos",
         "name_nl": "Valse christusdoorn",
-        "name_en": "Honey locust"
+        "name_en": "Honey locust",
+        "width": 10.0,
+        "height": 20.0
       },
       "geometry": {
         "type": "Point",
@@ -4552,13 +5030,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ed75844d512153aaa68af12",
+        "oid": "5ee143e6a7e97f1981c6574c",
         "species": "Onbekend",
         "status": 3,
         "notes": "hartvormig blad",
         "name_la": "Onbekend",
         "name_nl": "Onbekend",
-        "name_en": "Unknown"
+        "name_en": "Unknown",
+        "width": null,
+        "height": null
       },
       "geometry": {
         "type": "Point",
@@ -4571,13 +5051,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ed758a4a472a1e4e02e2d1d",
+        "oid": "5ee143e6a7e97f1981c6574d",
         "species": "Onbekend",
         "status": 3,
         "notes": "getand hartvormig blad. crataegus?",
         "name_la": "Onbekend",
         "name_nl": "Onbekend",
-        "name_en": "Unknown"
+        "name_en": "Unknown",
+        "width": null,
+        "height": null
       },
       "geometry": {
         "type": "Point",
@@ -4590,13 +5072,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ed75977a472a1e4e02e2d1e",
+        "oid": "5ee143e7a7e97f1981c6574e",
         "species": "Onbekend",
         "status": 3,
         "notes": "eleagnus? droog",
         "name_la": "Onbekend",
         "name_nl": "Onbekend",
-        "name_en": "Unknown"
+        "name_en": "Unknown",
+        "width": null,
+        "height": null
       },
       "geometry": {
         "type": "Point",
@@ -4609,13 +5093,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ed7599dd512153aaa68af13",
+        "oid": "5ee143e7a7e97f1981c6574f",
         "species": "E. angustifolia",
         "status": 3,
         "notes": "eleagnus?",
         "name_la": "Elaeagnus angustifolia",
         "name_nl": "Oleaster",
-        "name_en": null
+        "name_en": null,
+        "width": 3.0,
+        "height": 3.0
       },
       "geometry": {
         "type": "Point",
@@ -4628,13 +5114,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ed759e3d512153aaa68af14",
+        "oid": "5ee143e7a7e97f1981c65750",
         "species": "Onbekend",
         "status": 3,
         "notes": "hartvormig blad",
         "name_la": "Onbekend",
         "name_nl": "Onbekend",
-        "name_en": "Unknown"
+        "name_en": "Unknown",
+        "width": null,
+        "height": null
       },
       "geometry": {
         "type": "Point",
@@ -4647,13 +5135,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ed75a5ed512153aaa68af15",
+        "oid": "5ee143e7a7e97f1981c65751",
         "species": "Onbekend",
         "status": 3,
         "notes": "hartvormig blad",
         "name_la": "Onbekend",
         "name_nl": "Onbekend",
-        "name_en": "Unknown"
+        "name_en": "Unknown",
+        "width": null,
+        "height": null
       },
       "geometry": {
         "type": "Point",
@@ -4666,13 +5156,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ed75a7ba472a1e4e02e2d1f",
+        "oid": "5ee143e7a7e97f1981c65752",
         "species": "Onbekend",
         "status": 3,
         "notes": "droog. heester/boompje gaaf blad",
         "name_la": "Onbekend",
         "name_nl": "Onbekend",
-        "name_en": "Unknown"
+        "name_en": "Unknown",
+        "width": null,
+        "height": null
       },
       "geometry": {
         "type": "Point",
@@ -4685,13 +5177,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ed75ac7a472a1e4e02e2d20",
+        "oid": "5ee143e7a7e97f1981c65753",
         "species": "P. koraiensis",
         "status": 3,
         "notes": null,
         "name_la": "Pinus koraiensis",
         "name_nl": "Pijnboompit",
-        "name_en": null
+        "name_en": null,
+        "width": 15.0,
+        "height": 20.0
       },
       "geometry": {
         "type": "Point",
@@ -4704,13 +5198,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ed75af7d512153aaa68af16",
+        "oid": "5ee143e7a7e97f1981c65754",
         "species": "G. triacanthos",
         "status": 3,
         "notes": null,
         "name_la": "Gleditsia triacanthos",
         "name_nl": "Valse christusdoorn",
-        "name_en": "Honey locust"
+        "name_en": "Honey locust",
+        "width": 10.0,
+        "height": 20.0
       },
       "geometry": {
         "type": "Point",
@@ -4723,13 +5219,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ed76455d512153aaa68af17",
+        "oid": "5ee143e7a7e97f1981c65755",
         "species": "Amelanchier",
         "status": 3,
         "notes": "soort nog te bepalen",
         "name_la": "Amelanchier ",
         "name_nl": "Krentenboompje",
-        "name_en": "Serviceberry"
+        "name_en": "Serviceberry",
+        "width": 3.5,
+        "height": 4.0
       },
       "geometry": {
         "type": "Point",
@@ -4742,13 +5240,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ed76487a472a1e4e02e2d21",
+        "oid": "5ee143e7a7e97f1981c65756",
         "species": "G. triacanthos",
         "status": 3,
         "notes": null,
         "name_la": "Gleditsia triacanthos",
         "name_nl": "Valse christusdoorn",
-        "name_en": "Honey locust"
+        "name_en": "Honey locust",
+        "width": 10.0,
+        "height": 20.0
       },
       "geometry": {
         "type": "Point",
@@ -4761,13 +5261,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ed764bed512153aaa68af18",
+        "oid": "5ee143e7a7e97f1981c65757",
         "species": "Onbekend",
         "status": 3,
         "notes": "hartvormig blad",
         "name_la": "Onbekend",
         "name_nl": "Onbekend",
-        "name_en": "Unknown"
+        "name_en": "Unknown",
+        "width": null,
+        "height": null
       },
       "geometry": {
         "type": "Point",
@@ -4780,13 +5282,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ed764d3a472a1e4e02e2d22",
+        "oid": "5ee143e7a7e97f1981c65758",
         "species": "Onbekend",
         "status": 3,
         "notes": "gaaf blad heester/boompje. erg droog",
         "name_la": "Onbekend",
         "name_nl": "Onbekend",
-        "name_en": "Unknown"
+        "name_en": "Unknown",
+        "width": null,
+        "height": null
       },
       "geometry": {
         "type": "Point",
@@ -4799,13 +5303,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ed76565a472a1e4e02e2d24",
+        "oid": "5ee143e7a7e97f1981c65759",
         "species": "G. triacanthos",
         "status": 3,
         "notes": null,
         "name_la": "Gleditsia triacanthos",
         "name_nl": "Valse christusdoorn",
-        "name_en": "Honey locust"
+        "name_en": "Honey locust",
+        "width": 10.0,
+        "height": 20.0
       },
       "geometry": {
         "type": "Point",
@@ -4818,13 +5324,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ed76670d512153aaa68af19",
+        "oid": "5ee143e7a7e97f1981c6575a",
         "species": "Amelanchier",
         "status": 3,
         "notes": "paars blad (droogte?) soort ntb",
         "name_la": "Amelanchier ",
         "name_nl": "Krentenboompje",
-        "name_en": "Serviceberry"
+        "name_en": "Serviceberry",
+        "width": 3.5,
+        "height": 4.0
       },
       "geometry": {
         "type": "Point",
@@ -4837,13 +5345,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ed7669da472a1e4e02e2d25",
+        "oid": "5ee143e7a7e97f1981c6575b",
         "species": "Onbekend",
         "status": 3,
         "notes": "hartvormig blad",
         "name_la": "Onbekend",
         "name_nl": "Onbekend",
-        "name_en": "Unknown"
+        "name_en": "Unknown",
+        "width": null,
+        "height": null
       },
       "geometry": {
         "type": "Point",
@@ -4856,13 +5366,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ed766f6a472a1e4e02e2d26",
+        "oid": "5ee143e7a7e97f1981c6575c",
         "species": "G. triacanthos",
         "status": 3,
         "notes": null,
         "name_la": "Gleditsia triacanthos",
         "name_nl": "Valse christusdoorn",
-        "name_en": "Honey locust"
+        "name_en": "Honey locust",
+        "width": 10.0,
+        "height": 20.0
       },
       "geometry": {
         "type": "Point",
@@ -4875,13 +5387,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ed7670ad512153aaa68af1a",
+        "oid": "5ee143e7a7e97f1981c6575d",
         "species": "Amelanchier",
         "status": 3,
         "notes": "soort ntb",
         "name_la": "Amelanchier ",
         "name_nl": "Krentenboompje",
-        "name_en": "Serviceberry"
+        "name_en": "Serviceberry",
+        "width": 3.5,
+        "height": 4.0
       },
       "geometry": {
         "type": "Point",
@@ -4894,13 +5408,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ed76750d512153aaa68af1b",
+        "oid": "5ee143e7a7e97f1981c6575e",
         "species": "Onbekend",
         "status": 3,
         "notes": "ntb, gaaf blad (zie foto)",
         "name_la": "Onbekend",
         "name_nl": "Onbekend",
-        "name_en": "Unknown"
+        "name_en": "Unknown",
+        "width": null,
+        "height": null
       },
       "geometry": {
         "type": "Point",
@@ -4913,13 +5429,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ed767aea472a1e4e02e2d27",
+        "oid": "5ee143e7a7e97f1981c6575f",
         "species": "Onbekend",
         "status": 3,
         "notes": "getande bladrand",
         "name_la": "Onbekend",
         "name_nl": "Onbekend",
-        "name_en": "Unknown"
+        "name_en": "Unknown",
+        "width": null,
+        "height": null
       },
       "geometry": {
         "type": "Point",
@@ -4932,13 +5450,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ed767f2d512153aaa68af1c",
+        "oid": "5ee143e7a7e97f1981c65760",
         "species": "G. triacanthos",
         "status": 3,
         "notes": null,
         "name_la": "Gleditsia triacanthos",
         "name_nl": "Valse christusdoorn",
-        "name_en": "Honey locust"
+        "name_en": "Honey locust",
+        "width": 10.0,
+        "height": 20.0
       },
       "geometry": {
         "type": "Point",
@@ -4951,13 +5471,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ed76802d512153aaa68af1d",
+        "oid": "5ee143e7a7e97f1981c65761",
         "species": "Aronia spp.",
         "status": 3,
         "notes": null,
         "name_la": "Aronia spp.",
         "name_nl": "zwarte appelbes",
-        "name_en": null
+        "name_en": null,
+        "width": 3.0,
+        "height": 3.0
       },
       "geometry": {
         "type": "Point",
@@ -4970,13 +5492,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ed76875d512153aaa68af1e",
+        "oid": "5ee143e7a7e97f1981c65762",
         "species": "Amelanchier",
         "status": 3,
         "notes": "soort ntb. droog",
         "name_la": "Amelanchier ",
         "name_nl": "Krentenboompje",
-        "name_en": "Serviceberry"
+        "name_en": "Serviceberry",
+        "width": 3.5,
+        "height": 4.0
       },
       "geometry": {
         "type": "Point",
@@ -4989,13 +5513,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ed768b5d512153aaa68af1f",
+        "oid": "5ee143e7a7e97f1981c65763",
         "species": "C. speciosa",
         "status": 3,
         "notes": null,
         "name_la": "Chaenomeles speciosa",
         "name_nl": "Sierkwee",
-        "name_en": "Quince"
+        "name_en": "Quince",
+        "width": 1.0,
+        "height": 1.0
       },
       "geometry": {
         "type": "Point",
@@ -5008,13 +5534,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ed76928a472a1e4e02e2d28",
+        "oid": "5ee143e7a7e97f1981c65764",
         "species": "C. speciosa",
         "status": 3,
         "notes": null,
         "name_la": "Chaenomeles speciosa",
         "name_nl": "Sierkwee",
-        "name_en": "Quince"
+        "name_en": "Quince",
+        "width": 1.0,
+        "height": 1.0
       },
       "geometry": {
         "type": "Point",
@@ -5027,13 +5555,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ed76932d512153aaa68af20",
+        "oid": "5ee143e7a7e97f1981c65765",
         "species": "C. speciosa",
         "status": 3,
         "notes": null,
         "name_la": "Chaenomeles speciosa",
         "name_nl": "Sierkwee",
-        "name_en": "Quince"
+        "name_en": "Quince",
+        "width": 1.0,
+        "height": 1.0
       },
       "geometry": {
         "type": "Point",
@@ -5046,13 +5576,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ed76983a472a1e4e02e2d29",
+        "oid": "5ee143e7a7e97f1981c65766",
         "species": "E. x ebbingei",
         "status": 3,
         "notes": "eleagnus ebbingei",
         "name_la": "Elaeagnus ebbingei",
         "name_nl": "Zilverbes",
-        "name_en": null
+        "name_en": null,
+        "width": 3.0,
+        "height": 3.0
       },
       "geometry": {
         "type": "Point",
@@ -5065,13 +5597,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ed769bfa472a1e4e02e2d2a",
+        "oid": "5ee143e7a7e97f1981c65767",
         "species": "Onbekend",
         "status": 3,
         "notes": "ntb gave bladrand heester erg droog",
         "name_la": "Onbekend",
         "name_nl": "Onbekend",
-        "name_en": "Unknown"
+        "name_en": "Unknown",
+        "width": null,
+        "height": null
       },
       "geometry": {
         "type": "Point",
@@ -5084,13 +5618,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ed76a07d512153aaa68af21",
+        "oid": "5ee143e7a7e97f1981c65768",
         "species": "Onbekend",
         "status": 3,
         "notes": "ntb gave bladrand heester",
         "name_la": "Onbekend",
         "name_nl": "Onbekend",
-        "name_en": "Unknown"
+        "name_en": "Unknown",
+        "width": null,
+        "height": null
       },
       "geometry": {
         "type": "Point",
@@ -5103,13 +5639,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ed76b76d512153aaa68af22",
+        "oid": "5ee143e7a7e97f1981c65769",
         "species": "C. speciosa",
         "status": 3,
         "notes": "getande/gekartelde bladrand",
         "name_la": "Chaenomeles speciosa",
         "name_nl": "Sierkwee",
-        "name_en": "Quince"
+        "name_en": "Quince",
+        "width": 1.0,
+        "height": 1.0
       },
       "geometry": {
         "type": "Point",
@@ -5122,13 +5660,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ed76b9ed512153aaa68af23",
+        "oid": "5ee143e7a7e97f1981c6576a",
         "species": "C. speciosa",
         "status": 3,
         "notes": null,
         "name_la": "Chaenomeles speciosa",
         "name_nl": "Sierkwee",
-        "name_en": "Quince"
+        "name_en": "Quince",
+        "width": 1.0,
+        "height": 1.0
       },
       "geometry": {
         "type": "Point",
@@ -5141,13 +5681,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ed76bbfa472a1e4e02e2d2b",
+        "oid": "5ee143e7a7e97f1981c6576b",
         "species": "C. speciosa",
         "status": 3,
         "notes": null,
         "name_la": "Chaenomeles speciosa",
         "name_nl": "Sierkwee",
-        "name_en": "Quince"
+        "name_en": "Quince",
+        "width": 1.0,
+        "height": 1.0
       },
       "geometry": {
         "type": "Point",
@@ -5160,13 +5702,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ed76c6bd512153aaa68af24",
+        "oid": "5ee143e7a7e97f1981c6576c",
         "species": "C. speciosa",
         "status": 3,
         "notes": null,
         "name_la": "Chaenomeles speciosa",
         "name_nl": "Sierkwee",
-        "name_en": "Quince"
+        "name_en": "Quince",
+        "width": 1.0,
+        "height": 1.0
       },
       "geometry": {
         "type": "Point",
@@ -5179,13 +5723,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ed76c92d512153aaa68af25",
+        "oid": "5ee143e7a7e97f1981c6576d",
         "species": "E. x ebbingei",
         "status": 3,
         "notes": null,
         "name_la": "Elaeagnus ebbingei",
         "name_nl": "Zilverbes",
-        "name_en": null
+        "name_en": null,
+        "width": 3.0,
+        "height": 3.0
       },
       "geometry": {
         "type": "Point",
@@ -5198,13 +5744,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ed76ccda472a1e4e02e2d2c",
+        "oid": "5ee143e7a7e97f1981c6576e",
         "species": "Onbekend",
         "status": 3,
         "notes": "hartvormig blad",
         "name_la": "Onbekend",
         "name_nl": "Onbekend",
-        "name_en": "Unknown"
+        "name_en": "Unknown",
+        "width": null,
+        "height": null
       },
       "geometry": {
         "type": "Point",
@@ -5217,13 +5765,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ed76cfda472a1e4e02e2d2d",
+        "oid": "5ee143e7a7e97f1981c6576f",
         "species": "C. speciosa",
         "status": 3,
         "notes": null,
         "name_la": "Chaenomeles speciosa",
         "name_nl": "Sierkwee",
-        "name_en": "Quince"
+        "name_en": "Quince",
+        "width": 1.0,
+        "height": 1.0
       },
       "geometry": {
         "type": "Point",
@@ -5236,13 +5786,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ed76d20d512153aaa68af26",
+        "oid": "5ee143e7a7e97f1981c65770",
         "species": "C. speciosa",
         "status": 3,
         "notes": null,
         "name_la": "Chaenomeles speciosa",
         "name_nl": "Sierkwee",
-        "name_en": "Quince"
+        "name_en": "Quince",
+        "width": 1.0,
+        "height": 1.0
       },
       "geometry": {
         "type": "Point",
@@ -5255,13 +5807,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ed76d2fd512153aaa68af27",
+        "oid": "5ee143e7a7e97f1981c65771",
         "species": "C. speciosa",
         "status": 3,
         "notes": "erg klein",
         "name_la": "Chaenomeles speciosa",
         "name_nl": "Sierkwee",
-        "name_en": "Quince"
+        "name_en": "Quince",
+        "width": 1.0,
+        "height": 1.0
       },
       "geometry": {
         "type": "Point",
@@ -5274,13 +5828,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ed76d3bd512153aaa68af28",
+        "oid": "5ee143e7a7e97f1981c65772",
         "species": "C. speciosa",
         "status": 3,
         "notes": "erg klein",
         "name_la": "Chaenomeles speciosa",
         "name_nl": "Sierkwee",
-        "name_en": "Quince"
+        "name_en": "Quince",
+        "width": 1.0,
+        "height": 1.0
       },
       "geometry": {
         "type": "Point",
@@ -5293,13 +5849,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ed76d74a472a1e4e02e2d2e",
+        "oid": "5ee143e7a7e97f1981c65773",
         "species": "C. speciosa",
         "status": 3,
         "notes": null,
         "name_la": "Chaenomeles speciosa",
         "name_nl": "Sierkwee",
-        "name_en": "Quince"
+        "name_en": "Quince",
+        "width": 1.0,
+        "height": 1.0
       },
       "geometry": {
         "type": "Point",
@@ -5312,13 +5870,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ed76dafa472a1e4e02e2d2f",
+        "oid": "5ee143e7a7e97f1981c65774",
         "species": "R. phoenicolasius",
         "status": 3,
         "notes": null,
         "name_la": "Rubus phoenicolasius",
         "name_nl": "Japanse wijnbes",
-        "name_en": "Japanese wineberry"
+        "name_en": "Japanese wineberry",
+        "width": 2.0,
+        "height": 2.0
       },
       "geometry": {
         "type": "Point",
@@ -5331,13 +5891,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ed76dbfa472a1e4e02e2d30",
+        "oid": "5ee143e7a7e97f1981c65775",
         "species": "R. phoenicolasius",
         "status": 3,
         "notes": null,
         "name_la": "Rubus phoenicolasius",
         "name_nl": "Japanse wijnbes",
-        "name_en": "Japanese wineberry"
+        "name_en": "Japanese wineberry",
+        "width": 2.0,
+        "height": 2.0
       },
       "geometry": {
         "type": "Point",
@@ -5350,13 +5912,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ed76defd512153aaa68af29",
+        "oid": "5ee143e7a7e97f1981c65776",
         "species": "Z. simulans",
         "status": 3,
         "notes": null,
         "name_la": "Zanthoxylum simulans",
         "name_nl": "Szechuan peper boompje",
-        "name_en": "Sichuan pepper"
+        "name_en": "Sichuan pepper",
+        "width": 2.5,
+        "height": 2.5
       },
       "geometry": {
         "type": "Point",
@@ -5369,13 +5933,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ed76e05a472a1e4e02e2d31",
+        "oid": "5ee143e7a7e97f1981c65777",
         "species": "Z. simulans",
         "status": 3,
         "notes": null,
         "name_la": "Zanthoxylum simulans",
         "name_nl": "Szechuan peper boompje",
-        "name_en": "Sichuan pepper"
+        "name_en": "Sichuan pepper",
+        "width": 2.5,
+        "height": 2.5
       },
       "geometry": {
         "type": "Point",
@@ -5388,13 +5954,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ed76e31a472a1e4e02e2d32",
+        "oid": "5ee143e7a7e97f1981c65778",
         "species": "Z. simulans",
         "status": 3,
         "notes": null,
         "name_la": "Zanthoxylum simulans",
         "name_nl": "Szechuan peper boompje",
-        "name_en": "Sichuan pepper"
+        "name_en": "Sichuan pepper",
+        "width": 2.5,
+        "height": 2.5
       },
       "geometry": {
         "type": "Point",
@@ -5407,13 +5975,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ed76e5ca472a1e4e02e2d33",
+        "oid": "5ee143e7a7e97f1981c65779",
         "species": "G. triacanthos",
         "status": 3,
         "notes": null,
         "name_la": "Gleditsia triacanthos",
         "name_nl": "Valse christusdoorn",
-        "name_en": "Honey locust"
+        "name_en": "Honey locust",
+        "width": 10.0,
+        "height": 20.0
       },
       "geometry": {
         "type": "Point",
@@ -5426,13 +5996,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ed76e7bd512153aaa68af2a",
+        "oid": "5ee143e7a7e97f1981c6577a",
         "species": "Amelanchier",
         "status": 3,
         "notes": null,
         "name_la": "Amelanchier ",
         "name_nl": "Krentenboompje",
-        "name_en": "Serviceberry"
+        "name_en": "Serviceberry",
+        "width": 3.5,
+        "height": 4.0
       },
       "geometry": {
         "type": "Point",
@@ -5445,13 +6017,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ed76ecda472a1e4e02e2d34",
+        "oid": "5ee143e7a7e97f1981c6577b",
         "species": "Onbekend",
         "status": 3,
         "notes": "gave bladrand erg droog",
         "name_la": "Onbekend",
         "name_nl": "Onbekend",
-        "name_en": "Unknown"
+        "name_en": "Unknown",
+        "width": null,
+        "height": null
       },
       "geometry": {
         "type": "Point",
@@ -5464,13 +6038,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ed76ef9a472a1e4e02e2d35",
+        "oid": "5ee143e7a7e97f1981c6577c",
         "species": "E. x ebbingei",
         "status": 3,
         "notes": "x viveleg",
         "name_la": "Elaeagnus ebbingei",
         "name_nl": "Zilverbes",
-        "name_en": null
+        "name_en": null,
+        "width": 3.0,
+        "height": 3.0
       },
       "geometry": {
         "type": "Point",
@@ -5483,13 +6059,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ed76f62d512153aaa68af2b",
+        "oid": "5ee143e7a7e97f1981c6577d",
         "species": "Onbekend",
         "status": 3,
         "notes": "gave bladrand erg droog",
         "name_la": "Onbekend",
         "name_nl": "Onbekend",
-        "name_en": "Unknown"
+        "name_en": "Unknown",
+        "width": null,
+        "height": null
       },
       "geometry": {
         "type": "Point",
@@ -5502,13 +6080,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ed76fb3a472a1e4e02e2d36",
+        "oid": "5ee143e7a7e97f1981c6577e",
         "species": "B. pendula",
         "status": 3,
         "notes": null,
         "name_la": "Betula pendula",
         "name_nl": "Ruwe berk",
-        "name_en": null
+        "name_en": null,
+        "width": 6.0,
+        "height": 20.0
       },
       "geometry": {
         "type": "Point",
@@ -5521,13 +6101,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ed76fcbd512153aaa68af2c",
+        "oid": "5ee143e7a7e97f1981c6577f",
         "species": "G. triacanthos",
         "status": 3,
         "notes": null,
         "name_la": "Gleditsia triacanthos",
         "name_nl": "Valse christusdoorn",
-        "name_en": "Honey locust"
+        "name_en": "Honey locust",
+        "width": 10.0,
+        "height": 20.0
       },
       "geometry": {
         "type": "Point",
@@ -5540,13 +6122,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ed76fe9a472a1e4e02e2d37",
+        "oid": "5ee143e7a7e97f1981c65780",
         "species": "Amelanchier",
         "status": 3,
         "notes": null,
         "name_la": "Amelanchier ",
         "name_nl": "Krentenboompje",
-        "name_en": "Serviceberry"
+        "name_en": "Serviceberry",
+        "width": 3.5,
+        "height": 4.0
       },
       "geometry": {
         "type": "Point",
@@ -5559,13 +6143,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ede9334d512153aaa68af2e",
+        "oid": "5ee143e7a7e97f1981c65781",
         "species": "Aronia spp.",
         "status": 3,
         "notes": null,
         "name_la": "Aronia spp.",
         "name_nl": "zwarte appelbes",
-        "name_en": null
+        "name_en": null,
+        "width": 3.0,
+        "height": 3.0
       },
       "geometry": {
         "type": "Point",
@@ -5578,13 +6164,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ede934aa472a1e4e02e2d38",
+        "oid": "5ee143e7a7e97f1981c65782",
         "species": "Aronia spp.",
         "status": 3,
         "notes": null,
         "name_la": "Aronia spp.",
         "name_nl": "zwarte appelbes",
-        "name_en": null
+        "name_en": null,
+        "width": 3.0,
+        "height": 3.0
       },
       "geometry": {
         "type": "Point",
@@ -5597,13 +6185,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ede934fa472a1e4e02e2d39",
+        "oid": "5ee143e7a7e97f1981c65783",
         "species": "Aronia spp.",
         "status": 3,
         "notes": null,
         "name_la": "Aronia spp.",
         "name_nl": "zwarte appelbes",
-        "name_en": null
+        "name_en": null,
+        "width": 3.0,
+        "height": 3.0
       },
       "geometry": {
         "type": "Point",
@@ -5616,13 +6206,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ede9355a472a1e4e02e2d3a",
+        "oid": "5ee143e7a7e97f1981c65784",
         "species": "Aronia spp.",
         "status": 3,
         "notes": null,
         "name_la": "Aronia spp.",
         "name_nl": "zwarte appelbes",
-        "name_en": null
+        "name_en": null,
+        "width": 3.0,
+        "height": 3.0
       },
       "geometry": {
         "type": "Point",
@@ -5635,13 +6227,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ede935ad512153aaa68af2f",
+        "oid": "5ee143e7a7e97f1981c65785",
         "species": "Aronia spp.",
         "status": 3,
         "notes": null,
         "name_la": "Aronia spp.",
         "name_nl": "zwarte appelbes",
-        "name_en": null
+        "name_en": null,
+        "width": 3.0,
+        "height": 3.0
       },
       "geometry": {
         "type": "Point",
@@ -5654,13 +6248,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ede935ed512153aaa68af30",
+        "oid": "5ee143e7a7e97f1981c65786",
         "species": "Aronia spp.",
         "status": 3,
         "notes": null,
         "name_la": "Aronia spp.",
         "name_nl": "zwarte appelbes",
-        "name_en": null
+        "name_en": null,
+        "width": 3.0,
+        "height": 3.0
       },
       "geometry": {
         "type": "Point",
@@ -5673,13 +6269,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ede9363d512153aaa68af31",
+        "oid": "5ee143e7a7e97f1981c65787",
         "species": "Aronia spp.",
         "status": 3,
         "notes": null,
         "name_la": "Aronia spp.",
         "name_nl": "zwarte appelbes",
-        "name_en": null
+        "name_en": null,
+        "width": 3.0,
+        "height": 3.0
       },
       "geometry": {
         "type": "Point",
@@ -5692,13 +6290,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ede9369a472a1e4e02e2d3b",
+        "oid": "5ee143e7a7e97f1981c65788",
         "species": "Aronia spp.",
         "status": 3,
         "notes": null,
         "name_la": "Aronia spp.",
         "name_nl": "zwarte appelbes",
-        "name_en": null
+        "name_en": null,
+        "width": 3.0,
+        "height": 3.0
       },
       "geometry": {
         "type": "Point",
@@ -5711,13 +6311,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ede936da472a1e4e02e2d3c",
+        "oid": "5ee143e7a7e97f1981c65789",
         "species": "Aronia spp.",
         "status": 3,
         "notes": null,
         "name_la": "Aronia spp.",
         "name_nl": "zwarte appelbes",
-        "name_en": null
+        "name_en": null,
+        "width": 3.0,
+        "height": 3.0
       },
       "geometry": {
         "type": "Point",
@@ -5730,13 +6332,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ede9371a472a1e4e02e2d3d",
+        "oid": "5ee143e7a7e97f1981c6578a",
         "species": "Aronia spp.",
         "status": 3,
         "notes": null,
         "name_la": "Aronia spp.",
         "name_nl": "zwarte appelbes",
-        "name_en": null
+        "name_en": null,
+        "width": 3.0,
+        "height": 3.0
       },
       "geometry": {
         "type": "Point",
@@ -5749,13 +6353,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ede9375a472a1e4e02e2d3e",
+        "oid": "5ee143e7a7e97f1981c6578b",
         "species": "Aronia spp.",
         "status": 3,
         "notes": null,
         "name_la": "Aronia spp.",
         "name_nl": "zwarte appelbes",
-        "name_en": null
+        "name_en": null,
+        "width": 3.0,
+        "height": 3.0
       },
       "geometry": {
         "type": "Point",
@@ -5768,13 +6374,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ede937ba472a1e4e02e2d3f",
+        "oid": "5ee143e7a7e97f1981c6578c",
         "species": "Aronia spp.",
         "status": 3,
         "notes": null,
         "name_la": "Aronia spp.",
         "name_nl": "zwarte appelbes",
-        "name_en": null
+        "name_en": null,
+        "width": 3.0,
+        "height": 3.0
       },
       "geometry": {
         "type": "Point",
@@ -5787,13 +6395,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ede937ea472a1e4e02e2d40",
+        "oid": "5ee143e7a7e97f1981c6578d",
         "species": "Aronia spp.",
         "status": 3,
         "notes": null,
         "name_la": "Aronia spp.",
         "name_nl": "zwarte appelbes",
-        "name_en": null
+        "name_en": null,
+        "width": 3.0,
+        "height": 3.0
       },
       "geometry": {
         "type": "Point",
@@ -5806,13 +6416,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ede9382a472a1e4e02e2d41",
+        "oid": "5ee143e7a7e97f1981c6578e",
         "species": "Aronia spp.",
         "status": 3,
         "notes": null,
         "name_la": "Aronia spp.",
         "name_nl": "zwarte appelbes",
-        "name_en": null
+        "name_en": null,
+        "width": 3.0,
+        "height": 3.0
       },
       "geometry": {
         "type": "Point",
@@ -5825,13 +6437,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5ede9388a472a1e4e02e2d42",
+        "oid": "5ee143e7a7e97f1981c6578f",
         "species": "Aronia spp.",
         "status": 3,
         "notes": null,
         "name_la": "Aronia spp.",
         "name_nl": "zwarte appelbes",
-        "name_en": null
+        "name_en": null,
+        "width": 3.0,
+        "height": 3.0
       },
       "geometry": {
         "type": "Point",
@@ -5844,13 +6458,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5edf3cb4a472a1e4e02e2d43",
+        "oid": "5ee143e7a7e97f1981c65790",
         "species": "H. rhamnoides",
         "status": 3,
         "notes": null,
         "name_la": "Hippophae rhamnoides",
         "name_nl": "Duindoorn",
-        "name_en": null
+        "name_en": null,
+        "width": 5.0,
+        "height": 6.0
       },
       "geometry": {
         "type": "Point",
@@ -5863,13 +6479,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5edf3d83a472a1e4e02e2d44",
+        "oid": "5ee143e7a7e97f1981c65791",
         "species": "Onbekend",
         "status": 3,
         "notes": "hartvormig blad",
         "name_la": "Onbekend",
         "name_nl": "Onbekend",
-        "name_en": "Unknown"
+        "name_en": "Unknown",
+        "width": null,
+        "height": null
       },
       "geometry": {
         "type": "Point",
@@ -5882,13 +6500,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5edf3de9d512153aaa68af33",
+        "oid": "5ee143e7a7e97f1981c65792",
         "species": "Onbekend",
         "status": 3,
         "notes": "gaaf blad droog",
         "name_la": "Onbekend",
         "name_nl": "Onbekend",
-        "name_en": "Unknown"
+        "name_en": "Unknown",
+        "width": null,
+        "height": null
       },
       "geometry": {
         "type": "Point",
@@ -5901,13 +6521,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5edf3ecba472a1e4e02e2d45",
+        "oid": "5ee143e7a7e97f1981c65793",
         "species": "Onbekend",
         "status": 3,
         "notes": "eleagnus",
         "name_la": "Onbekend",
         "name_nl": "Onbekend",
-        "name_en": "Unknown"
+        "name_en": "Unknown",
+        "width": null,
+        "height": null
       },
       "geometry": {
         "type": "Point",
@@ -5920,13 +6542,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5edf3ee6a472a1e4e02e2d46",
+        "oid": "5ee143e7a7e97f1981c65794",
         "species": "Onbekend",
         "status": 3,
         "notes": "hartvormig blad",
         "name_la": "Onbekend",
         "name_nl": "Onbekend",
-        "name_en": "Unknown"
+        "name_en": "Unknown",
+        "width": null,
+        "height": null
       },
       "geometry": {
         "type": "Point",
@@ -5939,13 +6563,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5edf4009a472a1e4e02e2d47",
+        "oid": "5ee143e7a7e97f1981c65795",
         "species": "Onbekend",
         "status": 3,
         "notes": "Eleagnus",
         "name_la": "Onbekend",
         "name_nl": "Onbekend",
-        "name_en": "Unknown"
+        "name_en": "Unknown",
+        "width": null,
+        "height": null
       },
       "geometry": {
         "type": "Point",
@@ -5958,13 +6584,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5edf401da472a1e4e02e2d48",
+        "oid": "5ee143e7a7e97f1981c65796",
         "species": "G. triacanthos",
         "status": 3,
         "notes": null,
         "name_la": "Gleditsia triacanthos",
         "name_nl": "Valse christusdoorn",
-        "name_en": "Honey locust"
+        "name_en": "Honey locust",
+        "width": 10.0,
+        "height": 20.0
       },
       "geometry": {
         "type": "Point",
@@ -5977,13 +6605,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5edf408fa472a1e4e02e2d49",
+        "oid": "5ee143e7a7e97f1981c65797",
         "species": "C. mas",
         "status": 3,
         "notes": null,
         "name_la": "Cornus mas",
         "name_nl": "Gele kornoelje",
-        "name_en": null
+        "name_en": null,
+        "width": 5.0,
+        "height": 6.0
       },
       "geometry": {
         "type": "Point",
@@ -5996,13 +6626,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5edf40f1d512153aaa68af34",
+        "oid": "5ee143e7a7e97f1981c65798",
         "species": "Onbekend",
         "status": 3,
         "notes": "gaaf blad droog",
         "name_la": "Onbekend",
         "name_nl": "Onbekend",
-        "name_en": "Unknown"
+        "name_en": "Unknown",
+        "width": null,
+        "height": null
       },
       "geometry": {
         "type": "Point",
@@ -6015,13 +6647,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5edf411bd512153aaa68af35",
+        "oid": "5ee143e7a7e97f1981c65799",
         "species": "H. rhamnoides",
         "status": 3,
         "notes": null,
         "name_la": "Hippophae rhamnoides",
         "name_nl": "Duindoorn",
-        "name_en": null
+        "name_en": null,
+        "width": 5.0,
+        "height": 6.0
       },
       "geometry": {
         "type": "Point",
@@ -6034,13 +6668,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5edf4187d512153aaa68af36",
+        "oid": "5ee143e7a7e97f1981c6579a",
         "species": "G. triacanthos",
         "status": 3,
         "notes": null,
         "name_la": "Gleditsia triacanthos",
         "name_nl": "Valse christusdoorn",
-        "name_en": "Honey locust"
+        "name_en": "Honey locust",
+        "width": 10.0,
+        "height": 20.0
       },
       "geometry": {
         "type": "Point",
@@ -6053,13 +6689,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5edf41b0d512153aaa68af37",
+        "oid": "5ee143e7a7e97f1981c6579b",
         "species": "M. alba",
         "status": 3,
         "notes": "Lavendel",
         "name_la": "Morus alba",
         "name_nl": "Witte moerbei",
-        "name_en": null
+        "name_en": null,
+        "width": 12.0,
+        "height": 15.0
       },
       "geometry": {
         "type": "Point",
@@ -6072,13 +6710,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5edf41b2d512153aaa68af38",
+        "oid": "5ee143e7a7e97f1981c6579c",
         "species": "H. rhamnoides",
         "status": 3,
         "notes": null,
         "name_la": "Hippophae rhamnoides",
         "name_nl": "Duindoorn",
-        "name_en": null
+        "name_en": null,
+        "width": 5.0,
+        "height": 6.0
       },
       "geometry": {
         "type": "Point",
@@ -6091,13 +6731,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5edf41d4a472a1e4e02e2d4a",
+        "oid": "5ee143e7a7e97f1981c6579d",
         "species": "C. mas",
         "status": 3,
         "notes": null,
         "name_la": "Cornus mas",
         "name_nl": "Gele kornoelje",
-        "name_en": null
+        "name_en": null,
+        "width": 5.0,
+        "height": 6.0
       },
       "geometry": {
         "type": "Point",
@@ -6110,13 +6752,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5edf4216d512153aaa68af39",
+        "oid": "5ee143e7a7e97f1981c6579e",
         "species": "H. rhamnoides",
         "status": 3,
         "notes": null,
         "name_la": "Hippophae rhamnoides",
         "name_nl": "Duindoorn",
-        "name_en": null
+        "name_en": null,
+        "width": 5.0,
+        "height": 6.0
       },
       "geometry": {
         "type": "Point",
@@ -6129,13 +6773,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5edf423ad512153aaa68af3a",
+        "oid": "5ee143e7a7e97f1981c6579f",
         "species": "H. rhamnoides",
         "status": 3,
         "notes": null,
         "name_la": "Hippophae rhamnoides",
         "name_nl": "Duindoorn",
-        "name_en": null
+        "name_en": null,
+        "width": 5.0,
+        "height": 6.0
       },
       "geometry": {
         "type": "Point",
@@ -6148,13 +6794,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5edf425bd512153aaa68af3b",
+        "oid": "5ee143e7a7e97f1981c657a0",
         "species": "H. rhamnoides",
         "status": 3,
         "notes": null,
         "name_la": "Hippophae rhamnoides",
         "name_nl": "Duindoorn",
-        "name_en": null
+        "name_en": null,
+        "width": 5.0,
+        "height": 6.0
       },
       "geometry": {
         "type": "Point",
@@ -6167,13 +6815,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5edf42d0a472a1e4e02e2d4b",
+        "oid": "5ee143e7a7e97f1981c657a1",
         "species": "E. x ebbingei",
         "status": 3,
         "notes": null,
         "name_la": "Elaeagnus ebbingei",
         "name_nl": "Zilverbes",
-        "name_en": null
+        "name_en": null,
+        "width": 3.0,
+        "height": 3.0
       },
       "geometry": {
         "type": "Point",
@@ -6186,13 +6836,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5edf4311d512153aaa68af3c",
+        "oid": "5ee143e7a7e97f1981c657a2",
         "species": "Onbekend",
         "status": 3,
         "notes": null,
         "name_la": "Onbekend",
         "name_nl": "Onbekend",
-        "name_en": "Unknown"
+        "name_en": "Unknown",
+        "width": null,
+        "height": null
       },
       "geometry": {
         "type": "Point",
@@ -6205,13 +6857,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5edf435bd512153aaa68af3d",
+        "oid": "5ee143e7a7e97f1981c657a3",
         "species": "G. triacanthos",
         "status": 3,
         "notes": null,
         "name_la": "Gleditsia triacanthos",
         "name_nl": "Valse christusdoorn",
-        "name_en": "Honey locust"
+        "name_en": "Honey locust",
+        "width": 10.0,
+        "height": 20.0
       },
       "geometry": {
         "type": "Point",
@@ -6224,13 +6878,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5edf43c5a472a1e4e02e2d4c",
+        "oid": "5ee143e7a7e97f1981c657a4",
         "species": "H. rhamnoides",
         "status": 3,
         "notes": null,
         "name_la": "Hippophae rhamnoides",
         "name_nl": "Duindoorn",
-        "name_en": null
+        "name_en": null,
+        "width": 5.0,
+        "height": 6.0
       },
       "geometry": {
         "type": "Point",
@@ -6243,13 +6899,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5edf4447a472a1e4e02e2d4d",
+        "oid": "5ee143e7a7e97f1981c657a5",
         "species": "R. nigrum",
         "status": 3,
         "notes": null,
         "name_la": "Ribes nigrum",
         "name_nl": "Zwarte bes",
-        "name_en": "Blackcurrant"
+        "name_en": "Blackcurrant",
+        "width": 1.5,
+        "height": 2.0
       },
       "geometry": {
         "type": "Point",
@@ -6262,13 +6920,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5edf4464d512153aaa68af3f",
+        "oid": "5ee143e7a7e97f1981c657a6",
         "species": "R. nigrum",
         "status": 3,
         "notes": null,
         "name_la": "Ribes nigrum",
         "name_nl": "Zwarte bes",
-        "name_en": "Blackcurrant"
+        "name_en": "Blackcurrant",
+        "width": 1.5,
+        "height": 2.0
       },
       "geometry": {
         "type": "Point",
@@ -6281,13 +6941,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5edf446ad512153aaa68af40",
+        "oid": "5ee143e7a7e97f1981c657a7",
         "species": "R. nigrum",
         "status": 3,
         "notes": null,
         "name_la": "Ribes nigrum",
         "name_nl": "Zwarte bes",
-        "name_en": "Blackcurrant"
+        "name_en": "Blackcurrant",
+        "width": 1.5,
+        "height": 2.0
       },
       "geometry": {
         "type": "Point",
@@ -6300,13 +6962,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5edf4470d512153aaa68af41",
+        "oid": "5ee143e7a7e97f1981c657a8",
         "species": "R. nigrum",
         "status": 3,
         "notes": null,
         "name_la": "Ribes nigrum",
         "name_nl": "Zwarte bes",
-        "name_en": "Blackcurrant"
+        "name_en": "Blackcurrant",
+        "width": 1.5,
+        "height": 2.0
       },
       "geometry": {
         "type": "Point",
@@ -6319,13 +6983,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5edf4476d512153aaa68af42",
+        "oid": "5ee143e7a7e97f1981c657a9",
         "species": "R. nigrum",
         "status": 3,
         "notes": null,
         "name_la": "Ribes nigrum",
         "name_nl": "Zwarte bes",
-        "name_en": "Blackcurrant"
+        "name_en": "Blackcurrant",
+        "width": 1.5,
+        "height": 2.0
       },
       "geometry": {
         "type": "Point",
@@ -6338,13 +7004,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5edf4493a472a1e4e02e2d4e",
+        "oid": "5ee143e7a7e97f1981c657aa",
         "species": "Onbekend",
         "status": 3,
         "notes": "eleagnus",
         "name_la": "Onbekend",
         "name_nl": "Onbekend",
-        "name_en": "Unknown"
+        "name_en": "Unknown",
+        "width": null,
+        "height": null
       },
       "geometry": {
         "type": "Point",
@@ -6357,13 +7025,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5edf4532d512153aaa68af43",
+        "oid": "5ee143e7a7e97f1981c657ab",
         "species": "Onbekend",
         "status": 3,
         "notes": null,
         "name_la": "Onbekend",
         "name_nl": "Onbekend",
-        "name_en": "Unknown"
+        "name_en": "Unknown",
+        "width": null,
+        "height": null
       },
       "geometry": {
         "type": "Point",
@@ -6376,13 +7046,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5edf454aa472a1e4e02e2d4f",
+        "oid": "5ee143e7a7e97f1981c657ac",
         "species": "Onbekend",
         "status": 3,
         "notes": null,
         "name_la": "Onbekend",
         "name_nl": "Onbekend",
-        "name_en": "Unknown"
+        "name_en": "Unknown",
+        "width": null,
+        "height": null
       },
       "geometry": {
         "type": "Point",
@@ -6395,13 +7067,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5edf455fa472a1e4e02e2d50",
+        "oid": "5ee143e7a7e97f1981c657ad",
         "species": "Onbekend",
         "status": 3,
         "notes": null,
         "name_la": "Onbekend",
         "name_nl": "Onbekend",
-        "name_en": "Unknown"
+        "name_en": "Unknown",
+        "width": null,
+        "height": null
       },
       "geometry": {
         "type": "Point",
@@ -6414,13 +7088,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5edf4575d512153aaa68af44",
+        "oid": "5ee143e7a7e97f1981c657ae",
         "species": "Onbekend",
         "status": 3,
         "notes": null,
         "name_la": "Onbekend",
         "name_nl": "Onbekend",
-        "name_en": "Unknown"
+        "name_en": "Unknown",
+        "width": null,
+        "height": null
       },
       "geometry": {
         "type": "Point",
@@ -6433,13 +7109,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5edf4585a472a1e4e02e2d51",
+        "oid": "5ee143e7a7e97f1981c657af",
         "species": "Onbekend",
         "status": 3,
         "notes": "hartvormig blad",
         "name_la": "Onbekend",
         "name_nl": "Onbekend",
-        "name_en": "Unknown"
+        "name_en": "Unknown",
+        "width": null,
+        "height": null
       },
       "geometry": {
         "type": "Point",
@@ -6452,13 +7130,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5edf45b3d512153aaa68af45",
+        "oid": "5ee143e7a7e97f1981c657b0",
         "species": "Onbekend",
         "status": 3,
         "notes": "eleagnus",
         "name_la": "Onbekend",
         "name_nl": "Onbekend",
-        "name_en": "Unknown"
+        "name_en": "Unknown",
+        "width": null,
+        "height": null
       },
       "geometry": {
         "type": "Point",
@@ -6471,13 +7151,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5edf45e5d512153aaa68af46",
+        "oid": "5ee143e7a7e97f1981c657b1",
         "species": "Onbekend",
         "status": 3,
         "notes": "crataegus soort ntb",
         "name_la": "Onbekend",
         "name_nl": "Onbekend",
-        "name_en": "Unknown"
+        "name_en": "Unknown",
+        "width": null,
+        "height": null
       },
       "geometry": {
         "type": "Point",
@@ -6490,13 +7172,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5edf464ea472a1e4e02e2d52",
+        "oid": "5ee143e7a7e97f1981c657b2",
         "species": "G. triacanthos",
         "status": 3,
         "notes": "of caragana",
         "name_la": "Gleditsia triacanthos",
         "name_nl": "Valse christusdoorn",
-        "name_en": "Honey locust"
+        "name_en": "Honey locust",
+        "width": 10.0,
+        "height": 20.0
       },
       "geometry": {
         "type": "Point",
@@ -6509,13 +7193,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5edf46d3a472a1e4e02e2d53",
+        "oid": "5ee143e7a7e97f1981c657b3",
         "species": "H. rhamnoides",
         "status": 3,
         "notes": null,
         "name_la": "Hippophae rhamnoides",
         "name_nl": "Duindoorn",
-        "name_en": null
+        "name_en": null,
+        "width": 5.0,
+        "height": 6.0
       },
       "geometry": {
         "type": "Point",
@@ -6528,13 +7214,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5edf4738d512153aaa68af47",
+        "oid": "5ee143e7a7e97f1981c657b4",
         "species": "H. rhamnoides",
         "status": 3,
         "notes": null,
         "name_la": "Hippophae rhamnoides",
         "name_nl": "Duindoorn",
-        "name_en": null
+        "name_en": null,
+        "width": 5.0,
+        "height": 6.0
       },
       "geometry": {
         "type": "Point",
@@ -6547,13 +7235,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5edf47dfd512153aaa68af48",
+        "oid": "5ee143e7a7e97f1981c657b5",
         "species": "Onbekend",
         "status": 3,
         "notes": "elsbes? zacht blad",
         "name_la": "Onbekend",
         "name_nl": "Onbekend",
-        "name_en": "Unknown"
+        "name_en": "Unknown",
+        "width": null,
+        "height": null
       },
       "geometry": {
         "type": "Point",
@@ -6566,13 +7256,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5edf4807a472a1e4e02e2d54",
+        "oid": "5ee143e7a7e97f1981c657b6",
         "species": "Onbekend",
         "status": 3,
         "notes": "hartvormig blad",
         "name_la": "Onbekend",
         "name_nl": "Onbekend",
-        "name_en": "Unknown"
+        "name_en": "Unknown",
+        "width": null,
+        "height": null
       },
       "geometry": {
         "type": "Point",
@@ -6585,13 +7277,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5edf4873a472a1e4e02e2d55",
+        "oid": "5ee143e7a7e97f1981c657b7",
         "species": "Onbekend",
         "status": 3,
         "notes": "rubus soort",
         "name_la": "Onbekend",
         "name_nl": "Onbekend",
-        "name_en": "Unknown"
+        "name_en": "Unknown",
+        "width": null,
+        "height": null
       },
       "geometry": {
         "type": "Point",
@@ -6604,13 +7298,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5edf48c1d512153aaa68af49",
+        "oid": "5ee143e7a7e97f1981c657b8",
         "species": "Onbekend",
         "status": 3,
         "notes": "erg droog geen blad",
         "name_la": "Onbekend",
         "name_nl": "Onbekend",
-        "name_en": "Unknown"
+        "name_en": "Unknown",
+        "width": null,
+        "height": null
       },
       "geometry": {
         "type": "Point",
@@ -6623,13 +7319,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5edf48f8a472a1e4e02e2d56",
+        "oid": "5ee143e7a7e97f1981c657b9",
         "species": "Onbekend",
         "status": 3,
         "notes": "rubus",
         "name_la": "Onbekend",
         "name_nl": "Onbekend",
-        "name_en": "Unknown"
+        "name_en": "Unknown",
+        "width": null,
+        "height": null
       },
       "geometry": {
         "type": "Point",
@@ -6642,13 +7340,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5edf4978d512153aaa68af4a",
+        "oid": "5ee143e7a7e97f1981c657ba",
         "species": "Onbekend",
         "status": 3,
         "notes": null,
         "name_la": "Onbekend",
         "name_nl": "Onbekend",
-        "name_en": "Unknown"
+        "name_en": "Unknown",
+        "width": null,
+        "height": null
       },
       "geometry": {
         "type": "Point",
@@ -6661,13 +7361,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5edf49a1a472a1e4e02e2d57",
+        "oid": "5ee143e7a7e97f1981c657bb",
         "species": "S. torminalis",
         "status": 3,
         "notes": null,
         "name_la": "Sorbus torminalis",
         "name_nl": "Elsbes",
-        "name_en": "Wild service tree"
+        "name_en": "Wild service tree",
+        "width": 8.0,
+        "height": 20.0
       },
       "geometry": {
         "type": "Point",
@@ -6680,13 +7382,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5edf49b2d512153aaa68af4b",
+        "oid": "5ee143e7a7e97f1981c657bc",
         "species": "S. torminalis",
         "status": 3,
         "notes": null,
         "name_la": "Sorbus torminalis",
         "name_nl": "Elsbes",
-        "name_en": "Wild service tree"
+        "name_en": "Wild service tree",
+        "width": 8.0,
+        "height": 20.0
       },
       "geometry": {
         "type": "Point",
@@ -6699,13 +7403,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5edf49c7a472a1e4e02e2d58",
+        "oid": "5ee143e7a7e97f1981c657bd",
         "species": "S. torminalis",
         "status": 3,
         "notes": null,
         "name_la": "Sorbus torminalis",
         "name_nl": "Elsbes",
-        "name_en": "Wild service tree"
+        "name_en": "Wild service tree",
+        "width": 8.0,
+        "height": 20.0
       },
       "geometry": {
         "type": "Point",
@@ -6718,13 +7424,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5edf4a06a472a1e4e02e2d59",
+        "oid": "5ee143e7a7e97f1981c657be",
         "species": "L. barbarum",
         "status": 3,
         "notes": null,
         "name_la": "Lycium barbarum",
         "name_nl": "Gojibes",
-        "name_en": null
+        "name_en": null,
+        "width": 2.5,
+        "height": 2.5
       },
       "geometry": {
         "type": "Point",
@@ -6737,13 +7445,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5edf4a0ea472a1e4e02e2d5a",
+        "oid": "5ee143e7a7e97f1981c657bf",
         "species": "L. barbarum",
         "status": 3,
         "notes": null,
         "name_la": "Lycium barbarum",
         "name_nl": "Gojibes",
-        "name_en": null
+        "name_en": null,
+        "width": 2.5,
+        "height": 2.5
       },
       "geometry": {
         "type": "Point",
@@ -6756,13 +7466,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5edf4a84d512153aaa68af4c",
+        "oid": "5ee143e7a7e97f1981c657c0",
         "species": "R. rubrum",
         "status": 3,
         "notes": "witte",
         "name_la": "Ribes rubrum",
         "name_nl": "Rode bes",
-        "name_en": null
+        "name_en": null,
+        "width": 1.5,
+        "height": 2.0
       },
       "geometry": {
         "type": "Point",
@@ -6775,13 +7487,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5edf4aafa472a1e4e02e2d5b",
+        "oid": "5ee143e7a7e97f1981c657c1",
         "species": "R. rubrum",
         "status": 3,
         "notes": "witte",
         "name_la": "Ribes rubrum",
         "name_nl": "Rode bes",
-        "name_en": null
+        "name_en": null,
+        "width": 1.5,
+        "height": 2.0
       },
       "geometry": {
         "type": "Point",
@@ -6794,13 +7508,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5edf4b04a472a1e4e02e2d5c",
+        "oid": "5ee143e7a7e97f1981c657c2",
         "species": "Onbekend",
         "status": 3,
         "notes": "hartvormig blad",
         "name_la": "Onbekend",
         "name_nl": "Onbekend",
-        "name_en": "Unknown"
+        "name_en": "Unknown",
+        "width": null,
+        "height": null
       },
       "geometry": {
         "type": "Point",
@@ -6813,13 +7529,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5edf5409a472a1e4e02e2d5d",
+        "oid": "5ee143e7a7e97f1981c657c3",
         "species": "Onbekend",
         "status": 3,
         "notes": "gaaf blad",
         "name_la": "Onbekend",
         "name_nl": "Onbekend",
-        "name_en": "Unknown"
+        "name_en": "Unknown",
+        "width": null,
+        "height": null
       },
       "geometry": {
         "type": "Point",
@@ -6832,13 +7550,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5edf547aa472a1e4e02e2d5e",
+        "oid": "5ee143e7a7e97f1981c657c4",
         "species": "Onbekend",
         "status": 3,
         "notes": "crataegus anomaca",
         "name_la": "Onbekend",
         "name_nl": "Onbekend",
-        "name_en": "Unknown"
+        "name_en": "Unknown",
+        "width": null,
+        "height": null
       },
       "geometry": {
         "type": "Point",
@@ -6851,13 +7571,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5edf54b7d512153aaa68af4d",
+        "oid": "5ee143e7a7e97f1981c657c5",
         "species": "H. rhamnoides",
         "status": 3,
         "notes": null,
         "name_la": "Hippophae rhamnoides",
         "name_nl": "Duindoorn",
-        "name_en": null
+        "name_en": null,
+        "width": 5.0,
+        "height": 6.0
       },
       "geometry": {
         "type": "Point",
@@ -6870,13 +7592,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5edf5535d512153aaa68af4e",
+        "oid": "5ee143e7a7e97f1981c657c6",
         "species": "S. torminalis",
         "status": 3,
         "notes": null,
         "name_la": "Sorbus torminalis",
         "name_nl": "Elsbes",
-        "name_en": "Wild service tree"
+        "name_en": "Wild service tree",
+        "width": 8.0,
+        "height": 20.0
       },
       "geometry": {
         "type": "Point",
@@ -6889,13 +7613,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5edf5540a472a1e4e02e2d5f",
+        "oid": "5ee143e7a7e97f1981c657c7",
         "species": "S. torminalis",
         "status": 3,
         "notes": null,
         "name_la": "Sorbus torminalis",
         "name_nl": "Elsbes",
-        "name_en": "Wild service tree"
+        "name_en": "Wild service tree",
+        "width": 8.0,
+        "height": 20.0
       },
       "geometry": {
         "type": "Point",
@@ -6908,13 +7634,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5edf55f2a472a1e4e02e2d60",
+        "oid": "5ee143e7a7e97f1981c657c8",
         "species": "Onbekend",
         "status": 3,
         "notes": null,
         "name_la": "Onbekend",
         "name_nl": "Onbekend",
-        "name_en": "Unknown"
+        "name_en": "Unknown",
+        "width": null,
+        "height": null
       },
       "geometry": {
         "type": "Point",
@@ -6927,13 +7655,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5edf5624d512153aaa68af4f",
+        "oid": "5ee143e7a7e97f1981c657c9",
         "species": "Onbekend",
         "status": 3,
         "notes": null,
         "name_la": "Onbekend",
         "name_nl": "Onbekend",
-        "name_en": "Unknown"
+        "name_en": "Unknown",
+        "width": null,
+        "height": null
       },
       "geometry": {
         "type": "Point",
@@ -6946,13 +7676,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5edf5630a472a1e4e02e2d61",
+        "oid": "5ee143e7a7e97f1981c657ca",
         "species": "Onbekend",
         "status": 3,
         "notes": null,
         "name_la": "Onbekend",
         "name_nl": "Onbekend",
-        "name_en": "Unknown"
+        "name_en": "Unknown",
+        "width": null,
+        "height": null
       },
       "geometry": {
         "type": "Point",
@@ -6965,13 +7697,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5edf563ad512153aaa68af50",
+        "oid": "5ee143e7a7e97f1981c657cb",
         "species": "Onbekend",
         "status": 3,
         "notes": null,
         "name_la": "Onbekend",
         "name_nl": "Onbekend",
-        "name_en": "Unknown"
+        "name_en": "Unknown",
+        "width": null,
+        "height": null
       },
       "geometry": {
         "type": "Point",
@@ -6984,13 +7718,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5edf5652a472a1e4e02e2d62",
+        "oid": "5ee143e7a7e97f1981c657cc",
         "species": "Onbekend",
         "status": 3,
         "notes": null,
         "name_la": "Onbekend",
         "name_nl": "Onbekend",
-        "name_en": "Unknown"
+        "name_en": "Unknown",
+        "width": null,
+        "height": null
       },
       "geometry": {
         "type": "Point",
@@ -7003,13 +7739,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5edf5659a472a1e4e02e2d63",
+        "oid": "5ee143e7a7e97f1981c657cd",
         "species": "Onbekend",
         "status": 3,
         "notes": null,
         "name_la": "Onbekend",
         "name_nl": "Onbekend",
-        "name_en": "Unknown"
+        "name_en": "Unknown",
+        "width": null,
+        "height": null
       },
       "geometry": {
         "type": "Point",
@@ -7022,13 +7760,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5edf565fd512153aaa68af51",
+        "oid": "5ee143e7a7e97f1981c657ce",
         "species": "Onbekend",
         "status": 3,
         "notes": null,
         "name_la": "Onbekend",
         "name_nl": "Onbekend",
-        "name_en": "Unknown"
+        "name_en": "Unknown",
+        "width": null,
+        "height": null
       },
       "geometry": {
         "type": "Point",
@@ -7041,13 +7781,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5edf5666d512153aaa68af52",
+        "oid": "5ee143e7a7e97f1981c657cf",
         "species": "Onbekend",
         "status": 3,
         "notes": null,
         "name_la": "Onbekend",
         "name_nl": "Onbekend",
-        "name_en": "Unknown"
+        "name_en": "Unknown",
+        "width": null,
+        "height": null
       },
       "geometry": {
         "type": "Point",
@@ -7060,13 +7802,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5edf6385a472a1e4e02e2d64",
+        "oid": "5ee143e7a7e97f1981c657d0",
         "species": "M. germanica",
         "status": 3,
         "notes": null,
         "name_la": "Mespilus germanica",
         "name_nl": "Mispel",
-        "name_en": null
+        "name_en": null,
+        "width": 4.0,
+        "height": 5.0
       },
       "geometry": {
         "type": "Point",
@@ -7079,13 +7823,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5edf63cbd512153aaa68af53",
+        "oid": "5ee143e7a7e97f1981c657d1",
         "species": "H. rhamnoides",
         "status": 3,
         "notes": null,
         "name_la": "Hippophae rhamnoides",
         "name_nl": "Duindoorn",
-        "name_en": null
+        "name_en": null,
+        "width": 5.0,
+        "height": 6.0
       },
       "geometry": {
         "type": "Point",
@@ -7098,13 +7844,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5edf63e1a472a1e4e02e2d65",
+        "oid": "5ee143e7a7e97f1981c657d2",
         "species": "E. x ebbingei",
         "status": 3,
         "notes": null,
         "name_la": "Elaeagnus ebbingei",
         "name_nl": "Zilverbes",
-        "name_en": null
+        "name_en": null,
+        "width": 3.0,
+        "height": 3.0
       },
       "geometry": {
         "type": "Point",
@@ -7117,13 +7865,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5edf6423d512153aaa68af54",
+        "oid": "5ee143e7a7e97f1981c657d3",
         "species": "S. nigra",
         "status": 3,
         "notes": null,
         "name_la": "Sambucus nigra",
         "name_nl": "Vlier",
-        "name_en": null
+        "name_en": null,
+        "width": 3.0,
+        "height": 4.0
       },
       "geometry": {
         "type": "Point",
@@ -7136,13 +7886,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5edf648dd512153aaa68af55",
+        "oid": "5ee143e7a7e97f1981c657d4",
         "species": "C. avellana",
         "status": 3,
         "notes": null,
         "name_la": "Corylus avellana",
         "name_nl": "Hazelaar",
-        "name_en": "Common hazel"
+        "name_en": "Common hazel",
+        "width": 6.0,
+        "height": 6.0
       },
       "geometry": {
         "type": "Point",
@@ -7155,13 +7907,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5edf64aad512153aaa68af56",
+        "oid": "5ee143e7a7e97f1981c657d5",
         "species": "E. x ebbingei",
         "status": 3,
         "notes": null,
         "name_la": "Elaeagnus ebbingei",
         "name_nl": "Zilverbes",
-        "name_en": null
+        "name_en": null,
+        "width": 3.0,
+        "height": 3.0
       },
       "geometry": {
         "type": "Point",
@@ -7174,13 +7928,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5edf64e4a472a1e4e02e2d66",
+        "oid": "5ee143e7a7e97f1981c657d6",
         "species": "C. avellana",
         "status": 3,
         "notes": null,
         "name_la": "Corylus avellana",
         "name_nl": "Hazelaar",
-        "name_en": "Common hazel"
+        "name_en": "Common hazel",
+        "width": 6.0,
+        "height": 6.0
       },
       "geometry": {
         "type": "Point",
@@ -7193,13 +7949,15 @@
     {
       "type": "Feature",
       "properties": {
-        "oid": "5edf65c7a472a1e4e02e2d67",
+        "oid": "5ee143e7a7e97f1981c657d7",
         "species": "G. triacanthos",
         "status": 3,
         "notes": null,
         "name_la": "Gleditsia triacanthos",
         "name_nl": "Valse christusdoorn",
-        "name_en": "Honey locust"
+        "name_en": "Honey locust",
+        "width": 10.0,
+        "height": 20.0
       },
       "geometry": {
         "type": "Point",

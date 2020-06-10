@@ -16,7 +16,7 @@ MARGIN_TOP = 20
 MARGIN_BOTTOM = 10
 MARGIN_LEFT = 10
 MARGIN_RIGHT = 5
-TEXT_MARGIN = 1.5
+TEXT_MARGIN = 1
 
 TRANSLATION = [0.45, 1.22]
 ROTATION_ANGLE = -144.5 * pi / 180
@@ -117,9 +117,10 @@ def draw_background_outline(ctx, scale_factor, trees):
     ctx.set_line_width(scale_factor / 5)
 
     for tree in trees:
-        ctx.arc(tree["x"], tree["y"], tree["radius"], 0, pi * 2)
-        ctx.set_source_rgb(*TREE_OUTLINE)
-        ctx.stroke()
+        if not tree["species"] == "Onbekend":
+            ctx.arc(tree["x"], tree["y"], tree["radius"], 0, pi * 2)
+            ctx.set_source_rgb(*TREE_OUTLINE)
+            ctx.stroke()
 
     ctx.restore()
 
@@ -160,9 +161,10 @@ def draw_fills(ctx, scale_factor, trees, species_list):
     ctx.save()
 
     for tree in trees:
-        ctx.arc(tree["x"], tree["y"], tree["radius"] - scale_factor / 20, 0, pi * 2)
-        ctx.set_source_rgba(*fill_color, 0.75)
-        ctx.fill()
+        if not tree["species"] == "Onbekend":
+            ctx.arc(tree["x"], tree["y"], tree["radius"] - scale_factor / 20, 0, pi * 2)
+            ctx.set_source_rgba(*fill_color, 0.75)
+            ctx.fill()
 
     ctx.restore()
 
@@ -266,8 +268,6 @@ def generate_pdf(svg_path):
     html_path = template_dir / "map.html"
     pdf_path = template_dir / "voedselbos.pdf"
 
-    print(pdf_path)
-
     options = {
         "page-size": "A3",
         "margin-top": "10mm",
@@ -281,7 +281,7 @@ def generate_pdf(svg_path):
 
 def main():
     svg_path = current_dir / "template" / "voedselbos.svg"
-    feature_list = get_features(current_dir / "data" / "20200530.geojson")
+    feature_list = get_features(current_dir / "data" / "20200609.geojson")
     base_features = get_features(current_dir / "data" / "base.geojson")
 
     trees, species_list, scale_factor, min_lon, min_lat = extract_features(feature_list)
