@@ -1,4 +1,4 @@
-name: Production image
+name: Master image
 
 on:
   push:
