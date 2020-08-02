@@ -1,7 +1,0 @@
-{
-  email dev@dallen.co
-}
-
-bos.dallen.co {
-  reverse_proxy bosmapper_server:80
-}
