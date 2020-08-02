@@ -1,4 +1,4 @@
-name: Development build
+name: Development image
 
 on:
   push:
