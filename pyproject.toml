@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "bosmapper-server"
-version = "1.1.0"
+version = "1.2.0"
 description = "FastAPI & Mongo powering the bosmapper backend"
 authors = ["Damien Allen <dev@dallen.co>"]
 license = "MIT"

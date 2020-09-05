@@ -59,7 +59,7 @@ class UsersDB(Document):
     disabled = BooleanField()
 
 
-@app.post("/users/import/")
+@app.post("/api/users/import/")
 def import_users(users_json: ImportUsersJson, request: Request):
     """
     Import users from json
@@ -108,7 +108,7 @@ async def get_current_active_user(current_user: User = Depends(get_current_user)
     return current_user
 
 
-@app.post("/token/")
+@app.post("/api/token/")
 async def login(form_data: OAuth2PasswordRequestForm = Depends()):
     try:
         user = UsersDB.objects.get(passcode=form_data.password)
@@ -123,7 +123,7 @@ async def login(form_data: OAuth2PasswordRequestForm = Depends()):
     }
 
 
-@app.get("/users/me/")
+@app.get("/api/users/me/")
 async def read_users_me(current_user: User = Depends(get_current_active_user)):
     return current_user
 
@@ -217,12 +217,12 @@ class SpeciesDB(Document):
     height = FloatField(null=True)
 
 
-@app.get("/")
+@app.get("/api/")
 def hello():
     return {"Hello": "voedselbos"}
 
 
-@app.get("/trees/")
+@app.get("/api/trees/")
 def trees_geojson():
     """
     List tree objects in GeoJSON format
@@ -258,7 +258,7 @@ def trees_geojson():
     }
 
 
-@app.get("/trees/json/")
+@app.get("/api/trees/json/")
 def trees_json():
     """
     List tree objects in JSON format
@@ -269,7 +269,7 @@ def trees_json():
     return trees
 
 
-@app.get("/trees/clear/")
+@app.get("/api/trees/clear/")
 def remove_all(request: Request):
     """
     Remove all trees
@@ -285,7 +285,7 @@ def remove_all(request: Request):
     return {"detail": "All trees removed from collection"}
 
 
-@app.post("/trees/import/")
+@app.post("/api/trees/import/")
 def import_geojson(geojson: GeoJson, request: Request):
     """
     Import trees from GeoJSON
@@ -315,7 +315,7 @@ def import_geojson(geojson: GeoJson, request: Request):
     return {"detail": f"Imported {len(geojson.features)} features"}
 
 
-@app.get("/tree/{oid}/")
+@app.get("/api/tree/{oid}/")
 def get_tree(oid: str):
     """
     Retrieve tree from DB
@@ -329,7 +329,7 @@ def get_tree(oid: str):
         )
 
 
-@app.post("/tree/add/")
+@app.post("/api/tree/add/")
 def add_tree(
     tree: Tree,
     current_user: User = Depends(get_current_active_user),
@@ -343,7 +343,7 @@ def add_tree(
     return {"detail": "New object added", "id": str(new_tree.id)}
 
 
-@app.post("/tree/update/{oid}/")
+@app.post("/api/tree/update/{oid}/")
 def update_tree(
     tree: EmptyTree, oid: str, current_user: User = Depends(get_current_active_user)
 ):
@@ -379,7 +379,7 @@ def update_tree(
         )
 
 
-@app.post("/tree/remove/{oid}/")
+@app.post("/api/tree/remove/{oid}/")
 def remove_tree(oid: str, current_user: User = Depends(get_current_active_user)):
     """
     Remove trees from DB
@@ -401,7 +401,7 @@ def remove_tree(oid: str, current_user: User = Depends(get_current_active_user))
         )
 
 
-@app.get("/species/")
+@app.get("/api/species/")
 def species_json():
     """
     List species objects in JSON format
@@ -412,7 +412,7 @@ def species_json():
     return species_list
 
 
-@app.post("/species/import/")
+@app.post("/api/species/import/")
 def import_species(species_json: ImportSpeciesJson, request: Request):
     """
     Import trees from GeoJSON
