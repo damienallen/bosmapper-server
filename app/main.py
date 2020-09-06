@@ -1,21 +1,24 @@
 from fastapi import Depends, FastAPI, HTTPException, Request, status
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.security import OAuth2PasswordBearer, OAuth2PasswordRequestForm
-from mongoengine import (
-    Document,
-    BooleanField,
-    DateTimeField,
-    FloatField,
-    IntField,
-    StringField,
-    connect,
-    errors,
-)
+from mongoengine import connect, errors
+import os
 
 from datetime import datetime
 from secrets import token_urlsafe
-from pydantic import BaseModel
-import os
+
+from models import (
+    EmptyTree,
+    GeoJson,
+    ImportSpeciesJson,
+    ImportUsersJson,
+    SpeciesDB,
+    Species,
+    TreeDB,
+    Tree,
+    UsersDB,
+    User,
+)
 
 # Fast API main app
 app = FastAPI()
@@ -36,36 +39,13 @@ app.add_middleware(
 connect("trees", host="mongodb://bosmapper_mongo")
 
 
-# AUTHENTICATION
-class ImportUsersJson(BaseModel):
-    passcodes: list
-
-
-class User(BaseModel):
-    passcode: str
-    token: str
-    token_generated: datetime
-    disabled: bool = False
-
-
-class UsersDB(Document):
-    """
-    Mongo user schema
-    """
-
-    passcode = StringField(max_length=30)
-    token = StringField(max_length=30)
-    token_generated = DateTimeField()
-    disabled = BooleanField()
-
-
+# Users & auth
 @app.post("/api/users/import/")
 def import_users(users_json: ImportUsersJson, request: Request):
     """
     Import users from json
     """
 
-    # Check for master token
     if not request.headers.get("Master") == os.environ.get("MASTER_TOKEN"):
         raise HTTPException(
             status_code=status.HTTP_401_UNAUTHORIZED,
@@ -128,93 +108,7 @@ async def read_users_me(current_user: User = Depends(get_current_active_user)):
     return current_user
 
 
-# MAIN APP
-
-
-class EmptyTree(BaseModel):
-    species: str = None
-    lat: float = None
-    lon: float = None
-    notes: str = None
-    oid: str = None
-    status: int = None
-
-
-class Tree(BaseModel):
-    species: str
-    lat: float
-    lon: float
-    notes: str = None
-    oid: str = None
-
-    # Status of tree health
-    # 0 dead -> 1 bad -> 2 okay -> 3 good
-    status: int = 3
-
-    def to_dict(self):
-        return {
-            "species": self.species,
-            "status": self.status,
-            "lat": self.lat,
-            "lon": self.lon,
-            "notes": self.notes,
-        }
-
-    @staticmethod
-    def from_mongo(mongo_tree):
-        return Tree(
-            species=mongo_tree.species,
-            status=mongo_tree.status,
-            lat=mongo_tree.lat,
-            lon=mongo_tree.lon,
-            notes=mongo_tree.notes,
-            oid=str(mongo_tree.id),
-        )
-
-
-# TODO: proper types
-class GeoJson(BaseModel):
-    name: str
-    features: list
-
-
-class TreeDB(Document):
-    """
-    Mongo tree schema
-    """
-
-    species = StringField(max_length=60)
-    status = IntField()
-    lat = FloatField()
-    lon = FloatField()
-    notes = StringField(max_length=300)
-
-
-class ImportSpeciesJson(BaseModel):
-    species: list
-    updated: str
-
-
-class Species(BaseModel):
-    species: str
-    name_la: str
-    name_nl: str = None
-    name_en: str = None
-    width: float = None
-    height: float = None
-
-
-class SpeciesDB(Document):
-    """
-    Mongo species schema
-    """
-
-    species = StringField(max_length=60)
-    name_la = StringField(max_length=60)
-    name_nl = StringField(max_length=60)
-    name_en = StringField(max_length=60)
-    width = FloatField(null=True)
-    height = FloatField(null=True)
+# Main app
 
 
 @app.get("/api/")
@@ -253,7 +147,7 @@ def trees_geojson():
     return {
         "type": "FeatureCollection",
         "name": "trees",
-        "crs": {"type": "name", "properties": {"name": "urn:ogc:def:crs:EPSG:3857"},},
+        "crs": {"type": "name", "properties": {"name": "urn:ogc:def:crs:EPSG:3857"}},
         "features": features,
     }
 
@@ -290,7 +184,6 @@ def import_geojson(geojson: GeoJson, request: Request):
     """
     Import trees from GeoJSON
     """
-    # Check for master token
     if not request.headers.get("Master") == os.environ.get("MASTER_TOKEN"):
         raise HTTPException(
             status_code=status.HTTP_401_UNAUTHORIZED,
@@ -417,8 +310,6 @@ def import_species(species_json: ImportSpeciesJson, request: Request):
     """
     Import trees from GeoJSON
     """
-
-    # Check for master token
     if not request.headers.get("Master") == os.environ.get("MASTER_TOKEN"):
         raise HTTPException(
             status_code=status.HTTP_401_UNAUTHORIZED,
