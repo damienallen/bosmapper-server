@@ -95,6 +95,7 @@ def extract_features(feature_list):
         trees.append(
             {
                 "species": feature["properties"]["species"],
+                "name": feature["properties"]["name_nl"],
                 "x": (feature["geometry"]["coordinates"][1] - min_lat) * scale_factor,
                 "y": (feature["geometry"]["coordinates"][0] - min_lon) * scale_factor,
                 "radius": adjusted_radius,
@@ -184,6 +185,8 @@ def draw_text(ctx, scale_factor, trees, species_list):
 
         ctx.save()
 
+        display_name = tree["name"] if tree["name"] else tree["species"]
+
         min_radius = -50 * scale_factor
         max_radius = 15 * scale_factor
         fill_percent = min((tree["radius"] - min_radius) / (max_radius - min_radius), 1)
@@ -198,7 +201,7 @@ def draw_text(ctx, scale_factor, trees, species_list):
         ctx.select_font_face("Arial", cairo.FONT_SLANT_NORMAL, cairo.FONT_WEIGHT_NORMAL)
 
         fascent, fdescent, fheight, fxadvance, fyadvance = ctx.font_extents()
-        x_off, y_off, tw, th = ctx.text_extents(tree["species"])[:4]
+        x_off, y_off, tw, th = ctx.text_extents(display_name)[:4]
         nx = -tw / 2.0
         ny = fheight / 2
 
@@ -206,7 +209,7 @@ def draw_text(ctx, scale_factor, trees, species_list):
         ctx.rotate(-ROTATION_ANGLE)
         ctx.translate(nx, ny)
         ctx.move_to(0, TEXT_MARGIN * scale_factor)
-        ctx.show_text(tree["species"])
+        ctx.show_text(display_name)
 
         ctx.restore()
 
