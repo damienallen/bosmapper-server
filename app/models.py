@@ -1,13 +1,14 @@
+from datetime import datetime
+
 from mongoengine import (
-    Document,
     BooleanField,
     DateTimeField,
+    Document,
     FloatField,
-    IntField,
+    ListField,
     StringField,
 )
 from pydantic import BaseModel
-from datetime import datetime
 
 # Users & auth
 
@@ -41,40 +42,42 @@ class EmptyTree(BaseModel):
     species: str = None
     lat: float = None
     lon: float = None
-    notes: str = None
     oid: str = None
-    status: int = None
+    notes: str = None
+    tags: list = []
+    dead: bool = False
 
 
 class Tree(BaseModel):
     species: str
     lat: float
     lon: float
-    notes: str = None
     oid: str = None
 
-    # Status of tree health
-    # 0 dead -> 1 bad -> 2 okay -> 3 good
-    status: int = 3
+    notes: str = None
+    tags: list = None
+    dead: bool = False
 
     def to_dict(self):
         return {
             "species": self.species,
-            "status": self.status,
             "lat": self.lat,
             "lon": self.lon,
             "notes": self.notes,
+            "tags": self.tags,
+            "dead": self.dead,
         }
 
     @staticmethod
     def from_mongo(mongo_tree):
         return Tree(
             species=mongo_tree.species,
-            status=mongo_tree.status,
             lat=mongo_tree.lat,
             lon=mongo_tree.lon,
-            notes=mongo_tree.notes,
             oid=str(mongo_tree.id),
+            notes=mongo_tree.notes,
+            tags=list(mongo_tree.tags),
+            dead=mongo_tree.dead,
         )
 
 
@@ -90,10 +93,12 @@ class TreeDB(Document):
     """
 
     species = StringField(max_length=60)
-    status = IntField()
     lat = FloatField()
     lon = FloatField()
+
     notes = StringField(max_length=300)
+    tags = ListField(StringField(max_length=30), default=list)
+    dead = BooleanField(default=False)
 
 
 class ImportSpeciesJson(BaseModel):
