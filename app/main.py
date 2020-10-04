@@ -1,23 +1,23 @@
+import os
+from datetime import datetime
+from secrets import token_urlsafe
+
 from fastapi import Depends, FastAPI, HTTPException, Request, status
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.security import OAuth2PasswordBearer, OAuth2PasswordRequestForm
 from mongoengine import connect, errors
-import os
-
-from datetime import datetime
-from secrets import token_urlsafe
 
 from models import (
     EmptyTree,
     GeoJson,
     ImportSpeciesJson,
     ImportUsersJson,
-    SpeciesDB,
     Species,
-    TreeDB,
+    SpeciesDB,
     Tree,
-    UsersDB,
+    TreeDB,
     User,
+    UsersDB,
 )
 
 # Fast API main app
@@ -128,8 +128,9 @@ def trees_geojson():
             "properties": {
                 "oid": str(tree.id),
                 "species": tree.species,
-                "status": tree.status,
                 "notes": tree.notes,
+                "tags": tree.tags,
+                "dead": tree.dead,
             },
             "geometry": {"type": "Point", "coordinates": [tree.lon, tree.lat]},
         }
@@ -195,11 +196,12 @@ def import_geojson(geojson: GeoJson, request: Request):
     for feature in geojson.features:
         tree = Tree(
             species=feature["properties"].get("species", "onbekend"),
-            status=feature["properties"].get("status", 3),
             lon=feature["geometry"]["coordinates"][0],
             lat=feature["geometry"]["coordinates"][1],
-            notes=feature["properties"].get("notes"),
             oid=feature["properties"].get("oid"),
+            notes=feature["properties"].get("notes"),
+            tags=feature["properties"].get("tags", []),
+            dead=feature["properties"].get("dead", False),
         )
 
         new_tree = TreeDB(**tree.to_dict())
@@ -248,9 +250,11 @@ def update_tree(
         selected_tree = TreeDB.objects.get(id=oid)
 
         selected_tree.species = tree.species if tree.species else selected_tree.species
-        selected_tree.status = tree.status if tree.status else selected_tree.status
         selected_tree.lat = tree.lat if tree.lat else selected_tree.lat
         selected_tree.lon = tree.lon if tree.lon else selected_tree.lon
+
+        selected_tree.tags = tree.tags if hasattr(tree, "tags") else selected_tree.tags
+        selected_tree.dead = tree.dead if hasattr(tree, "dead") else selected_tree.dead
 
         if tree.notes == "":
             selected_tree.notes = None
@@ -323,3 +327,20 @@ def import_species(species_json: ImportSpeciesJson, request: Request):
         new_species.save()
 
     return {"detail": f"Imported {len(species_json.species)} species"}
+
+
+@app.post("/api/update_db/")
+def update_db(request: Request):
+    """
+    Update MongoDB
+    """
+    if not request.headers.get("Master") == os.environ.get("MASTER_TOKEN"):
+        raise HTTPException(
+            status_code=status.HTTP_401_UNAUTHORIZED,
+            detail="Invalid authentication token",
+        )
+
+    # Remove unused field
+    TreeDB.objects.all().update(unset__status=1)
+
+    return {"detail": "Done."}
