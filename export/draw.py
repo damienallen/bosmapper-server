@@ -24,8 +24,8 @@ COMPASS_LON = 493399
 SCALE_LAT = 6783567
 SCALE_LON = 493297
 
-TRANSLATION = [0.45, 1.22]
-ROTATION_ANGLE = -120 * pi / 180
+TRANSLATION = [0.7, 1.05]
+ROTATION_ANGLE = (185 / 180) * pi
 
 
 def decimal_color(r, g, b):
@@ -343,7 +343,6 @@ def draw_scale(ctx, scale_factor, min_lon, min_lat):
     ctx.rotate(-ROTATION_ANGLE)
     ctx.move_to(x_offset * scale_factor, y_offset * scale_factor)
     ctx.line_to((x_offset + 10) * scale_factor, y_offset * scale_factor)
-    print(10 * scale_factor)
 
     for offset in range(0, 11):
         ctx.move_to((x_offset + offset) * scale_factor, y_offset * scale_factor)
