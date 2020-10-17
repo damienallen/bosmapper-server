@@ -1,17 +1,17 @@
+import json
 from math import pi
 from operator import itemgetter
 from pathlib import Path
-import numpy as np
-import cairo
-import json
-import pdfkit
 
+import cairo
+import numpy as np
+from pyproj import Transformer
 
 current_dir = Path(__file__).resolve().parent
 
 # Constants
 DEFAULT_HEIGHT = 2
-DEFAULT_RADIUS = 4
+DEFAULT_DIAMETER = 3.4
 MARGIN_TOP = 20
 MARGIN_BOTTOM = 10
 MARGIN_LEFT = 10
@@ -23,9 +23,6 @@ COMPASS_LON = 493399
 
 SCALE_LAT = 6783567
 SCALE_LON = 493297
-
-# TRANSLATION = [0, 0]
-# ROTATION_ANGLE = 0
 
 TRANSLATION = [0.45, 1.22]
 ROTATION_ANGLE = -144.5 * pi / 180
@@ -46,6 +43,14 @@ COLOR_GREY_90 = decimal_color(230, 230, 230)
 COLOR_BLACK = decimal_color(0, 0, 0)
 
 
+transformer = Transformer.from_crs(3857, 28992)
+
+
+def reproject(coordinates):
+    x2, y2 = transformer.transform(coordinates[1], coordinates[0])
+    return [y2, x2]
+
+
 def get_features(geojson_path):
     print(f"Parsing file {geojson_path}")
 
@@ -61,8 +66,12 @@ def get_features(geojson_path):
 def extract_features(feature_list):
 
     # TODO: calculate these from bounds
-    lon_list = [feature["geometry"]["coordinates"][0] for feature in feature_list]
-    lat_list = [feature["geometry"]["coordinates"][1] for feature in feature_list]
+    lon_list = [
+        reproject(feature["geometry"]["coordinates"])[0] for feature in feature_list
+    ]
+    lat_list = [
+        reproject(feature["geometry"]["coordinates"])[1] for feature in feature_list
+    ]
 
     min_lon = min(lon_list) - MARGIN_LEFT
     max_lon = max(lon_list) + MARGIN_RIGHT
@@ -74,17 +83,19 @@ def extract_features(feature_list):
     lat_range = max_lat - min_lat
     scale_factor = 1 / lon_range if lon_range > lat_range else 1 / lat_range
 
+    print(f"Scale factor: {scale_factor}")
+
     trees = []
     species_list = []
     num_skipped = 0
 
     for feature in feature_list:
-        crown_radius = (
+        crown_diameter = (
             feature["properties"]["width"]
             if feature["properties"].get("width")
-            else DEFAULT_RADIUS
+            else DEFAULT_DIAMETER
         )
-        adjusted_radius = crown_radius / 2 * scale_factor
+        adjusted_radius = (crown_diameter / 2) * scale_factor
 
         height = (
             feature["properties"]["height"]
@@ -98,10 +109,11 @@ def extract_features(feature_list):
                 {
                     "species": feature["properties"]["species"],
                     "name": feature["properties"]["name_nl"],
-                    "x": (feature["geometry"]["coordinates"][1] - min_lat)
+                    "x": (reproject(feature["geometry"]["coordinates"])[1] - min_lat)
                     * scale_factor,
-                    "y": (feature["geometry"]["coordinates"][0] - min_lon)
+                    "y": (reproject(feature["geometry"]["coordinates"])[0] - min_lon)
                     * scale_factor,
+                    # "radius": 3.4 * scale_factor,
                     "radius": adjusted_radius,
                     "height": adjusted_height,
                 }
@@ -250,8 +262,8 @@ def draw_base_features(ctx, base_features, scale_factor, min_lon, min_lat):
         ctx.save()
 
         for index, point in enumerate(feature["geometry"]["coordinates"][0]):
-            x = (point[1] - min_lat) * scale_factor
-            y = (point[0] - min_lon) * scale_factor
+            x = (reproject(point)[1] - min_lat) * scale_factor
+            y = (reproject(point)[0] - min_lon) * scale_factor
 
             if index == 0:
                 ctx.move_to(x, y)
@@ -319,8 +331,10 @@ def draw_compass(ctx, scale_factor, min_lon, min_lat):
 def draw_scale(ctx, scale_factor, min_lon, min_lat):
 
     ctx.save()
-    x_offset = -12.5
+    x_offset = 20
     y_offset = -6
+    # x_offset = -12.5
+    # y_offset = -6
     x = (SCALE_LAT - min_lat) * scale_factor
     y = (SCALE_LON - min_lon) * scale_factor
 
@@ -329,6 +343,7 @@ def draw_scale(ctx, scale_factor, min_lon, min_lat):
     ctx.rotate(-ROTATION_ANGLE)
     ctx.move_to(x_offset * scale_factor, y_offset * scale_factor)
     ctx.line_to((x_offset + 10) * scale_factor, y_offset * scale_factor)
+    print(10 * scale_factor)
 
     for offset in range(0, 11):
         ctx.move_to((x_offset + offset) * scale_factor, y_offset * scale_factor)
@@ -345,24 +360,6 @@ def draw_scale(ctx, scale_factor, min_lon, min_lat):
     ctx.show_text("10m")
 
     ctx.save()
-
-
-def generate_pdf(svg_path):
-    print("Generating PDF version")
-    output_dir = current_dir / "output"
-    output_dir.mkdir(parents=False, exist_ok=True)
-    pdf_path = output_dir / "voedselbos.pdf"
-    html_path = current_dir / "template" / "map.html"
-
-    options = {
-        "page-size": "A3",
-        "margin-top": "10mm",
-        "margin-right": "10mm",
-        "margin-bottom": "10mm",
-        "margin-left": "10mm",
-    }
-
-    pdfkit.from_file(str(html_path), str(pdf_path), options)
 
 
 def main():
@@ -401,8 +398,6 @@ def main():
         draw_text(ctx, scale_factor, trees, species_list)
         draw_compass(ctx, scale_factor, min_lon, min_lat)
         draw_scale(ctx, scale_factor, min_lon, min_lat)
-
-    generate_pdf(svg_path)
 
 
 if __name__ == "__main__":

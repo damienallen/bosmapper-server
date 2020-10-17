@@ -16,31 +16,9 @@ html, body {
   overflow: hidden;
 }
 
-/* Details */
-.header {
-  z-index: 10;
-  position: absolute;
-  top: 10px;
-  left: 90px;
-}
-
-.title {
-  font-size: 3em;
-  font-family: 'Roboto Slab', serif;
-  font-weight: 300;
-}
-
-.date {
-  color: #999;
-  font-family: 'Roboto Slab', serif;
-  text-transform: uppercase;
-  font-weight: 700;
-}
-
 /* Vector map */
 #map-svg {
   z-index: 5;
   position: relative;
   height: 100%;
-  /* width: 100%; */
 }

@@ -1,7 +1,7 @@
 FROM tiangolo/uvicorn-gunicorn-fastapi:python3.8 as development
 
 # Install linux dependencies
-RUN apt-get update && apt-get install -y xvfb libfontconfig wkhtmltopdf
+RUN apt-get update && apt-get install -y libcairo2-dev
 ENV export DISPLAY=:99.0
 
 # Install Poetry
