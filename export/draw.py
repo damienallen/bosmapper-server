@@ -25,7 +25,7 @@ SCALE_LAT = 6783567
 SCALE_LON = 493297
 
 TRANSLATION = [0.45, 1.22]
-ROTATION_ANGLE = -144.5 * pi / 180
+ROTATION_ANGLE = -120 * pi / 180
 
 
 def decimal_color(r, g, b):
