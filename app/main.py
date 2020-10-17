@@ -1,21 +1,24 @@
+import os
+from datetime import datetime
+from secrets import token_urlsafe
+
 from fastapi import Depends, FastAPI, HTTPException, Request, status
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.security import OAuth2PasswordBearer, OAuth2PasswordRequestForm
-from mongoengine import (
-    Document,
-    BooleanField,
-    DateTimeField,
-    FloatField,
-    IntField,
-    StringField,
-    connect,
-    errors,
-)
+from mongoengine import connect, errors
 
-from datetime import datetime
-from secrets import token_urlsafe
-from pydantic import BaseModel
-import os
+from models import (
+    EmptyTree,
+    GeoJson,
+    ImportSpeciesJson,
+    ImportUsersJson,
+    Species,
+    SpeciesDB,
+    Tree,
+    TreeDB,
+    User,
+    UsersDB,
+)
 
 # Fast API main app
 app = FastAPI()
@@ -36,36 +39,13 @@ app.add_middleware(
 connect("trees", host="mongodb://bosmapper_mongo")
 
 
-# AUTHENTICATION
-class ImportUsersJson(BaseModel):
-    passcodes: list
-
-
-class User(BaseModel):
-    passcode: str
-    token: str
-    token_generated: datetime
-    disabled: bool = False
-
-
-class UsersDB(Document):
-    """
-    Mongo user schema
-    """
-
-    passcode = StringField(max_length=30)
-    token = StringField(max_length=30)
-    token_generated = DateTimeField()
-    disabled = BooleanField()
-
-
-@app.post("/users/import/")
+# Users & auth
+@app.post("/api/users/import/")
 def import_users(users_json: ImportUsersJson, request: Request):
     """
     Import users from json
     """
 
-    # Check for master token
     if not request.headers.get("Master") == os.environ.get("MASTER_TOKEN"):
         raise HTTPException(
             status_code=status.HTTP_401_UNAUTHORIZED,
@@ -108,7 +88,7 @@ async def get_current_active_user(current_user: User = Depends(get_current_user)
     return current_user
 
 
-@app.post("/token/")
+@app.post("/api/token/")
 async def login(form_data: OAuth2PasswordRequestForm = Depends()):
     try:
         user = UsersDB.objects.get(passcode=form_data.password)
@@ -123,106 +103,20 @@ async def login(form_data: OAuth2PasswordRequestForm = Depends()):
     }
 
 
-@app.get("/users/me/")
+@app.get("/api/users/me/")
 async def read_users_me(current_user: User = Depends(get_current_active_user)):
     return current_user
 
 
-# MAIN APP
+# Main app
 
 
-class EmptyTree(BaseModel):
-    species: str = None
-    lat: float = None
-    lon: float = None
-    notes: str = None
-    oid: str = None
-    status: int = None
-
-
-class Tree(BaseModel):
-    species: str
-    lat: float
-    lon: float
-    notes: str = None
-    oid: str = None
-
-    # Status of tree health
-    # 0 dead -> 1 bad -> 2 okay -> 3 good
-    status: int = 3
-
-    def to_dict(self):
-        return {
-            "species": self.species,
-            "status": self.status,
-            "lat": self.lat,
-            "lon": self.lon,
-            "notes": self.notes,
-        }
-
-    @staticmethod
-    def from_mongo(mongo_tree):
-        return Tree(
-            species=mongo_tree.species,
-            status=mongo_tree.status,
-            lat=mongo_tree.lat,
-            lon=mongo_tree.lon,
-            notes=mongo_tree.notes,
-            oid=str(mongo_tree.id),
-        )
-
-
-# TODO: proper types
-class GeoJson(BaseModel):
-    name: str
-    features: list
-
-
-class TreeDB(Document):
-    """
-    Mongo tree schema
-    """
-
-    species = StringField(max_length=60)
-    status = IntField()
-    lat = FloatField()
-    lon = FloatField()
-    notes = StringField(max_length=300)
-
-
-class ImportSpeciesJson(BaseModel):
-    species: list
-    updated: str
-
-
-class Species(BaseModel):
-    species: str
-    name_la: str
-    name_nl: str = None
-    name_en: str = None
-    width: float = None
-    height: float = None
-
-
-class SpeciesDB(Document):
-    """
-    Mongo species schema
-    """
-
-    species = StringField(max_length=60)
-    name_la = StringField(max_length=60)
-    name_nl = StringField(max_length=60)
-    name_en = StringField(max_length=60)
-    width = FloatField(null=True)
-    height = FloatField(null=True)
-
-
-@app.get("/")
+@app.get("/api/")
 def hello():
     return {"Hello": "voedselbos"}
 
 
-@app.get("/trees/")
+@app.get("/api/trees/")
 def trees_geojson():
     """
     List tree objects in GeoJSON format
@@ -234,8 +128,9 @@ def trees_geojson():
             "properties": {
                 "oid": str(tree.id),
                 "species": tree.species,
-                "status": tree.status,
                 "notes": tree.notes,
+                "tags": tree.tags,
+                "dead": tree.dead,
             },
             "geometry": {"type": "Point", "coordinates": [tree.lon, tree.lat]},
         }
@@ -256,12 +151,12 @@ def trees_geojson():
     return {
         "type": "FeatureCollection",
         "name": "trees",
-        "crs": {"type": "name", "properties": {"name": "urn:ogc:def:crs:EPSG:3857"},},
+        "crs": {"type": "name", "properties": {"name": "urn:ogc:def:crs:EPSG:3857"}},
         "features": features,
     }
 
 
-@app.get("/trees/json/")
+@app.get("/api/trees/json/")
 def trees_json():
     """
     List tree objects in JSON format
@@ -272,7 +167,7 @@ def trees_json():
     return trees
 
 
-@app.get("/trees/clear/")
+@app.get("/api/trees/clear/")
 def remove_all(request: Request):
     """
     Remove all trees
@@ -288,12 +183,11 @@ def remove_all(request: Request):
     return {"detail": "All trees removed from collection"}
 
 
-@app.post("/trees/import/")
+@app.post("/api/trees/import/")
 def import_geojson(geojson: GeoJson, request: Request):
     """
     Import trees from GeoJSON
     """
-    # Check for master token
     if not request.headers.get("Master") == os.environ.get("MASTER_TOKEN"):
         raise HTTPException(
             status_code=status.HTTP_401_UNAUTHORIZED,
@@ -305,11 +199,12 @@ def import_geojson(geojson: GeoJson, request: Request):
     for feature in geojson.features:
         tree = Tree(
             species=feature["properties"].get("species", "onbekend"),
-            status=feature["properties"].get("status", 3),
             lon=feature["geometry"]["coordinates"][0],
             lat=feature["geometry"]["coordinates"][1],
-            notes=feature["properties"].get("notes"),
             oid=feature["properties"].get("oid"),
+            notes=feature["properties"].get("notes"),
+            tags=feature["properties"].get("tags", []),
+            dead=feature["properties"].get("dead", False),
         )
 
         new_tree = TreeDB(**tree.to_dict())
@@ -318,7 +213,7 @@ def import_geojson(geojson: GeoJson, request: Request):
     return {"detail": f"Imported {len(geojson.features)} features"}
 
 
-@app.get("/tree/{oid}/")
+@app.get("/api/tree/{oid}/")
 def get_tree(oid: str):
     """
     Retrieve tree from DB
@@ -332,7 +227,7 @@ def get_tree(oid: str):
         )
 
 
-@app.post("/tree/add/")
+@app.post("/api/tree/add/")
 def add_tree(
     tree: Tree,
     current_user: User = Depends(get_current_active_user),
@@ -346,7 +241,7 @@ def add_tree(
     return {"detail": "New object added", "id": str(new_tree.id)}
 
 
-@app.post("/tree/update/{oid}/")
+@app.post("/api/tree/update/{oid}/")
 def update_tree(
     tree: EmptyTree, oid: str, current_user: User = Depends(get_current_active_user)
 ):
@@ -358,9 +253,11 @@ def update_tree(
         selected_tree = TreeDB.objects.get(id=oid)
 
         selected_tree.species = tree.species if tree.species else selected_tree.species
-        selected_tree.status = tree.status if tree.status else selected_tree.status
         selected_tree.lat = tree.lat if tree.lat else selected_tree.lat
         selected_tree.lon = tree.lon if tree.lon else selected_tree.lon
+
+        selected_tree.tags = tree.tags if hasattr(tree, "tags") else selected_tree.tags
+        selected_tree.dead = tree.dead if hasattr(tree, "dead") else selected_tree.dead
 
         if tree.notes == "":
             selected_tree.notes = None
@@ -382,7 +279,7 @@ def update_tree(
         )
 
 
-@app.post("/tree/remove/{oid}/")
+@app.post("/api/tree/remove/{oid}/")
 def remove_tree(oid: str, current_user: User = Depends(get_current_active_user)):
     """
     Remove trees from DB
@@ -404,7 +301,7 @@ def remove_tree(oid: str, current_user: User = Depends(get_current_active_user))
         )
 
 
-@app.get("/species/")
+@app.get("/api/species/")
 def species_json():
     """
     List species objects in JSON format
@@ -415,13 +312,11 @@ def species_json():
     return species_list
 
 
-@app.post("/species/import/")
+@app.post("/api/species/import/")
 def import_species(species_json: ImportSpeciesJson, request: Request):
     """
     Import trees from GeoJSON
     """
-
-    # Check for master token
     if not request.headers.get("Master") == os.environ.get("MASTER_TOKEN"):
         raise HTTPException(
             status_code=status.HTTP_401_UNAUTHORIZED,
@@ -435,3 +330,20 @@ def import_species(species_json: ImportSpeciesJson, request: Request):
         new_species.save()
 
     return {"detail": f"Imported {len(species_json.species)} species"}
+
+
+@app.post("/api/update_db/")
+def update_db(request: Request):
+    """
+    Update MongoDB
+    """
+    if not request.headers.get("Master") == os.environ.get("MASTER_TOKEN"):
+        raise HTTPException(
+            status_code=status.HTTP_401_UNAUTHORIZED,
+            detail="Invalid authentication token",
+        )
+
+    # Remove unused field
+    TreeDB.objects.all().update(unset__status=1)
+
+    return {"detail": "Done."}
