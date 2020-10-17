@@ -76,32 +76,39 @@ def extract_features(feature_list):
 
     trees = []
     species_list = []
+    num_skipped = 0
 
     for feature in feature_list:
         crown_radius = (
             feature["properties"]["width"]
-            if feature["properties"]["width"]
+            if feature["properties"].get("width")
             else DEFAULT_RADIUS
         )
         adjusted_radius = crown_radius / 2 * scale_factor
 
         height = (
             feature["properties"]["height"]
-            if feature["properties"]["height"]
+            if feature["properties"].get("height")
             else DEFAULT_HEIGHT
         )
         adjusted_height = height * scale_factor
 
-        trees.append(
-            {
-                "species": feature["properties"]["species"],
-                "name": feature["properties"]["name_nl"],
-                "x": (feature["geometry"]["coordinates"][1] - min_lat) * scale_factor,
-                "y": (feature["geometry"]["coordinates"][0] - min_lon) * scale_factor,
-                "radius": adjusted_radius,
-                "height": adjusted_height,
-            }
-        )
+        try:
+            trees.append(
+                {
+                    "species": feature["properties"]["species"],
+                    "name": feature["properties"]["name_nl"],
+                    "x": (feature["geometry"]["coordinates"][1] - min_lat)
+                    * scale_factor,
+                    "y": (feature["geometry"]["coordinates"][0] - min_lon)
+                    * scale_factor,
+                    "radius": adjusted_radius,
+                    "height": adjusted_height,
+                }
+            )
+
+        except KeyError:
+            num_skipped += 1
 
         existing_species = [species["name"] for species in species_list]
         if not feature["properties"]["species"] in existing_species:
@@ -117,6 +124,8 @@ def extract_features(feature_list):
                     "height": height,
                 }
             )
+
+    print(f"Skipped {num_skipped} entries.")
 
     species_list = sorted(species_list, key=itemgetter("height"))
     return (trees, species_list, scale_factor, min_lon, min_lat)
@@ -192,11 +201,7 @@ def draw_text(ctx, scale_factor, trees, species_list):
         fill_percent = min((tree["radius"] - min_radius) / (max_radius - min_radius), 1)
         fill_color = fade_white(COLOR_BLACK, 1 - fill_percent)
         ctx.set_source_rgb(*fill_color)
-
-        min_height = -25 * scale_factor
-        max_height = 15 * scale_factor
-        size_percent = min((tree["height"] - min_height) / (max_height - min_height), 1)
-        ctx.set_font_size(1 * scale_factor * size_percent)
+        ctx.set_font_size(1 * scale_factor)
 
         ctx.select_font_face("Arial", cairo.FONT_SLANT_NORMAL, cairo.FONT_WEIGHT_NORMAL)
 
@@ -344,9 +349,10 @@ def draw_scale(ctx, scale_factor, min_lon, min_lat):
 
 def generate_pdf(svg_path):
     print("Generating PDF version")
-    template_dir = current_dir / "template"
-    html_path = template_dir / "map.html"
-    pdf_path = template_dir / "voedselbos.pdf"
+    output_dir = current_dir / "output"
+    output_dir.mkdir(parents=False, exist_ok=True)
+    pdf_path = output_dir / "voedselbos.pdf"
+    html_path = current_dir / "template" / "map.html"
 
     options = {
         "page-size": "A3",
@@ -361,7 +367,7 @@ def generate_pdf(svg_path):
 
 def main():
     svg_path = current_dir / "template" / "voedselbos.svg"
-    feature_list = get_features(current_dir / "data" / "20200609.geojson")
+    feature_list = get_features(current_dir / "data" / "voedselbos_20201017.geojson")
     base_features = get_features(current_dir / "data" / "base.geojson")
 
     trees, species_list, scale_factor, min_lon, min_lat = extract_features(feature_list)
@@ -396,7 +402,7 @@ def main():
         draw_compass(ctx, scale_factor, min_lon, min_lat)
         draw_scale(ctx, scale_factor, min_lon, min_lat)
 
-    # generate_pdf(svg_path)
+    generate_pdf(svg_path)
 
 
 if __name__ == "__main__":
