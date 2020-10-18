@@ -9,6 +9,15 @@ from pyproj import Transformer
 
 current_dir = Path(__file__).resolve().parent
 
+# CRS projection
+transformer = Transformer.from_crs(3857, 7415)
+
+
+def reproject(coordinates):
+    x2, y2 = transformer.transform(*coordinates)
+    return [y2, x2]
+
+
 # Constants
 DEFAULT_HEIGHT = 2
 DEFAULT_DIAMETER = 3.4
@@ -18,14 +27,14 @@ MARGIN_LEFT = 10
 MARGIN_RIGHT = 5
 TEXT_MARGIN = 1
 
-COMPASS_LAT = 6783651
-COMPASS_LON = 493399
-
-SCALE_LAT = 6783567
-SCALE_LON = 493297
+COMPASS_COORDS = [493399, 6783651]
+SCALE_COORDS = [493297, 6783567]
 
 TRANSLATION = [0.7, 1.05]
 ROTATION_ANGLE = (185 / 180) * pi
+
+# TRANSLATION = [0.45, 1.22]
+# ROTATION_ANGLE = -144.5 * pi / 180
 
 
 def decimal_color(r, g, b):
@@ -41,14 +50,6 @@ COLOR_GREY_70 = decimal_color(179, 179, 179)
 COLOR_GREY_80 = decimal_color(203, 203, 203)
 COLOR_GREY_90 = decimal_color(230, 230, 230)
 COLOR_BLACK = decimal_color(0, 0, 0)
-
-
-transformer = Transformer.from_crs(3857, 28992)
-
-
-def reproject(coordinates):
-    x2, y2 = transformer.transform(coordinates[1], coordinates[0])
-    return [y2, x2]
 
 
 def get_features(geojson_path):
@@ -81,6 +82,7 @@ def extract_features(feature_list):
 
     lon_range = max_lon - min_lon
     lat_range = max_lat - min_lat
+
     scale_factor = 1 / lon_range if lon_range > lat_range else 1 / lat_range
 
     print(f"Scale factor: {scale_factor}")
@@ -113,7 +115,6 @@ def extract_features(feature_list):
                     * scale_factor,
                     "y": (reproject(feature["geometry"]["coordinates"])[0] - min_lon)
                     * scale_factor,
-                    # "radius": 3.4 * scale_factor,
                     "radius": adjusted_radius,
                     "height": adjusted_height,
                 }
@@ -294,8 +295,8 @@ def draw_base_features(ctx, base_features, scale_factor, min_lon, min_lat):
 def draw_compass(ctx, scale_factor, min_lon, min_lat):
 
     ctx.save()
-    x = (COMPASS_LAT - min_lat) * scale_factor
-    y = (COMPASS_LON - min_lon) * scale_factor
+    x = (reproject(COMPASS_COORDS)[1] - min_lat) * scale_factor
+    y = (reproject(COMPASS_COORDS)[0] - min_lon) * scale_factor
 
     # Draw arrow
     ctx.move_to(x - (2) * scale_factor, y)
@@ -331,18 +332,18 @@ def draw_compass(ctx, scale_factor, min_lon, min_lat):
 def draw_scale(ctx, scale_factor, min_lon, min_lat):
 
     ctx.save()
-    x_offset = 20
-    y_offset = -6
-    # x_offset = -12.5
+    # x_offset = 34
     # y_offset = -6
-    x = (SCALE_LAT - min_lat) * scale_factor
-    y = (SCALE_LON - min_lon) * scale_factor
+    x_offset = -12.5
+    y_offset = -6
+    x = (reproject(SCALE_COORDS)[1] - min_lat) * scale_factor
+    y = (reproject(SCALE_COORDS)[0] - min_lon) * scale_factor
 
     # Draw scale
     ctx.translate(x, y)
     ctx.rotate(-ROTATION_ANGLE)
     ctx.move_to(x_offset * scale_factor, y_offset * scale_factor)
-    ctx.line_to((x_offset + 10) * scale_factor, y_offset * scale_factor)
+    ctx.line_to((x_offset + 20) * scale_factor, y_offset * scale_factor)
 
     for offset in range(0, 11):
         ctx.move_to((x_offset + offset) * scale_factor, y_offset * scale_factor)
