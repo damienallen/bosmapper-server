@@ -15,20 +15,17 @@ current_dir = Path(__file__).resolve().parent
 # Constants
 DEFAULT_HEIGHT = 2
 DEFAULT_DIAMETER = 3.4
-MARGIN_TOP = 20
+MARGIN_TOP = 10
 MARGIN_BOTTOM = 10
 MARGIN_LEFT = 10
 MARGIN_RIGHT = 5
 TEXT_MARGIN = 1
 
-COMPASS_COORDS = [493399, 6783651]
+COMPASS_COORDS = [493399, 6783645]
 SCALE_COORDS = [493297, 6783567]
 
-# TRANSLATION = [0.7, 1.05]
-# ROTATION_ANGLE = (190 / 180) * pi
-
-TRANSLATION = [0, 0]
-ROTATION_ANGLE = 0 * pi / 180
+TRANSLATION = [-0.2, 0.7]
+ROTATION_ANGLE = -56 * pi / 180
 
 
 # Colors
@@ -120,7 +117,8 @@ class MapMaker:
         return features
 
     def get_x(self, coords):
-        return self.max_lat - self.reproject(coords)[1]
+        # return self.max_lat - self.reproject(coords)[1]
+        return self.reproject(coords)[1] - self.min_lat
 
     def get_y(self, coords):
         return self.max_lon - self.reproject(coords)[0]
@@ -136,6 +134,7 @@ class MapMaker:
             self.reproject(feature["geometry"]["coordinates"])[0]
             for feature in self.feature_list
         ]
+
         self.min_lon = min(lon_list) - MARGIN_LEFT
         self.max_lon = max(lon_list) + MARGIN_RIGHT
 
@@ -349,9 +348,9 @@ class MapMaker:
         y = self.get_y(COMPASS_COORDS) * self.scale_factor
 
         # Draw arrow
-        self.ctx.move_to(x - (2) * self.scale_factor, y)
-        self.ctx.line_to(x + (2) * self.scale_factor, y)
-        self.ctx.line_to(x + (1) * self.scale_factor, y - 0.5 * self.scale_factor)
+        self.ctx.move_to(x, y + 2 * self.scale_factor)
+        self.ctx.line_to(x, y - 2 * self.scale_factor)
+        self.ctx.line_to(x + 0.5 * self.scale_factor, y - 1 * self.scale_factor)
 
         self.ctx.set_line_width(self.scale_factor * 0.15)
         self.ctx.set_source_rgba(*COLOR_BLACK, 0.3)
@@ -372,7 +371,8 @@ class MapMaker:
         nx = -tw / 2.0
         ny = fheight / 2
 
-        self.ctx.translate(x - 1 * self.scale_factor, y - 2.2 * self.scale_factor)
+        self.ctx.translate(x, y - 4 * self.scale_factor)
+        # self.ctx.translate(x - 1 * self.scale_factor, y - 2.2 * self.scale_factor)
         self.ctx.rotate(-ROTATION_ANGLE)
         self.ctx.translate(nx, ny)
         self.ctx.move_to(0, 0)
@@ -383,10 +383,8 @@ class MapMaker:
     def draw_scale(self):
 
         self.ctx.save()
-        # x_offset = 34
-        # y_offset = -6
-        x_offset = -12.5
-        y_offset = -6
+        x_offset = -2
+        y_offset = -1.5
         x = self.get_x(SCALE_COORDS) * self.scale_factor
         y = self.get_y(SCALE_COORDS) * self.scale_factor
 
@@ -395,7 +393,7 @@ class MapMaker:
         self.ctx.rotate(-ROTATION_ANGLE)
         self.ctx.move_to(x_offset * self.scale_factor, y_offset * self.scale_factor)
         self.ctx.line_to(
-            (x_offset + 20) * self.scale_factor, y_offset * self.scale_factor
+            (x_offset + 10) * self.scale_factor, y_offset * self.scale_factor
         )
 
         for offset in range(0, 11):
@@ -416,7 +414,9 @@ class MapMaker:
             "Arial", cairo.FONT_SLANT_NORMAL, cairo.FONT_WEIGHT_NORMAL
         )
         self.ctx.set_font_size(1 * self.scale_factor)
-        self.ctx.move_to(-8.5 * self.scale_factor, (y_offset + 2) * self.scale_factor)
+        self.ctx.move_to(
+            (x_offset + 4) * self.scale_factor, (y_offset + 2) * self.scale_factor
+        )
         self.ctx.show_text("10m")
 
         self.ctx.save()
