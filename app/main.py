@@ -140,6 +140,9 @@ def trees_geojson():
             feature["properties"]["name_la"] = species.name_la
             feature["properties"]["name_nl"] = species.name_nl
             feature["properties"]["name_en"] = species.name_en
+            feature["properties"]["width"] = species.width
+            feature["properties"]["height"] = species.height
+
         except SpeciesDB.DoesNotExist:
             pass
 

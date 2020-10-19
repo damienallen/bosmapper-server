@@ -1,0 +1,24 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  text-rendering: optimizeLegibility;
+}
+
+.container {
+  margin: '0 auto';
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Vector map */
+#map-svg {
+  z-index: 5;
+  position: relative;
+  height: 100%;
+}

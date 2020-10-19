@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "bosmapper-server"
-version = "2.0.0"
+version = "2.1.0"
 description = "FastAPI & Mongo powering the bosmapper backend"
 authors = ["Damien Allen <dev@dallen.co>"]
 license = "MIT"
@@ -11,6 +11,10 @@ fastapi = "^0.54.1"
 uvicorn = "^0.11.5"
 mongoengine = "^0.20.0"
 python-multipart = "^0.0.5"
+pycairo = "^1.19.1"
+numpy = "^1.18.4"
+Jinja2 = "^2.11.2"
+pyproj = "^2.6.1"
 
 [tool.poetry.dev-dependencies]
 flake8 = "^3.8.1"
