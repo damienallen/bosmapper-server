@@ -23,6 +23,7 @@ TEXT_MARGIN = 1
 
 COMPASS_COORDS = [493399, 6783645]
 SCALE_COORDS = [493297, 6783567]
+TITLE_COORDS = [493402, 6783658]
 
 TRANSLATION = [-0.2, 0.7]
 ROTATION_ANGLE = -56 * pi / 180
@@ -98,6 +99,7 @@ class MapMaker:
             self.draw_text()
             self.draw_compass()
             self.draw_scale()
+            self.draw_title()
 
     @staticmethod
     def reproject(coordinates):
@@ -419,7 +421,23 @@ class MapMaker:
         )
         self.ctx.show_text("10m")
 
+        self.ctx.restore()
+
+    def draw_title(self):
+        x = self.get_x(TITLE_COORDS) * self.scale_factor
+        y = self.get_y(TITLE_COORDS) * self.scale_factor
+
         self.ctx.save()
+        self.ctx.translate(x, y)
+        self.ctx.rotate(-ROTATION_ANGLE)
+        self.ctx.select_font_face(
+            "Arial", cairo.FONT_SLANT_NORMAL, cairo.FONT_WEIGHT_NORMAL
+        )
+        self.ctx.set_font_size(3 * self.scale_factor)
+        self.ctx.move_to(0, 0)
+        self.ctx.show_text("Voedselbos")
+
+        self.ctx.restore()
 
 
 if __name__ == "__main__":
