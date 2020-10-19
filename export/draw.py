@@ -119,18 +119,23 @@ class MapMaker:
 
         return features
 
+    def get_x(self, coords):
+        return self.max_lat - self.reproject(coords)[1]
+
+    def get_y(self, coords):
+        return self.max_lon - self.reproject(coords)[0]
+
     def extract_features(self):
 
         # TODO: calculate these from bounds
-        lon_list = [
-            self.reproject(feature["geometry"]["coordinates"])[0]
-            for feature in self.feature_list
-        ]
         lat_list = [
             self.reproject(feature["geometry"]["coordinates"])[1]
             for feature in self.feature_list
         ]
-
+        lon_list = [
+            self.reproject(feature["geometry"]["coordinates"])[0]
+            for feature in self.feature_list
+        ]
         self.min_lon = min(lon_list) - MARGIN_LEFT
         self.max_lon = max(lon_list) + MARGIN_RIGHT
 
@@ -168,15 +173,9 @@ class MapMaker:
                     {
                         "species": feature["properties"]["species"],
                         "name": feature["properties"]["name_nl"],
-                        "x": (
-                            self.max_lat
-                            - self.reproject(feature["geometry"]["coordinates"])[1]
-                        )
+                        "x": self.get_x(feature["geometry"]["coordinates"])
                         * self.scale_factor,
-                        "y": (
-                            self.max_lon
-                            - self.reproject(feature["geometry"]["coordinates"])[0]
-                        )
+                        "y": self.get_y(feature["geometry"]["coordinates"])
                         * self.scale_factor,
                         "radius": adjusted_radius,
                         "height": adjusted_height,
@@ -315,8 +314,8 @@ class MapMaker:
             self.ctx.save()
 
             for index, point in enumerate(feature["geometry"]["coordinates"][0]):
-                x = (self.max_lat - self.reproject(point)[1]) * self.scale_factor
-                y = (self.max_lon - self.reproject(point)[0]) * self.scale_factor
+                x = self.get_x(point) * self.scale_factor
+                y = self.get_y(point) * self.scale_factor
 
                 if index == 0:
                     self.ctx.move_to(x, y)
@@ -346,8 +345,8 @@ class MapMaker:
     def draw_compass(self):
 
         self.ctx.save()
-        x = (self.max_lat - self.reproject(COMPASS_COORDS)[1]) * self.scale_factor
-        y = (self.max_lon - self.reproject(COMPASS_COORDS)[0]) * self.scale_factor
+        x = self.get_x(COMPASS_COORDS) * self.scale_factor
+        y = self.get_y(COMPASS_COORDS) * self.scale_factor
 
         # Draw arrow
         self.ctx.move_to(x - (2) * self.scale_factor, y)
@@ -388,8 +387,8 @@ class MapMaker:
         # y_offset = -6
         x_offset = -12.5
         y_offset = -6
-        x = (self.max_lat - self.reproject(SCALE_COORDS)[1]) * self.scale_factor
-        y = (self.max_lon - self.reproject(SCALE_COORDS)[0]) * self.scale_factor
+        x = self.get_x(SCALE_COORDS) * self.scale_factor
+        y = self.get_y(SCALE_COORDS) * self.scale_factor
 
         # Draw scale
         self.ctx.translate(x, y)
