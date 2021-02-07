@@ -35,8 +35,7 @@ app.add_middleware(
 )
 
 # Connect to mongo
-# TODO: renameDB
-connect("trees", host="mongodb://bosmapper_mongo")
+connect("bosmapper", host="mongodb://mongo")
 
 
 # Users & auth
@@ -55,7 +54,9 @@ def import_users(users_json: ImportUsersJson, request: Request):
     UsersDB.objects.all().delete()
     for passcode in users_json.passcodes:
         new_user = UsersDB(
-            passcode=passcode, token=token_urlsafe(20), token_generated=datetime.now(),
+            passcode=passcode,
+            token=token_urlsafe(20),
+            token_generated=datetime.now(),
         )
         new_user.save()
 
