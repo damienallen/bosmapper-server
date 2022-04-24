@@ -4,7 +4,7 @@
 version: "3.6"
 services:
 
-  bosmapper_server:
+  bosmapper:
     build:
       cache_from:
         - docker.pkg.github.com/damienallen/bosmapper-server/fastapi:main
