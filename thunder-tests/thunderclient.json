@@ -4,13 +4,168 @@
     "colId": "b251202c-35e8-4018-a753-c9b7ef2a3801",
     "containerId": "",
     "name": "Hello",
-    "url": "http://localhost:8080/api/",
+    "url": "{{host}}/api/",
     "method": "GET",
     "sortNum": 10000,
     "created": "2022-04-24T21:12:53.989Z",
-    "modified": "2022-04-24T21:12:53.989Z",
+    "modified": "2022-04-24T21:23:23.447Z",
     "headers": [],
     "params": [],
+    "tests": []
+  },
+  {
+    "_id": "1fd7e547-4d9e-405f-8c1f-ec9a22597f5a",
+    "colId": "b251202c-35e8-4018-a753-c9b7ef2a3801",
+    "containerId": "",
+    "name": "Token",
+    "url": "{{host}}/api/token/",
+    "method": "POST",
+    "sortNum": 16250,
+    "created": "2022-04-24T21:27:03.029Z",
+    "modified": "2022-04-24T21:46:06.283Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "password",
+          "value": "{{passcode}}"
+        },
+        {
+          "name": "username",
+          "value": "voedselbos"
+        }
+      ]
+    },
+    "tests": []
+  },
+  {
+    "_id": "6e0937e0-77a2-42d7-bf90-655e431fcfd0",
+    "colId": "5fa9be25-6962-43df-bd77-0fdfad6e91ee",
+    "containerId": "",
+    "name": "List trees",
+    "url": "{{host}}/api/trees/",
+    "method": "GET",
+    "sortNum": 10000,
+    "created": "2022-04-24T21:27:34.680Z",
+    "modified": "2022-04-24T21:27:34.680Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "b76b0a64-07fb-43dd-b487-6126d985967c",
+    "colId": "5fa9be25-6962-43df-bd77-0fdfad6e91ee",
+    "containerId": "",
+    "name": "List trees (JSON)",
+    "url": "{{host}}/api/trees/json/",
+    "method": "GET",
+    "sortNum": 12500,
+    "created": "2022-04-24T21:28:07.643Z",
+    "modified": "2022-04-24T21:33:30.937Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "135a3764-0ae5-44df-bce7-18e9144bf92e",
+    "colId": "5fa9be25-6962-43df-bd77-0fdfad6e91ee",
+    "containerId": "",
+    "name": "List species",
+    "url": "{{host}}/api/species/",
+    "method": "GET",
+    "sortNum": 30000,
+    "created": "2022-04-24T21:30:55.759Z",
+    "modified": "2022-04-24T21:33:28.738Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "74ec5bce-69f3-4734-a4b0-e928ec1d8aa4",
+    "colId": "5fa9be25-6962-43df-bd77-0fdfad6e91ee",
+    "containerId": "",
+    "name": "Import trees",
+    "url": "{{host}}/api/trees/import/",
+    "method": "POST",
+    "sortNum": 15000,
+    "created": "2022-04-24T21:32:08.172Z",
+    "modified": "2022-04-24T21:34:08.231Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "fb994acf-435a-4fe3-9e1e-787dc1b93c7b",
+    "colId": "5fa9be25-6962-43df-bd77-0fdfad6e91ee",
+    "containerId": "",
+    "name": "Clear trees",
+    "url": "{{host}}/api/trees/",
+    "method": "GET",
+    "sortNum": 17500,
+    "created": "2022-04-24T21:32:20.121Z",
+    "modified": "2022-04-24T21:32:20.121Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "1583131a-65b1-494d-9522-9e5dff04d285",
+    "colId": "5fa9be25-6962-43df-bd77-0fdfad6e91ee",
+    "containerId": "",
+    "name": "Import species",
+    "url": "{{host}}/api/species/import/",
+    "method": "POST",
+    "sortNum": 40000,
+    "created": "2022-04-24T21:34:12.019Z",
+    "modified": "2022-04-24T21:34:36.462Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "da4e9e24-2f40-42aa-b0bb-7c275cb1b05b",
+    "colId": "b251202c-35e8-4018-a753-c9b7ef2a3801",
+    "containerId": "",
+    "name": "Who am I?",
+    "url": "{{host}}/api/users/me/",
+    "method": "GET",
+    "sortNum": 15000,
+    "created": "2022-04-24T21:36:51.199Z",
+    "modified": "2022-04-24T21:44:09.538Z",
+    "headers": [
+      {
+        "name": "Authorization",
+        "value": "Bearer {{bearer_token}}"
+      }
+    ],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "20493d13-fdcb-417b-b4a3-36f6baaea151",
+    "colId": "b251202c-35e8-4018-a753-c9b7ef2a3801",
+    "containerId": "",
+    "name": "Import passcodes",
+    "url": "{{host}}/api/users/import/",
+    "method": "POST",
+    "sortNum": 17500,
+    "created": "2022-04-24T21:37:51.117Z",
+    "modified": "2022-04-24T21:39:25.382Z",
+    "headers": [
+      {
+        "name": "Master",
+        "value": "dev_token"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n    \"passcodes\": [\n        \"voedselbos20\",\n        \"voedseldev\"\n    ]\n}",
+      "form": []
+    },
     "tests": []
   }
 ]
