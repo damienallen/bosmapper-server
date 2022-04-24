@@ -1,2 +1,10 @@
 # bosmapper-server
-FastAPI &amp; Mongo powering the bosmapper backend
+
+FastAPI server powering the bosmapper backend
+
+### Stack
+
+- Docker
+- Python
+- FastAPI
+- MongoDB
