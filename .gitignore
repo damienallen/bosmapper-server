@@ -3,3 +3,4 @@ __pycache__/
 
 # Env
 config/.env
+thunderEnvironment.json

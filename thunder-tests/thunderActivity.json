@@ -1,0 +1,16 @@
+[
+  {
+    "_id": "89fadee1-9bed-4b15-b751-94bcd2f37c04",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://localhost:8080/api/",
+    "url": "http://localhost:8080/api/",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2022-04-24T21:12:06.106Z",
+    "modified": "2022-04-24T21:12:12.339Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  }
+]
