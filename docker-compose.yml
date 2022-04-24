@@ -1,0 +1,41 @@
+# Compose for local development
+
+---
+version: "3.6"
+services:
+
+  bosmapper_server:
+    build:
+      cache_from:
+        - docker.pkg.github.com/damienallen/bosmapper-server/fastapi:main
+      context: .
+      target: development
+    restart: unless-stopped
+    command: ["/start-reload.sh"]
+    environment:
+      - MASTER_TOKEN=dev_token
+    volumes:
+      - ./app:/app
+    ports:
+      - "8080:80"
+    networks:
+      - webnet
+    depends_on:
+      - mongo
+
+  mongo:
+    image: mongo:latest
+    restart: unless-stopped
+    command: mongod
+    volumes:
+      - mongo-data:/data/db
+    networks:
+      - webnet
+    expose:
+      - 27017
+
+networks:
+  webnet:
+
+volumes:
+  mongo-data:
